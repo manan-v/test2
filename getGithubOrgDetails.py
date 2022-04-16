@@ -30,10 +30,11 @@ def getAPIToken(apiDeque):
 
 	# Create the new header
 	headers_new = {'Authorization': 'token ' + apiDeque[0]}
+	print(" ** TOKEN SELECTED: {} **".format(headers_new))
 	return headers_new
 
 
-headers = getAPIToken(apiDeque)
+headers = getAPIToken(apiDeque)		
 
 # Get organization data and GitHub request header
 reqUrl = "https://api.github.com/organizations/"
@@ -44,7 +45,6 @@ with open(args['output_file'], 'a') as outfile:
 	# GitHub orgs are stored with IDs from (1-n)
 	for orgId in tqdm(range(int(args['min_val']), int(args['max_val']))):
 		while True:
-			print(orgId)
 			try:
 				# Get JSON response from GitHub
 				response = getGithubOrgDetails(orgId, headers)
@@ -56,4 +56,5 @@ with open(args['output_file'], 'a') as outfile:
 				break # If no exception occurred
 			# Need to replace with the exact rate limit exception
 			except Exception as e:
+				print("** SWITCHING TOKEN NOW **")
 				headers = getAPIToken(apiDeque)
