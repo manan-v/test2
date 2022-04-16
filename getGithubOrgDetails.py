@@ -56,5 +56,9 @@ with open(args['output_file'], 'a') as outfile:
 				break # If no exception occurred
 			# Need to replace with the exact rate limit exception
 			except Exception as e:
-				print("** SWITCHING TOKEN NOW **")
-				headers = getAPIToken(apiDeque)
+				if e.code == 403:
+					print("** SWITCHING TOKEN NOW **")
+					headers = getAPIToken(apiDeque)
+				else:
+					print("** SLEEPING FOR 1 HR **")
+					sleep(3600)
