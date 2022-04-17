@@ -2,7 +2,7 @@ import requests, json, argparse
 import apiRobin
 from time import sleep
 from tqdm import tqdm
-import getGithubOrgDetails
+# import getGithubOrgDetails
 
 # Sample: python3 getSpecificOrgDetails.py --config_file project.config --org_name novelys --output_file githubOrgDetails.txt
 reqUrl = "https://api.github.com/orgs/"
