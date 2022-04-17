@@ -3,6 +3,7 @@ import requests, json, argparse
 import apiRobin
 from time import sleep
 from tqdm import tqdm
+from helper_methods import *
 # Sample: python3 getGithubOrgDetails.py --config_file project.config --min_val 1 --max_val 10000 --output_file githubOrgDetails.txt
 # Alternate: python3 getGithubOrgDetails.py --min_val 12327 --max_val 12333 --output_file githubOrgDetails.txt
 # Args to run the code
@@ -21,16 +22,6 @@ def getGithubOrgDetails(idVal, headers):
 		return response
 	else:
 		return None
-
-def getAPIToken(apiDeque):
-	# Rotate the API queue
-	apiDeque = apiRobin.rotateAPI(apiDeque)
-
-	# Create the new header
-	headers_new = {'Authorization': 'token ' + apiDeque[0]}
-	print(" ** TOKEN SELECTED: {} **".format(headers_new))
-	return headers_new
-
 
 headers = getAPIToken(apiDeque)		
 
