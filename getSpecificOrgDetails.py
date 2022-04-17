@@ -29,6 +29,9 @@ def getAPIToken(apiDeque):
     return headers_new
 
 
+headers = getAPIToken(apiDeque)
+
+
 def getSpecificOrgDetails(orgName, headers):
     response = requests.get(reqUrl + str(orgName), headers=headers).json()
     if 'message' not in response:
@@ -38,16 +41,24 @@ def getSpecificOrgDetails(orgName, headers):
 
 
 def replaceURL(response):
+    counter=1
+    totCounter=1
+    excludeUrl=['avatar','html']
     with open(response, 'r+') as file:
         content = json.loads(file.read())
-        for urlField,reqUrl in content.items():
-            if "url" in urlField and len(urlField) > 3:
-                print(urlField, reqUrl)
-    # urlResponse=requests.get(reqUrl,str('novelys'), headers=headers)
-    # content.replace(,)
+        for urlField, reqUrl in content.items():
+            if "url" in urlField and not any(exclude in urlField for exclude in excludeUrl) and len(urlField) > 3:
+                print("totcounter is:"+str(totCounter))
+                totCounter+=1
+                # print(urlField)
+                response = requests.get(reqUrl, headers=headers).json()
+                with open('test2.json', 'a') as outfile:
+                    if 'message' not in response and response is not None:
+                        json.dump(response, outfile)
+                        print("counter is:"+str(counter))
+                        counter+=1
+                        print("You made it "+urlField)
 
-
-headers = getAPIToken(apiDeque)
 
 with open(args['output_file'], 'a') as outfile:
     # GitHub orgs are stored with IDs from (1-n)
