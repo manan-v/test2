@@ -1,7 +1,5 @@
 import sys
-import requests
-import json
-import argparse
+import requests, json, argparse
 import apiRobin
 from time import sleep
 from tqdm import tqdm
