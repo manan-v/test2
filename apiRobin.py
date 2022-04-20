@@ -1,5 +1,6 @@
 import configparser
 from collections import deque
+import random
 
 def parseConfig(pathToConfig):
     # Parse through the config file
@@ -18,4 +19,8 @@ def noOfTokens():
 
 def rotateAPI(apiDeque):
     apiDeque.rotate()
+    return apiDeque
+
+def randomRotateAPI(apiDeque):
+    random.shuffle(apiDeque)
     return apiDeque

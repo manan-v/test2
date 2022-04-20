@@ -24,22 +24,23 @@ args = vars(parser.parse_args())
 apiDeque=apiRobin.parseConfig(args['config_file'])
 
 def getGithubOrgDetails(idVal):
-	headers = getAPIToken(apiDeque)	
-	try:
-		response = requests.get(reqUrl + str(idVal), headers=headers).json()
-		if 'message' not in response:
-			with open(args['output_file'], 'a') as outfile:
-				json.dump(response, outfile)
-				outfile.write('\n')
-	except Exception as e:
-		if e.message == "Connection reset by peer":
+	while True:
+		headers = getRandomAPIToken(apiDeque)
+		try:
+			response = requests.get(reqUrl + str(idVal), headers=headers).json()
+			if 'message' not in response:
+				with open(args['output_file'], 'a') as outfile:
+					json.dump(response, outfile)
+					outfile.write('\n')
+			break
+		except ConnectionResetError:
 			print("** SWITCHING TOKEN NOW **")
-			headers = getAPIToken(apiDeque)
-		else:
+			newAPIToken = getRandomAPIToken(apiDeque)
+			if newAPIToken != headers:
+				headers = getAPIToken(apiDeque)
+		except Exception as e:
 			print("** SLEEPING FOR 1 HR **")
 			sleep(3600)
-
-	
 
 # Get organization data and GitHub request header
 reqUrl = "https://api.github.com/organizations/"
