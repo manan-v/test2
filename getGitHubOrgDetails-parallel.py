@@ -8,7 +8,7 @@ import multiprocessing
 from joblib import Parallel, delayed
 from tqdm import tqdm
 
-num_cores = multiprocessing.cpu_count() - 1
+num_cores = multiprocessing.cpu_count()
 print('Total number of cores: {}'.format(num_cores))
 
 # Sample: python3 getGithubOrgDetails.py --config_file project.config --min_val 1 --max_val 10000 --output_file githubOrgDetails.txt
@@ -45,4 +45,4 @@ def getGithubOrgDetails(idVal):
 reqUrl = "https://api.github.com/organizations/"
 
 value_range = list(range(int(args['min_val']), int(args['max_val'])))
-processed_list = Parallel(n_jobs=num_cores)(delayed(extract_data)(i) for i in value_range)
+processed_list = Parallel(n_jobs=num_cores)(delayed(getGithubOrgDetails)(i) for i in tqdm(value_range))
