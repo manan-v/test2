@@ -5,6 +5,7 @@ from time import sleep
 from tqdm import tqdm
 from helper_methods import *
 
+
 # Sample: python3 getSpecificOrgDetails.py --config_file project.config --org_name novelys --output_file githubSpecificOrgDetails.json
 reqUrl = "https://api.github.com/orgs/"
 
@@ -27,25 +28,24 @@ def getSpecificOrgDetails(orgName, headers):
     else:
         return None
 
-
-def replaceURL(response):
+def replaceURL(parentJSON):
     counter=1
     totCounter=1
     excludeUrl=['avatar','html']
-    with open(response, 'r+') as file:
+    with open(parentJSON, 'r+') as file:
         content = json.loads(file.read())
-        for urlField, reqUrl in content.items():
-            if "url" in urlField and not any(exclude in urlField for exclude in excludeUrl) and len(urlField) > 3:
-                print("totcounter is:"+str(totCounter))
-                totCounter+=1
-                # print(urlField)
-                response = requests.get(reqUrl, headers=headers).json()
-                with open('test2.json', 'a') as outfile:
-                    if 'message' not in response and response is not None:
-                        json.dump(response, outfile)
-                        print("counter is:"+str(counter))
-                        counter+=1
-                        print("You made it "+urlField)
+        # for urlField, reqUrl in content.items():
+        #     if "url" in urlField and not any(exclude in urlField for exclude in excludeUrl) and len(urlField) > 3:
+        #         # print("totcounter is:"+str(totCounter))
+        #         totCounter+=1
+        #         print(urlField)
+                # response = requests.get(reqUrl, headers=headers).json()
+                # with open('test2.json', 'a') as outfile:
+                #     if 'message' not in response and response is not None:
+                #         json.dump(response, outfile)
+                #         print("counter is:"+str(counter))
+                #         counter+=1
+                #         print("You made it "+urlField)
 
 
 with open(args['output_file'], 'a') as outfile:
@@ -69,4 +69,4 @@ with open(args['output_file'], 'a') as outfile:
                 print("** SLEEPING FOR 1 HR **")
                 sleep(3600)
 
-replaceURL("test.json")
+replaceURL("json\parent.json")
