@@ -1,16 +1,19 @@
-from helper_methods import * 
+from getSpecificOrgDetails import *
 import time, math
 
 # NOTE: To run the code - delete getSpecificOrgDetailsData/novelys.json if already present
-# Sample: python3 getSpecificOrgDetails-helper.py 
+#       else: You may recieve 'json.decoder.JSONDecodeError: Extra data:' error
+
+# Sample: python3 getSpecificOrgDetails-module.py 
 
 start=time.time()
 
 with open('top-repo') as orgs:
     for line in orgs:
         orgName, number = line.strip().split(None, 1)
-        replaceURL(orgName,'project.config','getSpecificOrgDetailsData/'+orgName+'.json')
-
+        replaceURL(orgName, 'project.config',
+                              'getSpecificOrgDetailsData/'+orgName+'.json')
+        break
 end=time.time()
 
 print(" ** THE EXECUTION TOOK: "+str(math.floor(end-start))+" SECONDS **")
