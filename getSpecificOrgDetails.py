@@ -1,12 +1,11 @@
-from operator import or_
 import requests
 import json
 import argparse
 from time import sleep
-from tqdm import tqdm
 from helper_methods import *
 
-# Sample: python3 getSpecificOrgDetails.py --config_file project.config --org_name novelys --output_file githubSpecificOrgDetails.json
+# NOTE: To run the code - delete getSpecificOrgDetailsData/novelys.json if already present
+# Sample: python3 getSpecificOrgDetails.py --config_file project.config --org_name novelys --output_file getSpecificOrgDetailsData/novelys.json
 reqUrl = "https://api.github.com/orgs/"
 
 # Parse the arguements
@@ -51,7 +50,7 @@ with open(args['output_file'], 'a') as outfile:
                 sleep(3600)
 
 # Request each URL and return responses as list
-def getResponseFromURL(parentJSON, excludeUrl):
+def getResponseFromURL(parentJSON, excludeUrl, headers):
     # Initialise empty lists to store keys, oldValue and newValue
     keyToBeReplaced=[]
     oldValue=[]
@@ -78,7 +77,7 @@ def getResponseFromURL(parentJSON, excludeUrl):
 # Define keys that are to be excluded while search
 excludeUrl = ['avatar', 'html', 'members']
 # Get the keys, oldValues and newValues
-keyToBeReplaced, oldValue, newValue=getResponseFromURL(args['output_file'],excludeUrl)
+keyToBeReplaced, oldValue, newValue=getResponseFromURL(args['output_file'],excludeUrl,headers)
 
 with open(args['output_file']) as parent:
     parentContent = json.loads(parent.read())
