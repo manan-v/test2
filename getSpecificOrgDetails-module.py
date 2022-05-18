@@ -13,6 +13,7 @@ with open('top-repo') as orgs:
         orgName, number = line.strip().split(None, 1)
         replaceURL(orgName, 'project.config',
                               'getSpecificOrgDetailsData/'+orgName+'.json')
+        # Uncomment the break if you want to run it only once
         break
 end=time.time()
 

@@ -1,8 +1,4 @@
-import re
-from tabnanny import check
-from webbrowser import get
 import requests
-import json
 import argparse
 from time import sleep
 from helper_methods import *
@@ -17,12 +13,12 @@ parser.add_argument('--org_name')
 parser.add_argument('--output_file')
 args = vars(parser.parse_args())
 
-def replaceMembersURL(orgName,configFile):
-    membersReqURL = "https://api.github.com/orgs/" +orgName+"/members?page="
+
+def replaceMembersURL(membersReqURL, configFile):
 
     # Get the API key to use
     apiDeque = apiRobin.parseConfig(configFile)
-    print(" ** THE TOKEN BELOW IS FOR MEMBERS_URL ** ")
+    print(" ** THE TOKEN BELOW IS FOR replaceMembersURL FXN CALL ** ")
     headers = getAPIToken(apiDeque)
 
     # Start from this page
@@ -41,6 +37,7 @@ def replaceMembersURL(orgName,configFile):
 
     # Get response from a particular members page
     def getResponse(membersReqURL, pageNumber):
+        # Request the given page
         membersReqURL = membersReqURL+str(pageNumber)
         response = requests.get(membersReqURL, headers=headers).json()
         return response
@@ -51,13 +48,17 @@ def replaceMembersURL(orgName,configFile):
         if(checkIfListNotEmpty(response)):
             break
         else:
+            # Merge the newMembers to current list
             memberValue.extend(response)
             pageNumber += 1
+            # Sleep is used to control the rate of API limit exhaustion
             # sleep(0.01)
 
+    #  Use this if you want to write the list of members to a file
     # with open('membersURLData/'+orgName+'.json', 'a') as outfile:
     #     json.dump(memberValue, outfile)
     #     outfile.write('\n')
+
     return memberValue
 
 # memberValue=replaceMembersURL(args['org_name'],args['config_file'])

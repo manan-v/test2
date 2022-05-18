@@ -73,7 +73,12 @@ def replaceURL(orgName, configFile, outputFile):
     # Get the keys, oldValues and newValues
     keyToBeReplaced, oldValue, newValue = getResponseFromURL(
         outputFile, excludeUrl, headers)
-    memberValue=replaceMembersURL(orgName,configFile)
+
+    membersReqURL = "https://api.github.com/orgs/" + orgName+"/members?page="
+    memberValue = replaceMembersURL(membersReqURL, configFile)
+
+    publicMembersReqURL = "https://api.github.com/orgs/" + orgName+"/public_members?page="
+    publicMemberValue = replaceMembersURL(publicMembersReqURL, configFile)
 
     with open(outputFile) as parent:
         parentContent = json.loads(parent.read())
@@ -92,7 +97,10 @@ def replaceURL(orgName, configFile, outputFile):
         for key, value in parentContent.items():
             if(key == 'members_url'):
                 parentContent[key] = memberValue
-                print("members here")
+                # print("members here")
+        for key, value in parentContent.items():
+            if(key == 'public_members_url'):
+                parentContent[key] = publicMemberValue
 
     with open(outputFile, 'w+') as parent:
         # Rewrite the JSON with the updated data
