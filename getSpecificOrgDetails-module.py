@@ -3,7 +3,7 @@ import time, math
 
 # NOTE: To run the code - delete getSpecificOrgDetailsData/novelys.json if already present
 #       else: You may recieve 'json.decoder.JSONDecodeError: Extra data:' error
-# Also, make sure there is a directory named getSpecificOrgDetailsData on the same level
+# Also, make sure there is a directory named getSpecificOrgDetailsData on the same
 # Sample: python3 getSpecificOrgDetails-module.py 
 
 start=time.time()
