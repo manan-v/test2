@@ -14,7 +14,7 @@ with open('top-repo') as orgs:
         replaceURL(orgName, 'project.config',
                               'getSpecificOrgDetailsData/'+orgName+'.json')
         # Uncomment the break if you want to run it only once
-        break
+        # break
 end=time.time()
 
 print(" ** THE EXECUTION TOOK: "+str(math.floor(end-start))+" SECONDS **")
