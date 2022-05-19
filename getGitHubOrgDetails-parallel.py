@@ -61,9 +61,29 @@ def getMemberDetails(orgName):
 			break
 
 	return memberDetails
+
+# Get repo details
+def getRepoDetails(orgName):
+	pageCounter = 0
+	repoDetails = []
+
+	while pageCounter < 100:
+		reqUrl = "https://api.github.com/orgs/" + orgName + "/repos?page=" + str(pageCounter)
+		headers = getRandomAPIToken(apiDeque)
+		response = requests.get(reqUrl, headers=headers).json()
+
+		repoDetails.extend(response)
+		pageCounter += 1
+
+		# If response is []
+		if len(response) == 0:
+			break
+
+	return repoDetails
 # Get organization data and GitHub request header
 # reqUrl = "https://api.github.com/organizations/"
 
 # value_range = list(range(int(args['min_val']), int(args['max_val'])))
 # processed_list = Parallel(n_jobs=num_cores)(delayed(getGithubOrgDetails)(i) for i in tqdm(value_range))
-getMemberDetails("LCS2-IIITD")
+# getMemberDetails("LCS2-IIITD")
+print(getRepoDetails("LCS2-IIITD"))
