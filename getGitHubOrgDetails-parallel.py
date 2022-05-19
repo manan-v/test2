@@ -23,6 +23,7 @@ parser.add_argument('--output_file')
 args = vars(parser.parse_args())
 apiDeque=apiRobin.parseConfig(args['config_file'])
 
+# Get ID of GitHub organization
 def getGithubOrgDetails(idVal):
 	while True:
 		headers = getRandomAPIToken(apiDeque)
@@ -42,8 +43,27 @@ def getGithubOrgDetails(idVal):
 			print("** SLEEPING FOR 1 HR **")
 			sleep(3600)
 
-# Get organization data and GitHub request header
-reqUrl = "https://api.github.com/organizations/"
+# Get member details
+def getMemberDetails(orgName):
+	pageCounter = 0
+	memberDetails = []
 
-value_range = list(range(int(args['min_val']), int(args['max_val'])))
-processed_list = Parallel(n_jobs=num_cores)(delayed(getGithubOrgDetails)(i) for i in tqdm(value_range))
+	while pageCounter < 100:
+		reqUrl = "https://api.github.com/orgs/" + orgName + "/members?page=" + str(pageCounter)
+		headers = getRandomAPIToken(apiDeque)
+		response = requests.get(reqUrl, headers=headers).json()
+
+		memberDetails.extend(response)
+		pageCounter += 1
+
+		# If response is []
+		if len(response) == 0:
+			break
+
+	return memberDetails
+# Get organization data and GitHub request header
+# reqUrl = "https://api.github.com/organizations/"
+
+# value_range = list(range(int(args['min_val']), int(args['max_val'])))
+# processed_list = Parallel(n_jobs=num_cores)(delayed(getGithubOrgDetails)(i) for i in tqdm(value_range))
+getMemberDetails("LCS2-IIITD")
