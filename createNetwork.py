@@ -32,6 +32,7 @@ B.add_edges_from(edges)
 
 print(f"Network connected: {nx.is_connected(B)}")
 print(f"Network bipartite: {nx.is_bipartite(B)}")
+print(f"Network info: {nx.info(B)}")
 # top = nx.bipartite.sets(B)[0]
 # pos = nx.bipartite_layout(B, top)
 nx.write_gml(B, "salesforce.gml")
