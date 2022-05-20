@@ -45,27 +45,28 @@ def getGithubOrgDetails(idVal):
 			print("** SLEEPING FOR 1 HR **")
 			sleep(3600)
 
-# Get member details
-def getMemberDetails(orgName):
+# Get repo details
+def getRepoDetails(orgName):
+	orgDetails = {}
+
 	pageCounter = 0
 	memberDetails = []
 
+	# Get member details
 	while True:
 		reqUrl = "https://api.github.com/orgs/" + orgName + "/members?page=" + str(pageCounter)
 		headers = getRandomAPIToken(apiDeque)
-		response = requests.get(reqUrl, headers=headers).json()
+		member_response = requests.get(reqUrl, headers=headers).json()
 
-		memberDetails.extend(response)
+		memberDetails.extend(member_response)
 		pageCounter += 1
 
 		# If response is []
-		if len(response) == 0:
+		if len(member_response) == 0:
 			break
 
-	return memberDetails
+	orgDetails['memberDetails'] = memberDetails
 
-# Get repo details
-def getRepoDetails(orgName):
 	pageCounter = 0
 	repoDetails = []
 
@@ -101,7 +102,8 @@ def getRepoDetails(orgName):
 		if len(response) == 0:
 			break
 
-	return repoDetails
+	orgDetails['repoDetails'] = repoDetails
+	return orgDetails
 
 # Get organization data and GitHub request header
 # reqUrl = "https://api.github.com/organizations/"
