@@ -77,25 +77,27 @@ def getRepoDetails(orgName):
 		response = requests.get(reqUrl, headers=headers).json()
 
 		repo_counter = 0
-		# Get contributors
-		for repo in response:
-			contributors_pagecounter = 0 
-			contributors_list = []
-			while True:
-				print(f"Repo : {repo['name']}, Contributor Page: {contributors_pagecounter}")
-				reqUrl = "https://api.github.com/repos/" + orgName + "/" + repo['name'] + "/contributors?page=" + str(contributors_pagecounter)
-				headers = getRandomAPIToken(apiDeque)
-				contributors = requests.get(reqUrl, headers=headers).json()
-				contributors_list.extend(contributors)
+		try:
+			# Get contributors
+			for repo in response:
+				contributors_pagecounter = 0 
+				contributors_list = []
+				while True:
+					print(f"Repo : {repo['name']}, Contributor Page: {contributors_pagecounter}")
+					reqUrl = "https://api.github.com/repos/" + orgName + "/" + repo['name'] + "/contributors?page=" + str(contributors_pagecounter)
+					headers = getRandomAPIToken(apiDeque)
+					contributors = requests.get(reqUrl, headers=headers).json()
+					contributors_list.extend(contributors)
 
-				if len(contributors) == 0:
-					break
+					if len(contributors) == 0:
+						break
 
-				contributors_pagecounter += 1
-			response[repo_counter]['contributors'] = contributors_list
-			repo_counter += 1
-
-		repoDetails.extend(response)
+					contributors_pagecounter += 1
+				response[repo_counter]['contributors'] = contributors_list
+				repo_counter += 1
+			repoDetails.extend(response)
+		except:
+			pass
 		pageCounter += 1
 
 		# If response is []

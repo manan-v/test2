@@ -4,7 +4,7 @@ import networkx as nx
 from itertools import product
 from networkx.algorithms import bipartite
 
-with open('repo_details/salesforce.json','r') as fr:
+with open('repo_details/practo.json','r') as fr:
 	orgDetails = json.loads(fr.read())
 
 B = nx.Graph()
@@ -35,4 +35,4 @@ print(f"Network bipartite: {nx.is_bipartite(B)}")
 print(f"Network info: {nx.info(B)}")
 # top = nx.bipartite.sets(B)[0]
 # pos = nx.bipartite_layout(B, top)
-nx.write_gml(B, "salesforce.gml")
+nx.write_gml(B, "practo.gml")
