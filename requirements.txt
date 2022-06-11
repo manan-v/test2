@@ -4,7 +4,7 @@ joblib==1.1.0
 matplotlib==3.3.1
 munkres==1.1.4
 networkx==2.8
-numpy==1.17.4
+numpy==1.18.5
 pandas==1.4.2
 requests==2.22.0
 rpy2==3.5.2
