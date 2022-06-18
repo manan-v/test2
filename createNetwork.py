@@ -3,11 +3,19 @@ import json
 import networkx as nx
 from itertools import product
 from networkx.algorithms import bipartite
+import requests, json, argparse
 
-with open('repo_details/practo.json','r') as fr:
+parser = argparse.ArgumentParser()
+parser.add_argument('--repo_file')
+parser.add_argument('--graph_dir')
+
+args = vars(parser.parse_args())
+
+with open(args['repo_file'],'r') as fr:
 	orgDetails = json.loads(fr.read())
 
 B = nx.Graph()
+orgName = args['repo_file'].split('/')[1][:-5]
 
 edges = []
 for repos in orgDetails['repoDetails']:
@@ -35,4 +43,6 @@ print(f"Network bipartite: {nx.is_bipartite(B)}")
 print(f"Network info: {nx.info(B)}")
 # top = nx.bipartite.sets(B)[0]
 # pos = nx.bipartite_layout(B, top)
-nx.write_gml(B, "practo.gml")
+
+# Write gml to file
+nx.write_gml(B, os.path.join(args['graph_dir'], args['repo_file'].split('/')[1][:-5] + ".gml"))
