@@ -8,6 +8,7 @@ import multiprocessing
 from joblib import Parallel, delayed
 from tqdm import tqdm
 import json
+import os
 
 num_cores = multiprocessing.cpu_count()
 print('Total number of cores: {}'.format(num_cores))
@@ -20,7 +21,7 @@ parser.add_argument('--config_file')
 # parser.add_argument('--min_val')
 # parser.add_argument('--max_val')
 # parser.add_argument('--output_file')
-parser.add_argument('--orgName')
+# parser.add_argument('--orgName')
 
 args = vars(parser.parse_args())
 apiDeque=apiRobin.parseConfig(args['config_file'])
@@ -54,15 +55,18 @@ def getRepoDetails(orgName):
 
 	# Get member details
 	while True:
-		reqUrl = "https://api.github.com/orgs/" + orgName + "/members?page=" + str(pageCounter)
-		headers = getRandomAPIToken(apiDeque)
-		member_response = requests.get(reqUrl, headers=headers).json()
+		try:
+			reqUrl = "https://api.github.com/orgs/" + orgName + "/members?page=" + str(pageCounter)
+			headers = getRandomAPIToken(apiDeque)
+			member_response = requests.get(reqUrl, headers=headers).json()
 
-		memberDetails.extend(member_response)
-		pageCounter += 1
+			memberDetails.extend(member_response)
+			pageCounter += 1
 
-		# If response is []
-		if len(member_response) == 0:
+			# If response is []
+			if len(member_response) == 0:
+				break
+		except:
 			break
 
 	orgDetails['memberDetails'] = memberDetails
@@ -83,7 +87,7 @@ def getRepoDetails(orgName):
 				contributors_pagecounter = 0 
 				contributors_list = []
 				while True:
-					print(f"Repo : {repo['name']}, Contributor Page: {contributors_pagecounter}")
+					# print(f"Repo : {repo['name']}, Contributor Page: {contributors_pagecounter}")
 					reqUrl = "https://api.github.com/repos/" + orgName + "/" + repo['name'] + "/contributors?page=" + str(contributors_pagecounter)
 					headers = getRandomAPIToken(apiDeque)
 					contributors = requests.get(reqUrl, headers=headers).json()
@@ -117,11 +121,28 @@ def getRepoDetails(orgName):
 # print("** Getting member details **")
 # member_details = getMemberDetails(args['orgName'])
 # print("** Getting repo details **")
-repo_details = getRepoDetails(args['orgName'])
 
-# with open("member_details/" + args['orgName'] + ".json", "w") as outfile:
-#     outfile.write(json.dumps(member_details))
+# ******************
+alreadyDone = os.listdir('repo_details')
 
-# Get contributors for repos
-with open("repo_details/" + args['orgName'] + ".json", "w") as outfile:
-    outfile.write(json.dumps(repo_details))
+with open("githubOrgDetails.txt","r") as fr:
+	content = fr.read().split('\n')
+	orgName = []
+	for org in content:
+		try:
+			orgName.append(json.loads(org)['login'])
+		except:
+			pass
+
+for name in tqdm(orgName):
+	if name + ".json" not in alreadyDone:
+		#print(f"Done: {name}")
+		#continue
+		repo_details = getRepoDetails(name)
+
+	# with open("member_details/" + args['orgName'] + ".json", "w") as outfile:
+	#     outfile.write(json.dumps(member_details))
+		print(f"Working for : {name}")
+		# Get contributors for repos
+		with open("repo_details/" + name + ".json", "w") as outfile:
+			outfile.write(json.dumps(repo_details))
