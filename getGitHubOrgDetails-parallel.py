@@ -135,14 +135,13 @@ with open("githubOrgDetails.txt","r") as fr:
 			pass
 
 for name in tqdm(orgName):
-	if name + ".json" not in alreadyDone:
-		#print(f"Done: {name}")
-		#continue
-		repo_details = getRepoDetails(name)
+	if name + ".json" in alreadyDone:
+		print(f"Done: {name}")
+		continue
+	
+	print(f"Get repo details: {name}")
+	repo_details = getRepoDetails(name)
 
-	# with open("member_details/" + args['orgName'] + ".json", "w") as outfile:
-	#     outfile.write(json.dumps(member_details))
-		print(f"Working for : {name}")
-		# Get contributors for repos
-		with open("repo_details/" + name + ".json", "w") as outfile:
-			outfile.write(json.dumps(repo_details))
+	# Get contributors for repos
+	with open("repo_details/" + name + ".json", "w") as outfile:
+		outfile.write(json.dumps(repo_details))
