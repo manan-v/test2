@@ -36,10 +36,12 @@ def orgViz(orgName, source="graphs/gmlFiles/", dest="rudi-analysis/orgViz/"):
     color_list = [color_dict[i[1]] for i in G.nodes.data('bipartite')]
     # Draw bipartite graph
     pos = dict()
-    pos.update((n, (1, i)) for i, n in enumerate(bottom_nodes))  # put nodes from X at x=1
-    pos.update((n, (2, i))for i, n in enumerate(top_nodes))  # put nodes from Y at x=2
+    pos.update((n, (1, i)) for i, n in enumerate(
+        bottom_nodes))  # put nodes from X at x=1
+    pos.update((n, (2, i))
+               for i, n in enumerate(top_nodes))  # put nodes from Y at x=2
 
-     # nx.draw(G, pos=nx.drawing.layout.bipartite_layout(G, top_nodes),width=0.5,node_color=color_list)
+    # nx.draw(G, pos=nx.drawing.layout.bipartite_layout(G, top_nodes),width=0.5,node_color=color_list)
     nx.draw(G, pos=pos, with_labels=True,
             node_color=color_list, edge_color="g", width=0.5, font_color="black")
     plt.figtext(0.1, 0.01, "User", ha="left", fontsize=12, bbox={

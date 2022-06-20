@@ -62,7 +62,7 @@ def calcDegreeDist(orgName, source="graphs/gmlFiles/", dest="rudi-analysis/degre
 orgList = os.listdir('graphs/gmlFiles/')
 # Strip extensions
 orgList = [x.split('.')[0] for x in orgList]
-orgList.remove('envato')
+# orgList.remove('envato')
 
 # print("Computing sequentially")
 # for org in orgList:
