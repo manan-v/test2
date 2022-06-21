@@ -1,0 +1,19 @@
+INFO:__main__:Computing sequentially
+ERROR:__main__:Error for org Kadaza: max() arg is an empty sequence
+ERROR:__main__:Error for org aupeo: max() arg is an empty sequence
+ERROR:__main__:Error for org copypastel: max() arg is an empty sequence
+ERROR:__main__:Error for org doppler: max() arg is an empty sequence
+ERROR:__main__:Error for org eet-nu: max() arg is an empty sequence
+ERROR:__main__:Error for org gotime: max() arg is an empty sequence
+ERROR:__main__:Error for org lightserve: max() arg is an empty sequence
+ERROR:__main__:Error for org localitylabs: max() arg is an empty sequence
+ERROR:__main__:Error for org myminderz: max() arg is an empty sequence
+ERROR:__main__:Error for org ndwebgroup: max() arg is an empty sequence
+ERROR:__main__:Error for org researchpath: max() arg is an empty sequence
+ERROR:__main__:Error for org shopsavvy: max() arg is an empty sequence
+ERROR:__main__:Error for org spip: max() arg is an empty sequence
+ERROR:__main__:Error for org translateorgza: max() arg is an empty sequence
+ERROR:__main__:Error for org twitter4r: max() arg is an empty sequence
+ERROR:__main__:Error for org webfirm: max() arg is an empty sequence
+ERROR:__main__:Error for org wisemonks: max() arg is an empty sequence
+INFO:__main__:Computing completed in 546 seconds
