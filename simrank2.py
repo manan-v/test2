@@ -4,6 +4,9 @@ from operator import itemgetter
 import apiRobin
 from helper_methods import getRandomAPIToken
 
+import time
+start=time.time()
+
 apiDeque = apiRobin.parseConfig('project.config')
 reqUrl = 'https://api.github.com/users/'
 
@@ -50,3 +53,6 @@ def createContributorDict(contributorList):
 
 json.dump(createContributorDict(getContributorList(orgName='salesforce')),
           open('similarity_matrix/salesforce.json', 'w'))
+
+end=time.time()
+print("Time taken: "+str(round(end-start))+" sec")
