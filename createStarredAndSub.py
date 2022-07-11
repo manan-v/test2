@@ -5,10 +5,7 @@ import apiRobin
 from helper_methods import getRandomAPIToken
 
 import time
-start=time.time()
-
-apiDeque = apiRobin.parseConfig('project.config')
-reqUrl = 'https://api.github.com/users/'
+start = time.time()
 
 
 def getContributorList(orgName, repo_details_dir='repo_details/'):
@@ -41,18 +38,25 @@ def getRepoForContributor(contributor, activityType):
 
 def createContributorDict(contributorList):
     contributorDict = {}
+    count = 1
     for contributor in contributorList:
         contributorDict[contributor] = {}
         contributorDict[contributor]['starred'] = getRepoForContributor(
             contributor=contributor, activityType='starred')
         contributorDict[contributor]['subscriptions'] = getRepoForContributor(
             contributor=contributor, activityType='subscriptions')
+        print(str(count)+") "+contributor)
+        count += 1
         # break
     return contributorDict
 
 
+# Sample Usage
+apiDeque = apiRobin.parseConfig('project.config')
+reqUrl = 'https://api.github.com/users/'
+
 json.dump(createContributorDict(getContributorList(orgName='salesforce')),
           open('similarity_matrix/salesforce.json', 'w'))
 
-end=time.time()
+end = time.time()
 print("Time taken: "+str(round(end-start))+" sec")
