@@ -50,13 +50,13 @@ def createContributorDict(contributorList):
         # break
     return contributorDict
 
+def sample():
+    # Sample Usage
+    apiDeque = apiRobin.parseConfig('project.config')
+    reqUrl = 'https://api.github.com/users/'
 
-# Sample Usage
-apiDeque = apiRobin.parseConfig('project.config')
-reqUrl = 'https://api.github.com/users/'
+    json.dump(createContributorDict(getContributorList(orgName='salesforce')),
+              open('similarity_matrix/salesforce.json', 'w'))
 
-json.dump(createContributorDict(getContributorList(orgName='salesforce')),
-          open('similarity_matrix/salesforce.json', 'w'))
-
-end = time.time()
-print("Time taken: "+str(round(end-start))+" sec")
+    end = time.time()
+    print("Time taken: "+str(round(end-start))+" sec")
