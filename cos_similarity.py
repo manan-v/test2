@@ -61,7 +61,7 @@ print(cosine_similarity_matrix)
 np.savetxt("similarity_matrix/cos_salesforce.csv",
            cosine_similarity_matrix, delimiter=",")
 
-show_plt(cosine_similarity_matrix)
+show_heatmap(cosine_similarity_matrix)
 plt.clf()
 
 end = time.time()

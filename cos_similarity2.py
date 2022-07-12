@@ -2,6 +2,10 @@ import json
 from collections import Counter
 from createStarredAndSub import getContributorList
 import math
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
 
 import time
 start = time.time()
@@ -55,6 +59,13 @@ def cos_methodII(c1, c2):
     return dotprod / (magA * magB)
 
 
+def show_heatmap(matrix):
+    plt.figure(figsize=(14, 14))
+    ax = sns.heatmap(matrix, cmap="YlGnBu", vmin=0, vmax=1)
+    plt.savefig('similarity_matrix/cos2_salesforce.png', dpi=600)
+    plt.show()
+
+
 contributorList = getContributorList('salesforce')
 json.dump(mergedContributorList('salesforce', contributorList=contributorList),
           open('similarity_matrix/merged_salesforce.json', 'w'))
@@ -63,17 +74,29 @@ data = readList('merged_salesforce', file_directory='similarity_matrix/')
 errCount = 0
 totCount = 0
 nonZeroCosSim = 0
+cos_matrix = []
 for source in contributorList:
     a = data[source]
+    inner_matrix = []
     for target in contributorList:
-        if target is not source:
-            totCount += 1
-            b = data[target]
-            try:
-                if(cos_methodII(Counter(a), Counter(b))) > 0:
-                    nonZeroCosSim += 1
-            except:
-                errCount += 1
+        totCount += 1
+        b = data[target]
+        try:
+            answer = cos_methodII(Counter(a), Counter(b))
+            if(cos_methodII(Counter(a), Counter(b))) > 0:
+                nonZeroCosSim += 1
+        except:
+            answer = 0.0
+            errCount += 1
+        inner_matrix.append(answer)
+    cos_matrix.append(inner_matrix)
+print(len(cos_matrix))
+# print(cos_matrix)
+np.savetxt("similarity_matrix/cos2_salesforce.csv",
+           np.asarray(cos_matrix), delimiter=",")
+
+show_heatmap(cos_matrix)
+plt.clf()
 
 print("nonZeroCosSim pairs: "+str(nonZeroCosSim))
 print("error pairs: "+str(errCount))
