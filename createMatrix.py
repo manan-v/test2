@@ -1,18 +1,25 @@
 import createRepoList
 import numpy as np
+import json
+import os
 
 from joblib import Parallel, delayed
 import multiprocessing
 num_cores = multiprocessing.cpu_count()-1
 
+# from helper_methods import buzzer
 import time
 start=time.time()
 
-import os
+def createOrgJSON(orgName, contributorDict, activityType, directory='matrix/orgJSON'):
+    directory=directory+'/'+activityType
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    json.dump(contributorDict,open(directory+'/'+orgName+'.json', 'w'))
 
 def getDictByActivity(orgName,activityType,repo_details_dir='repo_details/'):
     contributorList=createRepoList.getContributorList(orgName,repo_details_dir)
-    contributorDict=createRepoList.createContributorDict(contributorList,activityType)
+    contributorDict=createRepoList.createContributorDict(contributorList,activityType=activityType)
     return contributorList, contributorDict
 
 def checkIfCommonRepo(contributorA, contributorB, contributorDict,activityType):
@@ -57,22 +64,33 @@ def writeMatrixToCSV(matrix,csvName,directory):
     np.savetxt(csvName,np.asarray(matrix), delimiter=",")
 
 def createMatrixByActivityType(org,activityType):
-    startForOrg=time.time()
-    print("starting for "+org)
+    org=org.replace('.json','')
+    print("starting for "+org+", "+activityType)
     contributorList, contributorDict=getDictByActivity(orgName=org,activityType=activityType)
+    createOrgJSON(orgName=org,contributorDict=contributorDict,activityType=activityType)    
     adjMatrix=createAdjMatrix(contributorList=contributorList,contributorDict=contributorDict,activityType=activityType)
     writeMatrixToCSV(matrix=adjMatrix,csvName=org+"_adjMatrix",directory='matrix/'+activityType+'/adjacency')
     countMatrix=createCountMatrix(contributorList=contributorList,contributorDict=contributorDict,activityType=activityType)
     writeMatrixToCSV(matrix=countMatrix,csvName=org+"_countMatrix",directory='matrix/'+activityType+'/count')
-    endForOrg=time.time()
+
+def createAllMatrixForOrg(org,activityList):
+    for activity in activityList:
+        createMatrixByActivityType(org,activity)
+    # Parallel(n_jobs=num_cores)(delayed(createMatrixByActivityType)(org=org,activityType=activity) for activity in activityList)
+
+# orgList = os.listdir('repo_details')
+orgList=['yeebase','salesforce','envato','reddit','yahoo']
+# orgList=['yeebase']
+activityList=['starred','subscriptions']
+
+for org in orgList:
+    startForOrg = time.time()
+    createAllMatrixForOrg(org=org,activityList=activityList)
+    endForOrg = time.time()
     print("done for "+org+" in "+str(round(endForOrg-startForOrg))+" sec")
 
 
-orgList = ['yeebase', 'salesforce']
-for org in orgList:
-    createMatrixByActivityType(org,'starred')
-    break
-# Parallel(n_jobs=num_cores)(delayed(createMatrixByActivityType)(org=org,activityType='starred') for org in orgList)
 
 end=time.time()
 print("Total Time taken: "+str(round(end-start))+" sec")
+# buzzer(file='rough/buzzer.wav')

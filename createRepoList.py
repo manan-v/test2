@@ -38,20 +38,25 @@ def getRepoForContributor(contributor, activityType):
     return NodeID
 
 
-def createContributorDict(contributorList,activityType):
+def createContributorDict(contributorList,activityType='starred'):
     contributorDict = {}
     count = 1
     for contributor in contributorList:
         contributorDict[contributor] = {}
         contributorDict[contributor][activityType] = getRepoForContributor(
             contributor=contributor, activityType=activityType)
+        # contributorDict[contributor]['subscriptions'] = getRepoForContributor(
+        #     contributor=contributor, activityType='subscriptions')
         # print(str(count)+") "+contributor)
         count += 1
         # break
     return contributorDict
 
+
 def sample():
     # Sample Usage
+    apiDeque = apiRobin.parseConfig('project.config')
+    reqUrl = 'https://api.github.com/users/'
 
     json.dump(createContributorDict(getContributorList(orgName='salesforce')),
               open('similarity_matrix/salesforce.json', 'w'))
