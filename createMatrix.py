@@ -1,9 +1,14 @@
 import createRepoList
 import numpy as np
-import time
+
+from joblib import Parallel, delayed
+import multiprocessing
+num_cores = multiprocessing.cpu_count()-1
 
 import time
 start=time.time()
+
+import os
 
 def getDictByActivity(orgName,activityType,repo_details_dir='repo_details/'):
     contributorList=createRepoList.getContributorList(orgName,repo_details_dir)
@@ -45,22 +50,29 @@ def createCountMatrix(contributorList, contributorDict, activityType):
         countMatrix.append(innerCountMatrix)
     return countMatrix
 
-def writeMatrixToCSV(matrix, matrixType,csvName,directory='similarity_matrix/'):
-    csvName=directory+matrixType+'/'+csvName+".csv"
+def writeMatrixToCSV(matrix,csvName,directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    csvName=directory+'/'+csvName+".csv"
     np.savetxt(csvName,np.asarray(matrix), delimiter=",")
 
 def createMatrixByActivityType(org,activityType):
+    startForOrg=time.time()
     print("starting for "+org)
     contributorList, contributorDict=getDictByActivity(orgName=org,activityType=activityType)
     adjMatrix=createAdjMatrix(contributorList=contributorList,contributorDict=contributorDict,activityType=activityType)
-    writeMatrixToCSV(matrix=adjMatrix,matrixType='adjacency',csvName=org+"_adjMatrix")
+    writeMatrixToCSV(matrix=adjMatrix,csvName=org+"_adjMatrix",directory='matrix/'+activityType+'/adjacency')
     countMatrix=createCountMatrix(contributorList=contributorList,contributorDict=contributorDict,activityType=activityType)
-    writeMatrixToCSV(matrix=countMatrix, matrixType='count',csvName=org+"_countMatrix")
-    print("done for "+org)
+    writeMatrixToCSV(matrix=countMatrix,csvName=org+"_countMatrix",directory='matrix/'+activityType+'/count')
+    endForOrg=time.time()
+    print("done for "+org+" in "+str(round(endForOrg-startForOrg))+" sec")
+
 
 orgList = ['yeebase', 'salesforce']
 for org in orgList:
     createMatrixByActivityType(org,'starred')
     break
+# Parallel(n_jobs=num_cores)(delayed(createMatrixByActivityType)(org=org,activityType='starred') for org in orgList)
+
 end=time.time()
-print("Time taken: "+str(round(end-start))+" sec")
+print("Total Time taken: "+str(round(end-start))+" sec")
