@@ -17,6 +17,7 @@ def getContributorList(orgName, repo_details_dir='repo_details/'):
             if contributorUrl['login'] not in contributorList:
                 contributorList.append(contributorUrl['login'])
     contributorList.sort()
+    print("no of contri are "+str(len(contributorList)))
     return contributorList
 
 
@@ -33,25 +34,33 @@ def getRepoForContributor(contributor, activityType):
             del items[del_key1]
         if del_key2 in items:
             del items[del_key2]
+    # print(type(List))
+    NodeID=[att['node_id'] for att in List]
     NodeID = list(map(itemgetter('node_id'), List))
     NodeID.sort()
+    # print(NodeID)
     return NodeID
 
 
-def createContributorDict(contributorList,activityType):
+def createContributorDict(contributorList,activityType='starred'):
     contributorDict = {}
     count = 1
     for contributor in contributorList:
         contributorDict[contributor] = {}
         contributorDict[contributor][activityType] = getRepoForContributor(
             contributor=contributor, activityType=activityType)
+        # contributorDict[contributor]['subscriptions'] = getRepoForContributor(
+        #     contributor=contributor, activityType='subscriptions')
         # print(str(count)+") "+contributor)
         count += 1
         # break
     return contributorDict
 
+
 def sample():
     # Sample Usage
+    apiDeque = apiRobin.parseConfig('project.config')
+    reqUrl = 'https://api.github.com/users/'
 
     json.dump(createContributorDict(getContributorList(orgName='salesforce')),
               open('similarity_matrix/salesforce.json', 'w'))

@@ -59,49 +59,53 @@ def cos_methodII(c1, c2):
     return dotprod / (magA * magB)
 
 
-def show_heatmap(matrix):
+def show_heatmap(vmax,matrix, directory='similarity_matrix/', filename='cos2_salesforce.png'):
     plt.figure(figsize=(14, 14))
-    ax = sns.heatmap(matrix, cmap="YlGnBu", vmin=0, vmax=1)
-    plt.savefig('similarity_matrix/cos2_salesforce.png', dpi=600)
-    plt.show()
+    ax = sns.heatmap(matrix, cmap="YlGnBu", vmin=0, vmax=vmax)
+    plt.savefig(directory+filename, dpi=600)
+    # plt.show()
+    plt.clf()
 
 
-contributorList = getContributorList('salesforce')
-json.dump(mergedContributorList('salesforce', contributorList=contributorList),
-          open('similarity_matrix/merged_salesforce.json', 'w'))
+def main():
+    contributorList = getContributorList('salesforce')
 
-data = readList('merged_salesforce', file_directory='similarity_matrix/')
-errCount = 0
-totCount = 0
-nonZeroCosSim = 0
-cos_matrix = []
-for source in contributorList:
-    a = data[source]
-    inner_matrix = []
-    for target in contributorList:
-        totCount += 1
-        b = data[target]
-        try:
-            answer = cos_methodII(Counter(a), Counter(b))
-            if(cos_methodII(Counter(a), Counter(b))) > 0:
-                nonZeroCosSim += 1
-        except:
-            answer = 0.0
-            errCount += 1
-        inner_matrix.append(answer)
-    cos_matrix.append(inner_matrix)
-print(len(cos_matrix))
-# print(cos_matrix)
-np.savetxt("similarity_matrix/cos2_salesforce.csv",
-           np.asarray(cos_matrix), delimiter=",")
 
-show_heatmap(cos_matrix)
-plt.clf()
+    json.dump(mergedContributorList('salesforce', contributorList=contributorList),
+            open('similarity_matrix/merged_salesforce.json', 'w'))
 
-print("nonZeroCosSim pairs: "+str(nonZeroCosSim))
-print("error pairs: "+str(errCount))
-print("total pairs: "+str(totCount))
-print("error perc: "+str(round((errCount/totCount)*100))+"%")
+    data = readList('merged_salesforce', file_directory='similarity_matrix/')
+    errCount = 0
+    totCount = 0
+    nonZeroCosSim = 0
+    cos_matrix = []
+    for source in contributorList:
+        a = data[source]
+        inner_matrix = []
+        for target in contributorList:
+            totCount += 1
+            b = data[target]
+            try:
+                answer = cos_methodII(Counter(a), Counter(b))
+                if(cos_methodII(Counter(a), Counter(b))) > 0:
+                    nonZeroCosSim += 1
+            except:
+                answer = 0.0
+                errCount += 1
+            inner_matrix.append(answer)
+        cos_matrix.append(inner_matrix)
+    print(len(cos_matrix))
+    # print(cos_matrix)
+    np.savetxt("similarity_matrix/cos2_salesforce.csv",
+            np.asarray(cos_matrix), delimiter=",")
 
-end = time.time()
-print("Time taken: "+str(round(end-start))+" sec")
+    show_heatmap(cos_matrix)
+    plt.clf()
+
+    print("nonZeroCosSim pairs: "+str(nonZeroCosSim))
+    print("error pairs: "+str(errCount))
+    print("total pairs: "+str(totCount))
+    print("error perc: "+str(round((errCount/totCount)*100))+"%")
+
+    end = time.time()
+    print("Time taken: "+str(round(end-start))+" sec")
