@@ -164,58 +164,387 @@ Traceback (most recent call last):
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
 ERROR:__main__:Error for contri fcarriedo
-2nguyen
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri imduffy15
+ERROR:__main__:Error for contri fceller
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri imeoer
+ERROR:__main__:Error for contri fcheung
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri imikay
+ERROR:__main__:Error for contri fcsonline
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri imranolas
+ERROR:__main__:Error for contri fd
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri imsnif
+ERROR:__main__:Error for contri featheredtoast
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri inatatsu
+ERROR:__main__:Error for contri feelepxyz
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri incrediblesound
+ERROR:__main__:Error for contri felipecabargas
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri indeyets
+ERROR:__main__:Error for contri felipeclopes
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri indrekj
+ERROR:__main__:Error for contri felixclack
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri felixrabe
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ferbar
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ferdinandrosario
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fergushev
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ferhatelmas
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fernandes
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ffenix113
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ffrants
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fgeorge
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fgo
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fhrbek
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fhs
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fiddyspence
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fighterleslie
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fihuer
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri filipecsweb
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri filiptepper
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fillup
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fimmtiu
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fiznool
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fj
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri fjgal
+RROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ismith
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri itaibenari
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri itay-grudev
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri itaylor
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri itiut
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri itsWill
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri itsabdelrahman
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri itsderek23
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri itsgarcia
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri itskingori
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri itszootime
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri iulianu
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ivanovaleksey
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ivarvong
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ivgiuliani
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ivoanjo
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ivorpad
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri iwamot
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri iwasakims
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri ixti
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri j-miyake
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri j0sh77
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri j15e
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri jRiest
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri jackall3n
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri jacknagel
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri jacobherrington
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri jacobtylerwalls
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri jacobwgillespie
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri jadams-av
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri jadeallenx
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri jadeforrest
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri jaggederest
