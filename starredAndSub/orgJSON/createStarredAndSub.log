@@ -1886,31 +1886,30 @@ Traceback (most recent call last):
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
 ERROR:__main__:Error for contri thejamespinto
-Error for contri vasinov
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri vassilevsky
+ERROR:__main__:Error for contri tuncer
+INFO:__main__:Time taken: 9010 sec for envato
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri vbatts
+ERROR:__main__:Error for contri skhisma
+INFO:__main__:Time taken: 434 sec for fastpencil
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
-  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
-    NodeID = list(map(itemgetter('node_id'), List))
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 61, in computeSingleOrg
+    json.dump(createContributorDict(getContributorList(orgName=org), activityType),
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 20, in getContributorList
+    if contributorUrl['login'] not in contributorList:
 TypeError: string indices must be integers
-ERROR:__main__:Error for contri vbfox
-ERROR:__main__:string indices must be integers
-Traceback (most recent call last):
-  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
-    NodeID = list(map(itemgetter('node_id'), List))
-TypeError: string indices must be integers
-ERROR:__main__:Error for contri vchervanev
+ERROR:__main__:Error for org floorplanner
+INFO:__main__:Time taken: 0 sec for floorplanner
+for contri vchervanev
 ERROR:__main__:string indices must be integers
 Traceback (most recent call last):
   File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
@@ -2258,3 +2257,27 @@ Traceback (most recent call last):
     NodeID = list(map(itemgetter('node_id'), List))
 TypeError: string indices must be integers
 ERROR:__main__:Error for contri jaryn
+INFO:__main__:Time taken: 706 sec for ging
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri DrBenton
+INFO:__main__:Time taken: 500 sec for git
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 61, in computeSingleOrg
+    json.dump(createContributorDict(getContributorList(orgName=org), activityType),
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 20, in getContributorList
+    if contributorUrl['login'] not in contributorList:
+TypeError: string indices must be integers
+ERROR:__main__:Error for org homemade
+INFO:__main__:Time taken: 0 sec for homemade
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri tuncer
+INFO:__main__:Time taken: 398 sec for kete

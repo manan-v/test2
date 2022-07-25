@@ -42,7 +42,7 @@ def calcDegreeDist(orgName, source="graphs/gmlFiles/", dest="rudi-analysis/degre
         Gcc = G.subgraph(
             sorted(nx.connected_components(G), key=len, reverse=True)[0])
         pos = nx.spring_layout(Gcc, seed=10396953)
-        nx.draw_networkx_nodes(Gcc, pos, ax=ax0, node_size=20)
+        nx.draw_networkx_nodes(Gcc, pos, ax=ax0, node_size=20,with_labels=True)
         nx.draw_networkx_edges(Gcc, pos, ax=ax0, alpha=0.4)
         ax0.set_title("Connected components in organisation "+orgName+"")
         ax0.set_axis_off()
@@ -69,14 +69,15 @@ def calcDegreeDist(orgName, source="graphs/gmlFiles/", dest="rudi-analysis/degre
 
 destFolder = "rudi-analysis/degreeDistribution/nonSingularOccurence/"
 
-orgList = os.listdir('graphs/gmlFiles/')
-# Strip extension .gml from orgName
-orgList = [x.split('.')[0] for x in orgList]
-orgList.sort()
+# orgList = os.listdir('graphs/gmlFiles/')
+# # Strip extension .gml from orgName
+# orgList = [x.split('.')[0] for x in orgList]
+# orgList.sort()
 
 logger.info(str("Computing sequentially"))
-for org in orgList:
-    calcDegreeDist(orgName=org, dest=destFolder)
+# for org in orgList:
+#     calcDegreeDist(orgName=org, dest=destFolder)
+calcDegreeDist(orgName='dummy', source='gml/user-repo-GML/',dest='gml/user-repo-GML/')
 #     break
 
 # logger.info(str("Computing parallely"))
