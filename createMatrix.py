@@ -2,19 +2,11 @@ import createRepoList, cos_similarity2
 import numpy as np
 import json
 import os
-<<<<<<< HEAD
 
 from joblib import Parallel, delayed
 import multiprocessing
 num_cores = multiprocessing.cpu_count()-1
 import argparse
-=======
-
-from joblib import Parallel, delayed
-import multiprocessing
-num_cores = multiprocessing.cpu_count()-1
-
->>>>>>> 2b1c937a35a741ecf8ec8468da3ed44cce7aa408
 # from helper_methods import buzzer
 import time
 start=time.time()
@@ -69,7 +61,7 @@ def writeMatrixToCSV(matrix,csvName,directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
     csvName=directory+'/'+csvName+".csv"
-    np.savetxt(csvName,np.asarray(matrix), delimiter=",")
+    np.savetxt(csvName,np.asarray(matrix).astype(int), delimiter=",")
 
 def createMatrixByActivityType(org,activityType):
     org=org.replace('.json','')
@@ -77,16 +69,11 @@ def createMatrixByActivityType(org,activityType):
     contributorList, contributorDict=getDictByActivity(orgName=org,activityType=activityType)
     createOrgJSON(orgName=org,contributorDict=contributorDict,activityType=activityType)    
     adjMatrix=createAdjMatrix(contributorList=contributorList,contributorDict=contributorDict,activityType=activityType)
-<<<<<<< HEAD
     cos_similarity2.show_heatmap(vmax=1,matrix=adjMatrix,directory='matrix/'+activityType+'/adjacency/',filename=org+'_adjMatrixHeatmap.png')
     
     writeMatrixToCSV(matrix=adjMatrix,csvName=org+"_adjMatrix",directory='matrix/'+activityType+'/adjacency')
     countMatrix=createCountMatrix(contributorList=contributorList,contributorDict=contributorDict,activityType=activityType)
     cos_similarity2.show_heatmap(vmax=np.max(countMatrix),matrix=countMatrix,directory='matrix/'+activityType+'/count/', filename=org+'_countMatrixHeatmap.png')
-=======
-    writeMatrixToCSV(matrix=adjMatrix,csvName=org+"_adjMatrix",directory='matrix/'+activityType+'/adjacency')
-    countMatrix=createCountMatrix(contributorList=contributorList,contributorDict=contributorDict,activityType=activityType)
->>>>>>> 2b1c937a35a741ecf8ec8468da3ed44cce7aa408
     writeMatrixToCSV(matrix=countMatrix,csvName=org+"_countMatrix",directory='matrix/'+activityType+'/count')
 
 def createAllMatrixForOrg(org,activityList):
@@ -95,22 +82,21 @@ def createAllMatrixForOrg(org,activityList):
     # Parallel(n_jobs=num_cores)(delayed(createMatrixByActivityType)(org=org,activityType=activity) for activity in activityList)
 
 # orgList = os.listdir('repo_details')
-<<<<<<< HEAD
 
 # Small orgs
-# orgList=['a2c','elevatedrails','mangos','lrug','yeebase']
+orgList=['a2c','elevatedrails','mangos','lrug','yeebase']
 
 # orgList=['mangos']
 # orgList = ['reddit']
 
 
 # Big orgs
-orgList = ['reddit', 'yahoo', 'php', 'vim-ruby','git']
+# orgList = ['reddit', 'yahoo', 'php', 'vim-ruby','git']
 
 
 # orgList = ['yahoo']
 # orgList = ['php']
-orgList = ['Khan','envato']
+# orgList = ['Khan','envato']
 # orgList = ['git']
 
 # parser = argparse.ArgumentParser()
@@ -120,11 +106,6 @@ orgList = ['Khan','envato']
 activityList=['starred','subscriptions']
 # activityList = ['subscriptions']
 
-=======
-orgList=['yeebase','salesforce','envato','reddit','yahoo']
-# orgList=['yeebase']
-activityList=['starred','subscriptions']
->>>>>>> 2b1c937a35a741ecf8ec8468da3ed44cce7aa408
 
 for org in orgList:
     startForOrg = time.time()
@@ -133,10 +114,6 @@ for org in orgList:
     print("done for "+org+" in "+str(round(endForOrg-startForOrg))+" sec")
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2b1c937a35a741ecf8ec8468da3ed44cce7aa408
 end=time.time()
 print("Total Time taken: "+str(round(end-start))+" sec")
 # buzzer(file='rough/buzzer.wav')
