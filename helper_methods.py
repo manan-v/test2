@@ -5,11 +5,8 @@ import argparse
 from time import sleep
 import networkx as nx
 import matplotlib.pyplot as plt
-<<<<<<< HEAD
 import matplotlib
 import numpy as np
-=======
->>>>>>> 2b1c937a35a741ecf8ec8468da3ed44cce7aa408
 # from playsound import playsound as play
 
 def getAPIToken(apiDeque):
@@ -62,7 +59,6 @@ def orgViz(orgName, source="graphs/gmlFiles/", dest="rudi-analysis/orgViz/"):
 
 
 # def buzzer(file='/home/parth/Desktop/Code/buzzer.wav'):
-<<<<<<< HEAD
 #     play(file)
 def heatmap(data, row_labels, col_labels, ax=None,
             cbar_kw={}, cbarlabel="", **kwargs):
@@ -178,6 +174,3 @@ def annotate_heatmap(im, data=None, valfmt="{x:.2f}",
             texts.append(text)
 
     return texts
-=======
-#     play(file)
->>>>>>> 2b1c937a35a741ecf8ec8468da3ed44cce7aa408
