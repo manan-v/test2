@@ -1,0 +1,78 @@
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 61, in computeSingleOrg
+    json.dump(createContributorDict(getContributorList(orgName=org), activityType),
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 20, in getContributorList
+    if contributorUrl['login'] not in contributorList:
+TypeError: string indices must be integers
+ERROR:__main__:Error for org BitCircle
+INFO:__main__:Time taken: 0 sec for BitCircle
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 61, in computeSingleOrg
+    json.dump(createContributorDict(getContributorList(orgName=org), activityType),
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 20, in getContributorList
+    if contributorUrl['login'] not in contributorList:
+TypeError: string indices must be integers
+ERROR:__main__:Error for org IronLanguages
+INFO:__main__:Time taken: 0 sec for IronLanguages
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 61, in computeSingleOrg
+    json.dump(createContributorDict(getContributorList(orgName=org), activityType),
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 20, in getContributorList
+    if contributorUrl['login'] not in contributorList:
+TypeError: string indices must be integers
+ERROR:__main__:Error for org Sage
+INFO:__main__:Time taken: 0 sec for Sage
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 61, in computeSingleOrg
+    json.dump(createContributorDict(getContributorList(orgName=org), activityType),
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 20, in getContributorList
+    if contributorUrl['login'] not in contributorList:
+TypeError: string indices must be integers
+ERROR:__main__:Error for org box
+INFO:__main__:Time taken: 0 sec for box
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 61, in computeSingleOrg
+    json.dump(createContributorDict(getContributorList(orgName=org), activityType),
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 20, in getContributorList
+    if contributorUrl['login'] not in contributorList:
+TypeError: string indices must be integers
+ERROR:__main__:Error for org brandleadership
+INFO:__main__:Time taken: 0 sec for brandleadership
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 61, in computeSingleOrg
+    json.dump(createContributorDict(getContributorList(orgName=org), activityType),
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 20, in getContributorList
+    if contributorUrl['login'] not in contributorList:
+TypeError: string indices must be integers
+ERROR:__main__:Error for org clickhere
+INFO:__main__:Time taken: 0 sec for clickhere
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 61, in computeSingleOrg
+    json.dump(createContributorDict(getContributorList(orgName=org), activityType),
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 20, in getContributorList
+    if contributorUrl['login'] not in contributorList:
+TypeError: string indices must be integers
+ERROR:__main__:Error for org coretech
+INFO:__main__:Time taken: 0 sec for coretech
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 61, in computeSingleOrg
+    json.dump(createContributorDict(getContributorList(orgName=org), activityType),
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 20, in getContributorList
+    if contributorUrl['login'] not in contributorList:
+TypeError: string indices must be integers
+ERROR:__main__:Error for org doubleencore
+INFO:__main__:Time taken: 0 sec for doubleencore
+ERROR:__main__:string indices must be integers
+Traceback (most recent call last):
+  File "/home/parth/Desktop/Code/projects/github-recommendation-project/createStarredAndSub.py", line 39, in getRepoForContributor
+    NodeID = list(map(itemgetter('node_id'), List))
+TypeError: string indices must be integers
+ERROR:__main__:Error for contri Chetane
