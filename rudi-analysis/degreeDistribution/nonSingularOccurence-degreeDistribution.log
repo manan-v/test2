@@ -1,3 +1,2 @@
 INFO:__main__:Computing sequentially
-ERROR:__main__:Error for org dummy: draw_networkx_nodes() got an unexpected keyword argument 'with_labels'
-INFO:__main__:Computing completed in 0 seconds
+INFO:__main__:Computing completed in 0 seconds for dummy
