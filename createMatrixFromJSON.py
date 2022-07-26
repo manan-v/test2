@@ -5,9 +5,10 @@ import os
 
 start = time.time()
 
+
 def getDictByActivity(orgName, activityType):
-    with open('starredAndSub/orgJSON/'+activityType+'/'+orgName+".json", "r") as json_file:
-        contributorDict=json.load(json_file)
+    with open('starredAndSub/orgJSON/' + activityType + '/' + orgName + ".json", "r") as json_file:
+        contributorDict = json.load(json_file)
     contributorList = list(contributorDict.keys())
     contributorList.sort()
     # print(contributorDict)
@@ -16,17 +17,17 @@ def getDictByActivity(orgName, activityType):
 
 def checkIfCommonRepo(contributorA, contributorB, contributorDict, activityType):
     repoOfA = contributorDict[contributorA][activityType]
-    flag=0
+    flag = 0
     commonBool = False
     numOfCommonRepos = 0
     try:
         repoOfB = contributorDict[contributorB][activityType]
-    except: 
-        print("no repo for "+contributorB+", "+activityType)
-        flag=1
+    except:
+        print("no repo for " + contributorB + ", " + activityType)
+        flag = 1
     # print(flag)
-    if(flag==0):
-        if(any(check in repoOfA for check in repoOfB)):
+    if (flag == 0):
+        if (any(check in repoOfA for check in repoOfB)):
             commonRepos = list(set(repoOfA).intersection(repoOfB))
             numOfCommonRepos = len(commonRepos)
             commonBool = True
@@ -43,7 +44,7 @@ def createAdjMatrix(contributorList, contributorDict, activityType):
         for contributorB in contributorList:
             commonBool, numOfCommonRepos = checkIfCommonRepo(
                 contributorA, contributorB, contributorDict, activityType=activityType)
-            if(commonBool == True):
+            if (commonBool == True):
                 innerAdjMatrix.append(1)
             else:
                 innerAdjMatrix.append(0)
@@ -66,22 +67,24 @@ def createCountMatrix(contributorList, contributorDict, activityType):
 def writeMatrixToCSV(matrix, csvName, directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
-    csvName = directory+'/'+csvName+".csv"
+    csvName = directory + '/' + csvName + ".csv"
     np.savetxt(csvName, np.asarray(matrix).astype(int), delimiter=",")
-    
+
+
 def createMatrixByActivityType(org, activityType):
     org = org.replace('.json', '')
-    print("starting for "+org+", "+activityType)
+    print("starting for " + org + ", " + activityType)
     contributorList, contributorDict = getDictByActivity(
         orgName=org, activityType=activityType)
     adjMatrix = createAdjMatrix(contributorList=contributorList,
                                 contributorDict=contributorDict, activityType=activityType)
-    writeMatrixToCSV(matrix=adjMatrix, csvName=org+"_adjMatrix",
-                     directory='matrix/'+activityType+'/adjacency')
+    writeMatrixToCSV(matrix=adjMatrix, csvName=org + "_adjMatrix",
+                     directory='matrix/' + activityType + '/adjacency')
     countMatrix = createCountMatrix(
         contributorList=contributorList, contributorDict=contributorDict, activityType=activityType)
     writeMatrixToCSV(matrix=countMatrix, csvName=org +
-                     "_countMatrix", directory='matrix/'+activityType+'/count')
+                                                 "_countMatrix", directory='matrix/' + activityType + '/count')
+
 
 activityList = ['starred']
 orgList = os.listdir('repo_details')
@@ -91,4 +94,4 @@ for org in orgList:
     createMatrixByActivityType(org=org, activityType='subscriptions')
 
 end = time.time()
-print("Time taken: "+str(round(end-start))+" sec")
+print("Time taken: " + str(round(end - start)) + " sec")
