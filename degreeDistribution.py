@@ -50,6 +50,16 @@ def plotGraph(orgName, userDegree, repoDegree, G, dest='plots/'):
     plt.savefig(dest+orgName+'/'+orgName+'_P2.png')
     plt.clf()
 
+    # P5
+    allDegree=userDegree+repoDegree
+    x, y = np.unique(allDegree, return_counts=True)
+    plt.plot(x, y, 'o-')
+    plt.xlabel("Number of users")
+    plt.ylabel("Degree")
+    plt.title("P5: Degree distribution: "+orgName)
+    # plt.show()
+    plt.savefig(dest+orgName+'/'+orgName+'_P5.png')
+    plt.clf()
 
 def calcDegreeDist(orgName, source="graphs/gmlFiles/", dest="gml/user-repo-GML/"):
     try:
