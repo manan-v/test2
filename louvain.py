@@ -2,27 +2,23 @@ import networkx as nx
 import numpy as np
 import community
 import matplotlib.pyplot as plt
+import matplotlib.cm as cm
 
-G = nx.read_gml('gml/user-repo-GML/dummy.gml', label='label')
-comms = community.community_louvain.best_partition(G)
-
-unique_coms = np.unique(list(comms.values()))
-cmap = {
-    0: 'red',
-    1: 'teal',
-    2: 'black',
-    3: 'orange',
-    4: 'purple',
-    5: 'yellow'
-}
-
-node_cmap = [cmap[v] for _, v in comms.items()]
-
-X, Y = nx.bipartite.sets(G)
-pos = dict()
-pos.update((n, (1, i))
-           for i, n in enumerate(X))  # put nodes from X at x=1
-pos.update((n, (2, i))
-           for i, n in enumerate(Y))  # put nodes from Y at x=2
-nx.draw(G, pos=pos, with_labels=True,node_size = 75, alpha = 0.8, node_color=node_cmap)
-plt.savefig('rough/louvain_dummy.png')
+org='reddit'
+G = nx.read_gml('gml/user-user-GML/'+org+'.gml', label='label')
+partition = community.community_louvain.best_partition(G)
+k=partition.values()
+# print(type(k))
+print("No of communities found: "+str(len(set(k))))
+# print(G)
+# draw the graph
+pos = nx.spring_layout(G, k=0.25, iterations=50)
+# color the nodes according to their partition
+cmap = cm.get_cmap('viridis', max(partition.values()) + 1)
+nx.draw_networkx_nodes(G, pos, partition.keys(), node_size=40,
+                       cmap=cmap, node_color=list(partition.values()))
+nx.draw_networkx_edges(G, pos, alpha=0.5)
+plt.title("No of communities in "+org+" : "+str(len(set(k))))
+# plt.show()
+# plt.show()
+plt.savefig('individualEdgeLists/plot/louvain'+org+'.png')

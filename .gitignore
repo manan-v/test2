@@ -1,7 +1,7 @@
 .DS_Store
 __pycache__
-<<<<<<< HEAD
 similarity_matrix
-=======
-matrix
->>>>>>> 2b1c937a35a741ecf8ec8468da3ed44cce7aa408
+matrix_user_repo/starred/adjacency/reddit.csv
+latest-matrix/sub/reddit_sub.csv
+matrix_user_repo/starred/adjacency/cdd.csv
+matrix_user_repo/starred/adjacency/fs.csv

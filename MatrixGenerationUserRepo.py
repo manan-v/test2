@@ -1,3 +1,4 @@
+from dataclasses import replace
 import time
 import numpy as np
 import json
@@ -8,7 +9,7 @@ start = time.time()
 
 
 def getDictByActivity(orgName, activityType):
-    with open(activityType + '/' + orgName + ".json", "r") as json_file:
+    with open('starredAndSub/orgJSON/'+activityType + '/' + orgName + ".json", "r") as json_file:
         contributorDict = json.load(json_file)
     contributorList = list(contributorDict.keys())
     repoList = []
@@ -45,10 +46,15 @@ def writeMatrixToCSV(matrix, repoList, contributorList, csvName, directory):
     df.insert(loc=0, column=' ', value=contributorList)
     df.to_csv(csvName,index=False)
 
+def replaceFloatByInt(csvName):
+    with open(csvName,'r') as f: 
+        filedata=f.read()
+    filedata=filedata.replace('.0','')
+    with open(csvName, 'w') as f: 
+        f.write(filedata)
 
 def createMatrixByActivityType(org, activityType):
-    org = org.replace('.json', '')
-    print("starting for " + org + ", " + activityType)
+    # print("starting for " + org + ", " + activityType)
     contributorList, contributorDict, repoList = getDictByActivity(
         orgName=org, activityType=activityType)
     adjMatrix = createAdjMatrix(contributorList=contributorList,
@@ -56,16 +62,17 @@ def createMatrixByActivityType(org, activityType):
                                 repoList=repoList,
                                 activityType=activityType)
     writeMatrixToCSV(matrix=adjMatrix, repoList=repoList, contributorList=contributorList,
-                     csvName=org + "_adjMatrix",
+                     csvName=org + "",
                      directory='matrix_user_repo/' + activityType + '/adjacency')
+    replaceFloatByInt('matrix_user_repo/' + activityType + '/adjacency/'+org+".csv")
 
 
 # orgList = os.listdir('starred')
-orgList = ["a2c.json"]
-orgList.sort()
-for org in orgList:
-    createMatrixByActivityType(org=org, activityType='starred')
-    createMatrixByActivityType(org=org, activityType='subscriptions')
+# orgList = ["a2c.json"]
+# orgList.sort()
+# for org in orgList:
+#     createMatrixByActivityType(org=org, activityType='starred')
+#     createMatrixByActivityType(org=org, activityType='subscriptions')
 
-end = time.time()
-print("Time taken: " + str(round(end - start)) + " sec")
+# end = time.time()
+# print("Time taken: " + str(round(end - start)) + " sec")

@@ -2,9 +2,10 @@ import networkx as nx
 import pandas as pd 
 import matplotlib.pyplot as plt
 
-def createGML(csvFile, destDir='gml/user-repo-GML'):
+
+def createGML(csvFile, destDir='latest-matrix/gml'):
     # initialise
-    df = pd.read_csv('matrix/starred/adjacency/'+csvFile)
+    df = pd.read_csv('latest-matrix/matrix/'+csvFile+'.csv')
     B = nx.Graph()
     edges = []
 
@@ -32,10 +33,10 @@ def createGML(csvFile, destDir='gml/user-repo-GML'):
         B.add_edges_from(([(u, r)]))
 
     # rearrange like a bipartite graph
-    X, Y = nx.bipartite.sets(B)
-    pos = dict()
-    pos.update((n, (1, i)) for i, n in enumerate(X))  # put nodes from X at x=1
-    pos.update((n, (2, i)) for i, n in enumerate(Y))  # put nodes from Y at x=2
+    # X, Y = nx.bipartite.sets(B)
+    # pos = dict()
+    # pos.update((n, (1, i)) for i, n in enumerate(X))  # put nodes from X at x=1
+    # pos.update((n, (2, i)) for i, n in enumerate(Y))  # put nodes from Y at x=2
     
     # # draw graph
     # nx.draw(B, pos=pos,with_labels=True)
@@ -43,7 +44,8 @@ def createGML(csvFile, destDir='gml/user-repo-GML'):
 
     # export as gml
     gmlFile=csvFile.replace('.csv','')
-    print(gmlFile)
+    # print(gmlFile)
     nx.write_gml(B,destDir+'/'+gmlFile+'.gml')
 
-createGML('dummy.csv')
+
+# createGML('10gen.csv')
