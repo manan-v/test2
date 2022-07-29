@@ -1,7 +1,7 @@
 .DS_Store
 __pycache__
-similarity_matrix
-matrix_user_repo/starred/adjacency/reddit.csv
-latest-matrix/sub/reddit_sub.csv
-matrix_user_repo/starred/adjacency/cdd.csv
-matrix_user_repo/starred/adjacency/fs.csv
+extra/obsolete/data/latest-matrix/matrix-sub/reddit_sub.csv
+step3_convertJSONToMatrix/data/matrix_user_repo/starred/fs.csv
+step3_convertJSONToMatrix/data/matrix_user_repo/starred/reddit.csv
+step3_convertJSONToMatrix/data/matrix_user_repo/subscriptions/fs.csv
+step3_convertJSONToMatrix/data/matrix_user_repo/subscriptions/reddit.csv
