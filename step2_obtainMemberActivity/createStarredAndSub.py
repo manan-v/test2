@@ -1,17 +1,22 @@
 import json
 import requests
 from operator import itemgetter
+import sys 
+sys.path.append('../step1_obtainRepoDetails')
+sys.path.append('../extra/misc')
+
 import apiRobin
 from helper_methods import getRandomAPIToken
 
 import time, os, logging
 
 logging.basicConfig(
-    filename="starredAndSub/orgJSON/createStarredAndSub.log", filemode='w')
+    filename="createStarredAndSub.log", filemode='w')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-def getContributorList(orgName, repo_details_dir='repo_details/'):
+
+def getContributorList(orgName, repo_details_dir='../step1_obtainRepoDetails/data/repo_details/'):
     with open(repo_details_dir+orgName+'.json') as f:
         data = json.load(f)
     contributorList = []
@@ -23,18 +28,27 @@ def getContributorList(orgName, repo_details_dir='repo_details/'):
     return contributorList
 
 def getRepoForContributor(contributor, activityType):
-    apiDeque = apiRobin.parseConfig('project.config')
+    apiDeque = apiRobin.parseConfig('../project.config')
     reqUrl = 'https://api.github.com/users/'
     headers = getRandomAPIToken(apiDeque)
-    List = requests.get(reqUrl+contributor+'/' +
-                        activityType, headers=headers).json()
-    del_key1 = 'license'
-    del_key2 = 'owner'
-    for items in List:
-        if del_key1 in items:
-            del items[del_key1]
-        if del_key2 in items:
-            del items[del_key2]
+    counter=1
+    while(True):
+        currentReq = requests.get(reqUrl+contributor+'/' +
+                            activityType+'?page='+str(counter), headers=headers).json()
+        List = requests.get('https://api.github.com/users/Torsten85/starred?page=1', headers=headers).json()
+        print(contributor, reqUrl+contributor+'/' +
+              activityType+'?page='+str(counter),"length: "+str(len(currentReq)))
+        if(len(currentReq)==0):
+            break
+        else:
+            counter=counter+1
+            del_key1 = 'license'
+            del_key2 = 'owner'
+            for items in List:
+                if del_key1 in items:
+                    del items[del_key1]
+                if del_key2 in items:
+                    del items[del_key2]
     try: 
         NodeID = list(map(itemgetter('node_id'), List))
         NodeID.sort()
@@ -56,10 +70,10 @@ def createContributorDict(contributorList,activityType):
 
 def computeSingleOrg(org, activityType):
     start = time.time()
-    print("comptuing for "+org)
+    print("computing for "+org)
     try:
         json.dump(createContributorDict(getContributorList(orgName=org), activityType),
-                  open('starredAndSub/orgJSON/'+activityType+'/'+org+'.json', 'w'))
+                  open('step2_obtainMemberActivity/data/starredAndSub/orgJSON/'+activityType+'/'+org+'.json', 'w'))
     except Exception as e: 
         logger.exception(e)
         logger.error(str("Error for org "+org))
@@ -68,21 +82,22 @@ def computeSingleOrg(org, activityType):
     logger.info(str("Time taken: "+str(round(end-start))+" sec for "+org))
     print("Time taken: "+str(round(end-start))+" sec")
 
-orgList = os.listdir('repo_details')
-orgList = [x.split('.')[0] for x in orgList]
-orgList.sort()
-existingOrg = os.listdir('starredAndSub/orgJSON/starred')
-existingOrg = [x.split('.')[0] for x in existingOrg]
-existingOrg.sort()
-remOrg=list(set(orgList).symmetric_difference(set(existingOrg)))
-remOrg.sort()
+# orgList = os.listdir('repo_details')
+# orgList = [x.split('.')[0] for x in orgList]
+# orgList.sort()
+# existingOrg = os.listdir('starredAndSub/orgJSON/starred')
+# existingOrg = [x.split('.')[0] for x in existingOrg]
+# existingOrg.sort()
+# remOrg=list(set(orgList).symmetric_difference(set(existingOrg)))
+# remOrg.sort()
 # orgList=['99designs']
 # print("list obtained "+str(orgList))
 # print("===================================")
 # print("existing org "+str(existingOrg))
 # print("===================================")
 # print("rem org "+str(remOrg))
+orgList=['yeebase']
 
-for org in remOrg:
-    # computeSingleOrg(org,'starred')
-    computeSingleOrg(org, 'subscriptions')
+for org in orgList:
+    computeSingleOrg(org,'starred')
+    # computeSingleOrg(org, 'subscriptions')
