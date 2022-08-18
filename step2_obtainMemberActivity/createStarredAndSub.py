@@ -1,4 +1,5 @@
 import json
+from lib2to3.pytree import Node
 import requests
 from operator import itemgetter
 import sys 
@@ -32,26 +33,35 @@ def getRepoForContributor(contributor, activityType):
     reqUrl = 'https://api.github.com/users/'
     headers = getRandomAPIToken(apiDeque)
     counter=1
+    NodeID = []
+
     while(True):
-        currentReq = requests.get(reqUrl+contributor+'/' +
+        # currentReq = requests.get(reqUrl+contributor+'/' +
+        #                     activityType+'?page='+str(counter), headers=headers).json()
+        List = requests.get(reqUrl+contributor+'/' +
                             activityType+'?page='+str(counter), headers=headers).json()
-        List = requests.get('https://api.github.com/users/Torsten85/starred?page=1', headers=headers).json()
+        del_key1 = 'license'
+        del_key2 = 'owner'
+        for items in List:
+            if del_key1 in items:
+                del items[del_key1]
+            if del_key2 in items:
+                del items[del_key2]
+        
+        # print(List)
+        currentNode = [i['node_id'] for i in List]
+        print(len(currentNode))
         print(contributor, reqUrl+contributor+'/' +
-              activityType+'?page='+str(counter),"length: "+str(len(currentReq)))
-        if(len(currentReq)==0):
+              activityType+'?page='+str(counter), "length: "+str(len(currentNode)))
+        NodeID.extend(currentNode)
+        if(len(currentNode)==0):
             break
         else:
-            counter=counter+1
-            del_key1 = 'license'
-            del_key2 = 'owner'
-            for items in List:
-                if del_key1 in items:
-                    del items[del_key1]
-                if del_key2 in items:
-                    del items[del_key2]
+            counter = counter+1
+    NodeID.sort()
+    print(NodeID)
     try: 
-        NodeID = list(map(itemgetter('node_id'), List))
-        NodeID.sort()
+        # pass
         return NodeID
     except Exception as e: 
         logger.exception(e)
@@ -73,7 +83,7 @@ def computeSingleOrg(org, activityType):
     print("computing for "+org)
     try:
         json.dump(createContributorDict(getContributorList(orgName=org), activityType),
-                  open('step2_obtainMemberActivity/data/starredAndSub/orgJSON/'+activityType+'/'+org+'.json', 'w'))
+                  open('data/starredAndSub/orgJSON/'+activityType+'/'+org+'.json', 'w'))
     except Exception as e: 
         logger.exception(e)
         logger.error(str("Error for org "+org))
