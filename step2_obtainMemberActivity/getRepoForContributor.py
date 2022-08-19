@@ -44,6 +44,7 @@ def filterJSON(unfilteredList):
     return nodeIDList
 
 def createStarredAndSub(org,path='data/test/'):
+    print('computing for '+org)
     orgFile=open(path+org+'.json','w')
     orgFile.close()
     activityList=['starred','subscriptions']
@@ -54,8 +55,10 @@ def createStarredAndSub(org,path='data/test/'):
         for activity in activityList:
             orgData[contributor][activity] = filterJSON(getFullJSON(contributor, activity))
         json.dump(orgData,open(path+org+'.json','r+'))
+    print('completed for '+org+' in '+str(round(time.time()-start))+' seconds')
 
-orgList = ['yeebase']
+# orgList=['yeebase']
+orgList = ['10gen','reddit','envato','salesforce']
 for org in orgList:
     createStarredAndSub(org)
 print("Time taken: ",round(time.time()-start))
