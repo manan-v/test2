@@ -106,8 +106,8 @@ def computeSingleOrg(org, activityType):
 # print("existing org "+str(existingOrg))
 # print("===================================")
 # print("rem org "+str(remOrg))
-orgList=['yeebase']
+# orgList=['yeebase']
 
-for org in orgList:
-    computeSingleOrg(org,'starred')
+# for org in orgList:
+#     computeSingleOrg(org,'starred')
     # computeSingleOrg(org, 'subscriptions')
