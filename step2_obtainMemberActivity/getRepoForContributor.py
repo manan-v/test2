@@ -1,15 +1,10 @@
-import requests
-import json 
-
-import sys 
+import requests,json,sys,time
+start=time.time()
 sys.path.append('../step1_obtainRepoDetails')
 sys.path.append('../extra/misc')
 
 import apiRobin
 from helper_methods import getRandomAPIToken
-
-import time
-start=time.time()
 
 def getContributorList(orgName, repo_details_dir='../step1_obtainRepoDetails/data/repo_details/'):
     with open(repo_details_dir+orgName+'.json') as f:
@@ -35,7 +30,6 @@ def getFullJSON(contributor, activityType):
             break
         fullList.extend(List)
         counter = counter+1
-    # json.dump(fullList, open('data/test/'+contributor+'.json', 'w'))
     return fullList
 
 def filterJSON(unfilteredList):
@@ -48,20 +42,20 @@ def filterJSON(unfilteredList):
         if 'node_id' in item: 
             nodeIDList.append(item['node_id'])
     return nodeIDList
-        
-def createStarredAndSub(orgList):
-    path='data/test/'
+
+def createStarredAndSub(org,path='data/test/'):
+    orgFile=open(path+org+'.json','w')
+    orgFile.close()
     activityList=['starred','subscriptions']
-    for org in orgList:
-        contributorList=getContributorList(org)
-        orgData={}
-        for contributor in contributorList:
-            orgData[contributor] = {}
-            for activity in activityList:
-                orgData[contributor][activity] = filterJSON(getFullJSON(contributor, activity))
-                print(contributor,activity)
-            json.dump(orgData,open('data/test/'+org+'.json','r+'))
+    contributorList=getContributorList(org)
+    orgData={}
+    for contributor in contributorList:
+        orgData[contributor] = {}
+        for activity in activityList:
+            orgData[contributor][activity] = filterJSON(getFullJSON(contributor, activity))
+        json.dump(orgData,open(path+org+'.json','r+'))
 
 orgList = ['yeebase']
-createStarredAndSub(orgList)
+for org in orgList:
+    createStarredAndSub(org)
 print("Time taken: ",round(time.time()-start))
