@@ -26,15 +26,30 @@ def getFullJSON(contributor, activityType):
         # print(contributor, len(List), counter, type(List))
         fullList.extend(List)
         counter = counter+1
-    return contributor, counter, fullList
+    json.dump(fullList, open('data/test/'+contributor+'.json', 'w'))
+    return contributor, counter
+
+def filterJSON(originalFile,path):
+    updatedJSON=json.load(open(path+originalFile))
+    print(len(updatedJSON))
+    del_keys=['license','owner']
+    for key in del_keys:
+        for item in updatedJSON:
+            if key in item:
+                del item[key]
+    # print('updated:',len(updatedJSON))
+    json.dump(updatedJSON,open(path+originalFile,'w'))
+        
 
 orgList=['yeebase']
+path='data/test/'
 for org in orgList:
     contributorList=createStarredAndSub.getContributorList(org)
     reqCounter=0
     for contributor in contributorList:
-        contributor,counter,fullList=getFullJSON(contributor, 'starred')
-        json.dump(fullList,open('data/test/'+contributor+'.json','w'))
-        print(contributor,counter)
-        reqCounter=reqCounter+counter
-    print("noOfContributors:",len(contributorList),"noOfRequests:",reqCounter,"timeInSecs:",round(time.time()-start))
+        # contributor,counter=getFullJSON(contributor, 'starred')
+        # print(contributor,counter)
+        # reqCounter=reqCounter+counter
+
+        filterJSON(contributor+'.json',path)
+    # print("noOfContributors:",len(contributorList),"noOfRequests:",reqCounter,"timeInSecs:",round(time.time()-start))
