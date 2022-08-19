@@ -6,7 +6,7 @@ import numpy as np
 import math
 
 
-def calcClusteringCoefficient(orgName, activityType, source='gml/user-repo-GML/', dest='latest-matrix-plots/'):
+def calcClusteringCoefficient(orgName, activityType, source='../step4_convertMatrixToB_xGraphs/data/gml/user-repo-GML/', dest='data/plots/'):
     B=nx.read_gml(source+orgName+'_'+activityType+'.gml')
     c=bipartite.clustering(B)
     cValues=list(c.values())
@@ -26,4 +26,4 @@ def calcClusteringCoefficient(orgName, activityType, source='gml/user-repo-GML/'
     plt.clf()
     print("[Y] Generated Clustering Coefficient Graph")
 
-# calcClusteringCoefficient('10gen','starred')
+calcClusteringCoefficient('yeebase','starred')

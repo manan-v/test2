@@ -8,7 +8,7 @@ import operator
 import time
 start=time.time()
 
-def genIndiPlots(orgName, userDict, repoDict, activityType, dest='latest-matrix-plots/'):
+def genIndiPlots(orgName, userDict, repoDict, activityType, dest='data/plots/'):
     # Users with num of repo in desc plot
     user=list(userDict.keys())
     deg=list(userDict.values())
@@ -194,7 +194,7 @@ def genP1toP4(orgName, userDegree, repoDegree, dest='latest-matrix-plots/'):
         # print("[Y] Generated P6")
 
 
-def P7toP8(orgName, activityType, source='gml/user-user-EL/', dest='latest-matrix-plots/'):
+def P7toP8(orgName, activityType, source='../step5_convertB_xGraphsToG_xGraphs/data/user-user-EL/', dest='data/plots/'):
     # P8
     G=nx.read_edgelist(source+orgName+'_'+activityType+'.edgelist')
     pos = nx.spring_layout(G, k=0.25, iterations=50)
@@ -238,8 +238,7 @@ def calcDegreeDist(orgName, source):
         print("errr "+orgName)
     
 def calcDegreeAndPlot(org):
-    userDegree, repoDegree,repoDict, userDict = calcDegreeDist(
-        orgName=org, source='gml/user-repo-GML/')
+    userDegree, repoDegree,repoDict, userDict = calcDegreeDist(orgName=org, source='../step4_convertMatrixToB_xGraphs/data/gml/user-repo-GML/')
     repoDict=dict(sorted(repoDict.items(), key=operator.itemgetter(1), reverse=True))
     # path = 'latest-matrix-plots/'+org
     # path=path.replace('_sub','')
@@ -275,9 +274,9 @@ def allForOrg(org):
 #     allForOrg(org)
 #     break
 
-# org = '10gen'
+org = 'yeebase'
 # sOrg=org+'_sub'
-# allForOrg(org)
+allForOrg(org)
 # allForOrg(sOrg)
 
 # end=time.time()

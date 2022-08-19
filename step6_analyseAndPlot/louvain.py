@@ -6,8 +6,12 @@ import matplotlib.cm as cm
 
 # org='reddit'
 
+def createFromEL(orgName, activityType, source='../step5_convertB_xGraphsToG_xGraphs/data/user-user-EL/', destDir='data/user-user-GML/'):
+    G = nx.read_edgelist(source+orgName+'_'+activityType+'.edgelist')
+    nx.write_gml(G, destDir+orgName+'_'+activityType+'.gml')
 
-def findCommunity(org, activityType, source='gml/user-user-GML/', dest='latest-matrix-plots/'):
+def findCommunity(org, activityType, source='data/user-user-GML/', dest='data/plots/'):
+    createFromEL(org,activityType)
     G = nx.read_gml(source+org+'_'+activityType+'.gml', label='label')
     partition = community.community_louvain.best_partition(G)
     k=partition.values()
@@ -24,3 +28,5 @@ def findCommunity(org, activityType, source='gml/user-user-GML/', dest='latest-m
     else:
         plt.savefig(dest+org+'/'+org+'_P7_louvain.png')
         plt.clf()
+
+findCommunity('yeebase','starred')
