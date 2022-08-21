@@ -29,6 +29,7 @@ def getFullJSON(contributor, activityType):
         if(len(List) < 1):
             break
         fullList.extend(List)
+        # print(List)
         counter = counter+1
     return fullList
 
@@ -51,14 +52,19 @@ def createStarredAndSub(org,path='data/test/'):
     contributorList=getContributorList(org)
     orgData={}
     for contributor in contributorList:
-        orgData[contributor] = {}
-        for activity in activityList:
-            orgData[contributor][activity] = filterJSON(getFullJSON(contributor, activity))
-        json.dump(orgData,open(path+org+'.json','r+'))
+        try:
+            orgData[contributor] = {}
+            for activity in activityList:
+                orgData[contributor][activity] = filterJSON(
+                    getFullJSON(contributor, activity))
+            json.dump(orgData, open(path+org+'.json', 'r+'))
+        except Exception as e:
+            print(e)
+            continue
     print('completed for '+org+' in '+str(round(time.time()-start))+' seconds')
 
 # orgList=['yeebase']
-orgList = ['10gen','reddit','envato','salesforce']
+orgList = ['envato','salesforce']
 for org in orgList:
     createStarredAndSub(org)
 print("Time taken: ",round(time.time()-start))
