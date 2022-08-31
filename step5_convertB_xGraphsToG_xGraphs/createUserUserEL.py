@@ -3,12 +3,12 @@ import itertools
 import os
 
 
-def createEL(org, activityType, source='matrix_user_repo/', dest='gml/user-user-EL/'):
+def createEL(org, activityType, source='../step3_convertJSONToMatrix/data/matrix_user_repo/', dest='../step4_convertMatrixToB_xGraphs/data/gml/user-user-EL/'):
     
     if os.path.exists(dest+org+'_'+activityType+'.edgelist'):
         pass
     else:
-        source = source+activityType+'/adjacency/'+org+'.csv'
+        source = source+activityType+'/'+org+'.csv'
         df = pd.read_csv(source)
 
         df_ = pd.DataFrame(index=df.iloc[:, 0].values,
@@ -30,4 +30,4 @@ def createEL(org, activityType, source='matrix_user_repo/', dest='gml/user-user-
                     edge=edge.replace('(','').replace("'","").replace(',','').replace(')','')
                     elFile.write(''.join(edge)+'\n')
                     # print(edge)
-# createEL('reddit','starred')
+createEL('10gen','starred')

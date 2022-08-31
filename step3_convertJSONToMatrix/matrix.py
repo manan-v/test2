@@ -30,7 +30,7 @@ def generateMatrix(org,activityType):
     finalDf = fillDf(orgJSON, baseDf, activityType)
     finalDf.to_csv('data/matrix_user_repo/'+activityType+'/'+org+'.csv', sep=',')
 
-orgList = ['yeebase']
+orgList = ['10gen']
 activityList=['starred','subscriptions']
 for org in orgList:
     for activity in activityList:

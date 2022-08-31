@@ -26,4 +26,5 @@ def calcClusteringCoefficient(orgName, activityType, source='../step4_convertMat
     plt.clf()
     print("[Y] Generated Clustering Coefficient Graph")
 
-calcClusteringCoefficient('yeebase','starred')
+calcClusteringCoefficient('10gen','starred')
+calcClusteringCoefficient('10gen', 'subscriptions')

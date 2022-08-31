@@ -3,10 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-def createFromCSV(orgName, activityType, source='matrix_user_repo/', destDir='gml/user-repo-GML'):
+def createFromCSV(orgName, activityType, source='../step3_convertJSONToMatrix/data/matrix_user_repo/', destDir='data/gml/user-repo-GML'):
     try: 
         # initialise
-        df = pd.read_csv(source+activityType+'/adjacency/'+orgName+'.csv')
+        df = pd.read_csv(source+activityType+'/'+orgName+'.csv')
         B = nx.Graph()
         edges = []
 
@@ -42,5 +42,5 @@ def createFromEL(orgName, activityType, source='gml/user-user-EL/', destDir='gml
     G = nx.read_edgelist(source+orgName+'_'+activityType+'.edgelist')
     nx.write_gml(G, destDir+orgName+'_'+activityType+'.gml')
 
-# createFromCSV('yahoo','starred')
-# createFromCSV('yahoo', 'subscriptions')
+createFromCSV('10gen','starred')
+createFromCSV('10gen', 'subscriptions')

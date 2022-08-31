@@ -6,7 +6,8 @@ import matplotlib.cm as cm
 
 # org='reddit'
 
-def createFromEL(orgName, activityType, source='../step5_convertB_xGraphsToG_xGraphs/data/user-user-EL/', destDir='data/user-user-GML/'):
+
+def createFromEL(orgName, activityType, source='../step4_convertMatrixToB_xGraphs/data/gml/user-user-EL/', destDir='data/user-user-GML/'):
     G = nx.read_edgelist(source+orgName+'_'+activityType+'.edgelist')
     nx.write_gml(G, destDir+orgName+'_'+activityType+'.gml')
 
@@ -29,4 +30,4 @@ def findCommunity(org, activityType, source='data/user-user-GML/', dest='data/pl
         plt.savefig(dest+org+'/'+org+'_P7_louvain.png')
         plt.clf()
 
-findCommunity('yeebase','starred')
+findCommunity('10gen','starred')

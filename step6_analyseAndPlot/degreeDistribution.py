@@ -57,7 +57,7 @@ def genIndiPlots(orgName, userDict, repoDict, activityType, dest='data/plots/'):
     print("[Y] Generated IndiRepo for "+orgName)
 
 
-def genP1toP4(orgName, userDegree, repoDegree, dest='latest-matrix-plots/'):
+def genP1toP4(orgName, userDegree, repoDegree, dest='data/plots/'):
     plt.figure()
     if('_subscriptions' in orgName):
         orgName = orgName.replace("_subscriptions", "")
@@ -216,7 +216,7 @@ def P7toP8(orgName, activityType, source='../step5_convertB_xGraphsToG_xGraphs/d
 
 def calcDegreeDist(orgName, source):
     try:
-        G = nx.read_gml(source+orgName+".gml", label='label')
+        G = nx.read_gml(source+orgName+"_starred.gml", label='label')
         print(G)
         users = [x for x, y in G.nodes(data=True) if y['bipartite'] == 0]
         repos = [x for x, y in G.nodes(data=True) if y['bipartite'] == 1]
@@ -242,6 +242,7 @@ def calcDegreeAndPlot(org):
     repoDict=dict(sorted(repoDict.items(), key=operator.itemgetter(1), reverse=True))
     # path = 'latest-matrix-plots/'+org
     # path=path.replace('_sub','')
+    activityType='starred'
     if '_subscriptions' in org:
         activityType='subscriptions'
     elif '_starred' in org:
@@ -256,7 +257,7 @@ def calcDegreeAndPlot(org):
     userDict=dict(sorted(userDict.items(), key=operator.itemgetter(1), reverse=True))
     with open(path+'/indiDicts/'+org+'_userDict.json', 'w') as f:
         json.dump(userDict,f)
-    # genP1toP4(org, userDegree, repoDegree)
+    genP1toP4(org, userDegree, repoDegree)
     genIndiPlots(org,userDict,repoDict, activityType)
 
 def allForOrg(org):
@@ -274,7 +275,7 @@ def allForOrg(org):
 #     allForOrg(org)
 #     break
 
-org = 'yeebase'
+org = '10gen'
 # sOrg=org+'_sub'
 allForOrg(org)
 # allForOrg(sOrg)
