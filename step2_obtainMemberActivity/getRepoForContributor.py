@@ -6,8 +6,8 @@ sys.path.append('../extra/misc')
 import apiRobin
 from helper_methods import getRandomAPIToken
 
-def getContributorList(orgName, repo_details_dir='../step1_obtainRepoDetails/data/repo_details/'):
-    with open(repo_details_dir+orgName+'.json') as f:
+def getContributorList(orgName, source='../step1_obtainRepoDetails/data/repo_details/'):
+    with open(source+orgName+'.json') as f:
         data = json.load(f)
     contributorList = []
     for repo in data['repoDetails']:
@@ -34,22 +34,22 @@ def getFullJSON(contributor, activityType):
     return fullList
 
 def filterJSON(unfilteredList):
-    nodeIDList=[]
+    filteredList=[]
     del_keys=['license','owner']
     for item in unfilteredList:
         for key in del_keys:
             if key in item:
                 del item[key]
         if 'node_id' in item: 
-            nodeIDList.append(item['node_id'])
-    return nodeIDList
+            filteredList.append(item['node_id'])
+    return filteredList
 
-def createStarredAndSub(org,path='data/test/'):
-    print('computing for '+org)
-    orgFile=open(path+org+'.json','w')
+def createStarredAndSub(orgName,dest='data/test/'):
+    print('computing for '+orgName)
+    orgFile=open(dest+orgName+'.json','w')
     orgFile.close()
     activityList=['starred','subscriptions']
-    contributorList=getContributorList(org)
+    contributorList=getContributorList(orgName)
     orgData={}
     for contributor in contributorList:
         try:
@@ -57,14 +57,14 @@ def createStarredAndSub(org,path='data/test/'):
             for activity in activityList:
                 orgData[contributor][activity] = filterJSON(
                     getFullJSON(contributor, activity))
-            json.dump(orgData, open(path+org+'.json', 'r+'))
+            json.dump(orgData, open(dest+orgName+'.json', 'r+'))
         except Exception as e:
             print(e)
             continue
-    print('completed for '+org+' in '+str(round(time.time()-start))+' seconds')
+    print('completed for '+orgName+' in '+str(round(time.time()-start))+' seconds')
 
-# orgList=['yeebase']
-orgList = ['envato','salesforce']
-for org in orgList:
-    createStarredAndSub(org)
+orgList=['yeebase']
+# orgList = ['envato','salesforce']
+for orgName in orgList:
+    createStarredAndSub(orgName)
 print("Time taken: ",round(time.time()-start))
