@@ -1,4 +1,4 @@
-# Step 2 - Obtain Member Activity 
+# Step 3 - Matrix generation 
 ## `matrix.py`
 ### Usage
  `python3 matrix.py` _(with generateMatrix(org, activity) in main)_
