@@ -10,4 +10,4 @@
 find ${pwd} -size +100M
 ```
 ## Steps
-![](extra/media/20220906013604.png)    
+![](extra/media/20220906015156.png)  
