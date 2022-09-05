@@ -26,6 +26,15 @@
       2) **dest** - Path of destination directory. The default path is _data/test/_  
    2) Returns 
       1) **None** - a JSON file is formed in the destination directory
+### Dependency
+1) General 
+   1) `requests` -> API Requests
+   2) `json` -> JSON read/write
+   3) `sys` -> importing project files from another directory 
+   4) `time` -> Performance metrics
+2) Project 
+   1) `apiRobin` -> Parse config file 
+   2) `getRandomAPIToken` -> Obtain API Token
 ### Flow 
 
 ```mermaid
