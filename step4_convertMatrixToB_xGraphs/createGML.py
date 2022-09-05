@@ -1,7 +1,5 @@
 import networkx as nx 
-import pandas as pd 
-import matplotlib.pyplot as plt
-
+import pandas as pd
 
 def createFromCSV(orgName, activityType, source='../step3_convertJSONToMatrix/data/matrix_user_repo/', destDir='data/gml/user-repo-GML'):
     try: 
