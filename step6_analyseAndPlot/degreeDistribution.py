@@ -2,16 +2,17 @@ import os
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
-import json 
+import json
 import operator
 
 import time
-start=time.time()
+start = time.time()
+
 
 def genIndiPlots(orgName, userDict, repoDict, activityType, dest='data/plots/'):
     # Users with num of repo in desc plot
-    user=list(userDict.keys())
-    deg=list(userDict.values())
+    user = list(userDict.keys())
+    deg = list(userDict.values())
     # print(user)
     plt.figure(figsize=(300, 10))
     plt.plot(user, deg, 'o-')
@@ -26,9 +27,9 @@ def genIndiPlots(orgName, userDict, repoDict, activityType, dest='data/plots/'):
     orgName = orgName.replace('_subscriptions', '').replace('_starred', '')
 
     # print(path)
-    if activityType=='subscriptions':
+    if activityType == 'subscriptions':
         plt.savefig(path+'/'+orgName+'_P9_'+activityType+'_userDesc.png')
-    elif activityType=='starred':
+    elif activityType == 'starred':
         plt.savefig(path+'/'+orgName+'_P11_'+activityType+'_userDesc.png')
     plt.clf()
     print("[Y] Generated IndiUser for "+orgName)
@@ -40,7 +41,7 @@ def genIndiPlots(orgName, userDict, repoDict, activityType, dest='data/plots/'):
     plt.figure(figsize=(300, 10))
     plt.plot(repo, deg, 'o-')
     # plt.figure(figsize=(20, 10))
-    plt.xlabel("Which repo",size=2)
+    plt.xlabel("Which repo", size=2)
     plt.xticks(rotation=90)
     plt.ylabel("Number of users on this repo")
     plt.title("Desc order of repo: "+orgName)
@@ -63,9 +64,9 @@ def genP1toP4(orgName, userDegree, repoDegree, dest='data/plots/'):
         orgName = orgName.replace("_subscriptions", "")
 
         # P1
-        x,y=np.unique(repoDegree,return_counts=True)
+        x, y = np.unique(repoDegree, return_counts=True)
         # print(repoDegree)
-        plt.plot(x,y,'o-')
+        plt.plot(x, y, 'o-')
         plt.xlabel("Degree")
         plt.ylabel("Number of repos")
         plt.title("P1: Degree distribution (B_w) for repos: "+orgName)
@@ -116,7 +117,7 @@ def genP1toP4(orgName, userDegree, repoDegree, dest='data/plots/'):
         # allDegree=userDegree+repoDegree
         # x, y = np.unique(allDegree, return_counts=True)
         # plt.plot(x, y, 'o-')
-    
+
         # plt.xlabel("Degree")
         # plt.ylabel("Number of nodes (user+repo)")
         # plt.title("P5: Degree distribution (G_w): "+orgName)
@@ -125,7 +126,7 @@ def genP1toP4(orgName, userDegree, repoDegree, dest='data/plots/'):
         # plt.clf()
         # print("[Y] Generated P5")
 
-    else: 
+    else:
         orgName = orgName.replace("_starred", "")
 
         # P3
@@ -184,7 +185,7 @@ def genP1toP4(orgName, userDegree, repoDegree, dest='data/plots/'):
         # allDegree = userDegree+repoDegree
         # x, y = np.unique(allDegree, return_counts=True)
         # plt.plot(x, y, 'o-')
-    
+
         # plt.xlabel("Degree")
         # plt.ylabel("Number of nodes (user+repo)")
         # plt.title("P6: Degree distribution (G_s): "+orgName)
@@ -196,7 +197,7 @@ def genP1toP4(orgName, userDegree, repoDegree, dest='data/plots/'):
 
 def P7toP8(orgName, activityType, source='../step5_convertB_xGraphsToG_xGraphs/data/user-user-EL/', dest='data/plots/'):
     # P8
-    G=nx.read_edgelist(source+orgName+'_'+activityType+'.edgelist')
+    G = nx.read_edgelist(source+orgName+'_'+activityType+'.edgelist')
     pos = nx.spring_layout(G, k=0.25, iterations=50)
     plt.figure(figsize=(10, 6))
     d = dict(G.degree)
@@ -206,7 +207,7 @@ def P7toP8(orgName, activityType, source='../step5_convertB_xGraphsToG_xGraphs/d
     for node, (x, y) in pos.items():
         plt.text(x, y, node, fontsize=10, ha='center', va='center')
         # plt.show()
-    if activityType=='starred':
+    if activityType == 'starred':
         plt.savefig(dest+orgName+'/'+orgName+'_P8_G_s'+'.png')
         plt.clf()
     else:
@@ -214,51 +215,57 @@ def P7toP8(orgName, activityType, source='../step5_convertB_xGraphsToG_xGraphs/d
         plt.clf()
 
 
-def calcDegreeDist(orgName, source):
+def calcDegreeDist(orgName, activityType, source):
     try:
-        G = nx.read_gml(source+orgName+"_starred.gml", label='label')
+        G = nx.read_gml(source+orgName+"_"+activityType+".gml", label='label')
         print(G)
         users = [x for x, y in G.nodes(data=True) if y['bipartite'] == 0]
         repos = [x for x, y in G.nodes(data=True) if y['bipartite'] == 1]
-        repoDict={}
-        userDict={}
-        repoDegree=[]
-        userDegree=[]
+        repoDict = {}
+        userDict = {}
+        repoDegree = []
+        userDegree = []
         for repo in repos:
             deg = G.degree(repo)
             repoDegree.append(deg)
-            repoDict[repo]=deg
+            repoDict[repo] = deg
         for user in users:
             deg = G.degree(user)
             userDegree.append(deg)
-            userDict[user]=deg
-        print(len(userDegree),len(repoDegree))
+            userDict[user] = deg
+        print(len(userDegree), len(repoDegree))
         return userDegree, repoDegree, repoDict, userDict
     except Exception as e:
         print("errr "+orgName)
-    
+
+
 def calcDegreeAndPlot(org):
-    userDegree, repoDegree,repoDict, userDict = calcDegreeDist(orgName=org, source='../step4_convertMatrixToB_xGraphs/data/gml/user-repo-GML/')
-    repoDict=dict(sorted(repoDict.items(), key=operator.itemgetter(1), reverse=True))
+    userDegree, repoDegree, repoDict, userDict = calcDegreeDist(
+        org, activityType, source='../step4_convertMatrixToB_xGraphs/data/gml/user-repo-GML/')
+    repoDict = dict(
+        sorted(repoDict.items(), key=operator.itemgetter(1), reverse=True))
     # path = 'latest-matrix-plots/'+org
     # path=path.replace('_sub','')
-    activityType='starred'
+    activityType = 'starred'
     if '_subscriptions' in org:
-        activityType='subscriptions'
+        activityType = 'subscriptions'
     elif '_starred' in org:
-        activityType='starred'
-    path='latest-matrix-plots/'+org.replace('_subscriptions','').replace('_starred', '')
+        activityType = 'starred'
+    path = 'latest-matrix-plots/' + \
+        org.replace('_subscriptions', '').replace('_starred', '')
     if not os.path.exists(path):
         os.makedirs(path)
     if not os.path.exists(path+'/indiDicts'):
         os.makedirs(path+'/indiDicts')
-    with open(path+'/indiDicts/'+org+'_repoDict.json','w') as f:
-        json.dump(repoDict,f)
-    userDict=dict(sorted(userDict.items(), key=operator.itemgetter(1), reverse=True))
+    with open(path+'/indiDicts/'+org+'_repoDict.json', 'w') as f:
+        json.dump(repoDict, f)
+    userDict = dict(
+        sorted(userDict.items(), key=operator.itemgetter(1), reverse=True))
     with open(path+'/indiDicts/'+org+'_userDict.json', 'w') as f:
-        json.dump(userDict,f)
+        json.dump(userDict, f)
     genP1toP4(org, userDegree, repoDegree)
-    genIndiPlots(org,userDict,repoDict, activityType)
+    genIndiPlots(org, userDict, repoDict, activityType)
+
 
 def allForOrg(org):
     org = org.replace('.gml', '')
@@ -275,6 +282,7 @@ def allForOrg(org):
 #     allForOrg(org)
 #     break
 
+
 org = '10gen'
 # sOrg=org+'_sub'
 allForOrg(org)
@@ -282,5 +290,3 @@ allForOrg(org)
 
 # end=time.time()
 # print("Total Time taken: "+str(round(end-start))+" sec")
-
-
