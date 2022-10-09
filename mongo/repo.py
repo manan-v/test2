@@ -25,6 +25,7 @@ def getSHAForAllCommits(repoList):
             commitList.extend(response)
             pageNo = pageNo+1
         repoList[repo]['contribution_details']=commitList
+        break
     return repoList
 
 def getContributorForRepo(repoList):
@@ -71,7 +72,7 @@ def getRepoListForAllOrg():
             pageNo=pageNo+1
         
         # Get list of contributors
-        # repoList=getContributorForRepo(repoList)
+        repoList=getContributorForRepo(repoList)
 
         # Get SHA for all commits of a particular repo
         repoList=getSHAForAllCommits(repoList)
@@ -88,10 +89,10 @@ def getRelevantFields(org):
         updatedList=[]
         # repo['org']=org
         reqKeys = ["full_name","language", "topics", "node_id","created_at","updated_at" ]
-        for d in repoList:
+        for repo in repoList:
             repo = {}
             for key in reqKeys:
-                repo[key]=d.get(key)
+                repo[key]=repo.get(key)
             repo.update(repo)
             updatedList.append(repo)
             # updatedList.extend(repo)
