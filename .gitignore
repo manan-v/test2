@@ -5,3 +5,4 @@ step3_convertJSONToMatrix/data/matrix_user_repo/starred/fs.csv
 step3_convertJSONToMatrix/data/matrix_user_repo/starred/reddit.csv
 step3_convertJSONToMatrix/data/matrix_user_repo/subscriptions/fs.csv
 step3_convertJSONToMatrix/data/matrix_user_repo/subscriptions/reddit.csv
+*.env

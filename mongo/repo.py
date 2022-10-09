@@ -1,4 +1,3 @@
-from turtle import update
 import requests
 import json 
 import sys
@@ -48,10 +47,12 @@ def getRelevantFields(org):
         # print(updatedList)
     return updatedList
 
-import ghMongo
-orgList = os.listdir('repoList')
-orgList = {x.replace('.json', '') for x in orgList}
-orgList = sorted(orgList)
-for org in orgList:
-    repoList=getRelevantFields(org)
-    ghMongo.connectAndPush(repoList)
+# import ghMongo
+# orgList = os.listdir('repoList')
+# orgList = {x.replace('.json', '') for x in orgList}
+# orgList = sorted(orgList)
+# for org in orgList:
+#     repoList=getRelevantFields(org)
+#     ghMongo.connectAndPush(repoList)
+
+getRepoListForAllOrg()
