@@ -17,7 +17,7 @@ def getuserlistfororg():
     from helper_methods import getRandomAPIToken
     apiDeque = apiRobin.parseConfig('../project.config')
     headers = getRandomAPIToken(apiDeque)
-    reqUrl='https://docs.github.com/en/rest/repos/repos#list-repositories-for-a-user'
+    reqUrl='https://api.github.com/users/USERNAME/repos'
 
     orglist=os.listdir('/Users/mananvadaliya/Documents/github-recommendation-project-main/step2_obtainMemberActivity/data/test/reddit.json')
     orgList = {x.replace('.json', '') for x in orgList}
