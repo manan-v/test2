@@ -67,7 +67,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 295,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ShaneHarvey",
@@ -89,7 +89,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 47,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ajdavis",
@@ -111,7 +111,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 36,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "gjmurakami-10gen",
@@ -133,7 +133,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 34,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "trnl",
@@ -155,7 +155,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "TylerBrock",
@@ -177,7 +177,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 13,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "litvinok",
@@ -199,7 +199,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jyemin",
@@ -221,7 +221,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "behackett",
@@ -243,7 +243,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bsamek",
@@ -265,7 +265,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "craiggwilson",
@@ -287,7 +287,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jaraco",
@@ -309,7 +309,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jmikola",
@@ -331,7 +331,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "DmitryLukyanov",
@@ -353,7 +353,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "patrickfreed",
@@ -375,7 +375,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/mongo-orchestration/subscribers",
@@ -51439,7 +51439,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 542,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "vkarpov15",
@@ -51461,7 +51461,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 27,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "xdg",
@@ -51483,7 +51483,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 18,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "babbageclunk",
@@ -51505,7 +51505,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 16,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jameinel",
@@ -51527,7 +51527,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 12,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "gabrielrussell",
@@ -51549,7 +51549,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "craiggwilson",
@@ -51571,7 +51571,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jyemin",
@@ -51593,7 +51593,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "deafgoat",
@@ -51615,7 +51615,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mpobrien",
@@ -51637,7 +51637,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "zenow",
@@ -51659,7 +51659,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ryancox",
@@ -51681,7 +51681,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "edaniels",
@@ -51703,7 +51703,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "evan-stripe",
@@ -51725,7 +51725,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "3rf",
@@ -51747,7 +51747,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "szank",
@@ -51769,7 +51769,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rychipman",
@@ -51791,7 +51791,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ShaneHarvey",
@@ -51813,7 +51813,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "shawnps",
@@ -51835,7 +51835,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "alexcesaro",
@@ -51857,7 +51857,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sha1sum",
@@ -51879,7 +51879,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "aleist",
@@ -51901,7 +51901,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dgottlieb",
@@ -51923,7 +51923,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "glasser",
@@ -51945,7 +51945,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "deiwin",
@@ -51967,7 +51967,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "navy1125",
@@ -51989,7 +51989,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "josler",
@@ -52011,7 +52011,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jrwren",
@@ -52033,7 +52033,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "256dpi",
@@ -52055,7 +52055,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kmahar",
@@ -52077,7 +52077,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "m3talsmith",
@@ -52099,7 +52099,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "minyoung",
@@ -52121,7 +52121,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nkatsaros",
@@ -52143,7 +52143,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rogpeppe",
@@ -52165,7 +52165,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sgolemon",
@@ -52187,7 +52187,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tchajed",
@@ -52209,7 +52209,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "fwereade",
@@ -52231,7 +52231,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "zachjs",
@@ -52253,7 +52253,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "corymintz",
@@ -52275,7 +52275,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jackspirou",
@@ -52297,7 +52297,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "waigani",
@@ -52319,7 +52319,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/mgo/subscribers",
@@ -52454,7 +52454,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "imikushin",
@@ -52476,7 +52476,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "joshwget",
@@ -52498,7 +52498,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "pmeredit",
@@ -52520,7 +52520,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Anemy",
@@ -52542,7 +52542,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tjarratt",
@@ -52564,7 +52564,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "atulkc",
@@ -52586,7 +52586,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "vito",
@@ -52608,7 +52608,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "SemanticallyNull",
@@ -52630,7 +52630,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "craiggwilson",
@@ -52652,7 +52652,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jfmyers9",
@@ -52674,7 +52674,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "krishicks",
@@ -52696,7 +52696,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mattChiaravalloti",
@@ -52718,7 +52718,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "fraenkel",
@@ -52740,7 +52740,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rychipman",
@@ -52762,7 +52762,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "varsha804",
@@ -52784,7 +52784,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/candiedyaml/subscribers",
@@ -52919,7 +52919,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/escaper/subscribers",
@@ -53054,7 +53054,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 431,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "arnehormann",
@@ -53076,7 +53076,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 105,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "methane",
@@ -53098,7 +53098,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 46,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "cxmcc",
@@ -53120,7 +53120,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "arvenil",
@@ -53142,7 +53142,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "MJKWoolnough",
@@ -53164,7 +53164,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Carrotman42",
@@ -53186,7 +53186,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "xiam",
@@ -53208,7 +53208,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lukescott",
@@ -53230,7 +53230,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "s7v7nislands",
@@ -53252,7 +53252,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "joshuaprunier",
@@ -53274,7 +53274,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "badoet",
@@ -53296,7 +53296,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dveeden",
@@ -53318,7 +53318,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "aaron42net",
@@ -53340,7 +53340,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "daniel-nichter",
@@ -53362,7 +53362,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "egorsmkv",
@@ -53384,7 +53384,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "gkristic",
@@ -53406,7 +53406,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "shogo82148",
@@ -53428,7 +53428,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "llooz",
@@ -53450,7 +53450,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jamesharr",
@@ -53472,7 +53472,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "thejerf",
@@ -53494,7 +53494,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dalinaum",
@@ -53516,7 +53516,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "thenikso",
@@ -53538,7 +53538,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "pib",
@@ -53560,7 +53560,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Runrioter",
@@ -53582,7 +53582,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "hyandell",
@@ -53604,7 +53604,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "achille-roussel",
@@ -53626,7 +53626,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "andrew-stripe",
@@ -53648,7 +53648,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "appleboy",
@@ -53670,7 +53670,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "chakrit",
@@ -53692,7 +53692,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "chrismoos",
@@ -53714,7 +53714,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "filipenos",
@@ -53736,7 +53736,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jszwec",
@@ -53758,7 +53758,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jmhodges",
@@ -53780,7 +53780,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "zhenjl",
@@ -53802,7 +53802,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dsnet",
@@ -53824,7 +53824,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nussjustin",
@@ -53846,7 +53846,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lennrt",
@@ -53868,7 +53868,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "LionNatsu",
@@ -53890,7 +53890,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "luizpvas",
@@ -53912,7 +53912,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "zimnx",
@@ -53934,7 +53934,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dolmen",
@@ -53956,7 +53956,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "pschultz",
@@ -53978,7 +53978,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "songgao",
@@ -54000,7 +54000,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "soroushjp",
@@ -54022,7 +54022,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "svagner",
@@ -54044,7 +54044,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "deafgoat",
@@ -54066,7 +54066,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "xiezhenye",
@@ -54088,7 +54088,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "astaxie",
@@ -54110,7 +54110,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "defp",
@@ -54132,7 +54132,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mrsinham",
@@ -54154,7 +54154,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "twocode",
@@ -54176,7 +54176,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ymmt2005",
@@ -54198,7 +54198,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/mysql/subscribers",
@@ -54333,7 +54333,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/oemware/subscribers",
@@ -54468,7 +54468,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 262,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "xeipuuv",
@@ -54490,7 +54490,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 69,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tolsen",
@@ -54512,7 +54512,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 18,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "johandorland",
@@ -54534,7 +54534,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mtiller",
@@ -54556,7 +54556,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ricardomaraschini",
@@ -54578,7 +54578,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "cristiangraz",
@@ -54600,7 +54600,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "pytlesk4",
@@ -54622,7 +54622,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "stephensearles",
@@ -54644,7 +54644,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "freakingawesome",
@@ -54666,7 +54666,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dsanader",
@@ -54688,7 +54688,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "frol-kr",
@@ -54710,7 +54710,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jabley",
@@ -54732,7 +54732,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jboelter",
@@ -54754,7 +54754,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "technoweenie",
@@ -54776,7 +54776,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "attilaolah",
@@ -54798,7 +54798,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "binary132",
@@ -54820,7 +54820,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "brandur",
@@ -54842,7 +54842,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jbirch-atlassian",
@@ -54864,7 +54864,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lylex",
@@ -54886,7 +54886,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "vovanec",
@@ -54908,7 +54908,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kajf",
@@ -54930,7 +54930,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yuokada",
@@ -54952,7 +54952,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "packrat386",
@@ -54974,7 +54974,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ashb",
@@ -54996,7 +54996,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "genesor",
@@ -55018,7 +55018,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "chrisdostert",
@@ -55040,7 +55040,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dgolub",
@@ -55062,7 +55062,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "janmentzel",
@@ -55084,7 +55084,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "notjames",
@@ -55106,7 +55106,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "proppy",
@@ -55128,7 +55128,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kwapik",
@@ -55150,7 +55150,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "gotschmarcel",
@@ -55172,7 +55172,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mxschmitt",
@@ -55194,7 +55194,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "piotrkowalczuk",
@@ -55216,7 +55216,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "robyoung",
@@ -55238,7 +55238,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "s-urbaniak",
@@ -55260,7 +55260,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "williambailey",
@@ -55282,7 +55282,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yehezkielbs",
@@ -55304,7 +55304,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "emosbaugh",
@@ -55326,7 +55326,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/gojsonschema/subscribers",
@@ -55455,7 +55455,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 52,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dolmen",
@@ -55477,7 +55477,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "adr-h",
@@ -55499,7 +55499,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "xeipuuv",
@@ -55521,7 +55521,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/gojsonpointer/subscribers",
@@ -55650,7 +55650,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 19,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "erh",
@@ -55672,7 +55672,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 18,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "TomerYakir",
@@ -55694,7 +55694,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 9,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "louisaberger",
@@ -55716,7 +55716,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mburdette",
@@ -55738,7 +55738,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "adamchel",
@@ -55760,7 +55760,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "haleyowen",
@@ -55782,7 +55782,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "john-morales",
@@ -55804,7 +55804,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mpobrien",
@@ -55826,7 +55826,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "edaniels",
@@ -55848,7 +55848,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/mongonet/subscribers",
@@ -55983,7 +55983,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 191,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "makesitgo",
@@ -56005,7 +56005,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 95,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "edaniels",
@@ -56027,7 +56027,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 46,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tsedgwick",
@@ -56049,7 +56049,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 22,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lucasem",
@@ -56071,7 +56071,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 20,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jandersongo",
@@ -56093,7 +56093,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 19,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mpobrien",
@@ -56115,7 +56115,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kpatel71716",
@@ -56137,7 +56137,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 13,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "joshmadewell",
@@ -56159,7 +56159,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 13,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nathantfrank",
@@ -56181,7 +56181,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 11,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "arahmanan",
@@ -56203,7 +56203,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "andrewzlchen",
@@ -56225,7 +56225,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "chickenbug",
@@ -56247,7 +56247,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "malexandert",
@@ -56269,7 +56269,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mburdette",
@@ -56291,7 +56291,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "asudhakal",
@@ -56313,7 +56313,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jo-tse-mongo",
@@ -56335,7 +56335,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "LijieZhang1998",
@@ -56357,7 +56357,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tkaye407",
@@ -56379,7 +56379,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ermay12",
@@ -56401,7 +56401,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "NBSquare",
@@ -56423,7 +56423,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dpish",
@@ -56445,7 +56445,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "auddin431",
@@ -56467,7 +56467,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "boubascript",
@@ -56489,7 +56489,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "haleyowen",
@@ -56511,7 +56511,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mattChiaravalloti",
@@ -56533,7 +56533,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sudssm",
@@ -56555,7 +56555,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yarai",
@@ -56577,7 +56577,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Gabri3l",
@@ -56599,7 +56599,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kashkambath",
@@ -56621,7 +56621,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Amaan95",
@@ -56643,7 +56643,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "caiyingshen",
@@ -56665,7 +56665,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "llaenowyd",
@@ -56687,7 +56687,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jr22",
@@ -56709,7 +56709,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kmorkos",
@@ -56731,7 +56731,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "marcgurney",
@@ -56753,7 +56753,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "melodeeli98",
@@ -56775,7 +56775,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ntsvetko",
@@ -56797,7 +56797,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ryderhwang",
@@ -56819,7 +56819,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "syz99",
@@ -56841,7 +56841,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ncarbon",
@@ -56863,7 +56863,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/realm-cli/subscribers",
@@ -56998,7 +56998,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 28,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/lucene-search-analysis/subscribers",
@@ -57133,7 +57133,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 23,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "terakilobyte",
@@ -57155,7 +57155,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 18,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ianf-mongodb",
@@ -57177,7 +57177,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 17,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ccho-mongodb",
@@ -57199,7 +57199,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kyuan-mongodb",
@@ -57221,7 +57221,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "schmalliso",
@@ -57243,7 +57243,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "biniona-mongodb",
@@ -57265,7 +57265,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "i80and",
@@ -57287,7 +57287,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jmd-mongo",
@@ -57309,7 +57309,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ajhuh-mdb",
@@ -57331,7 +57331,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/docs-shared/subscribers",
@@ -57460,7 +57460,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 46,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/mlocust-app/subscribers",
@@ -57595,7 +57595,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 916,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mattklein123",
@@ -57617,7 +57617,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 861,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "htuch",
@@ -57639,7 +57639,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 770,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "phlax",
@@ -57661,7 +57661,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 416,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lizan",
@@ -57683,7 +57683,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 403,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "PiotrSikora",
@@ -57705,7 +57705,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 308,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jmarantz",
@@ -57727,7 +57727,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 302,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "snowp",
@@ -57749,7 +57749,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 236,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "junr03",
@@ -57771,7 +57771,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 186,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ramaraochavali",
@@ -57793,7 +57793,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 180,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "asraa",
@@ -57815,7 +57815,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 178,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "zuercher",
@@ -57837,7 +57837,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 164,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rgs1",
@@ -57859,7 +57859,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 156,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "danzh2010",
@@ -57881,7 +57881,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 153,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yanavlasov",
@@ -57903,7 +57903,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 149,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dio",
@@ -57925,7 +57925,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 135,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "derekargueta",
@@ -57947,7 +57947,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 126,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ggreenway",
@@ -57969,7 +57969,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 121,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dependabot[bot]",
@@ -57991,7 +57991,7 @@
                 "type": "Bot",
                 "site_admin": false,
                 "contributions": 119,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lambdai",
@@ -58013,7 +58013,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 117,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kyessenov",
@@ -58035,7 +58035,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 116,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "antoniovicente",
@@ -58057,7 +58057,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 85,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "akonradi",
@@ -58079,7 +58079,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 79,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "keith",
@@ -58101,7 +58101,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 77,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "RomanDzhabarov",
@@ -58123,7 +58123,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 74,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "KBaichoo",
@@ -58145,7 +58145,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 73,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "RyanTheOptimist",
@@ -58167,7 +58167,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 65,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wbpcode",
@@ -58189,7 +58189,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 62,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sunjayBhatia",
@@ -58211,7 +58211,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 62,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "daixiang0",
@@ -58233,7 +58233,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 59,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "moderation",
@@ -58255,7 +58255,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 58,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "qiwzhang",
@@ -58277,7 +58277,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 58,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "adisuissa",
@@ -58299,7 +58299,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 56,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Shikugawa",
@@ -58321,7 +58321,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 56,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "fredlas",
@@ -58343,7 +58343,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 53,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dnoe",
@@ -58365,7 +58365,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 52,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "danielhochman",
@@ -58387,7 +58387,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 51,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rshriram",
@@ -58409,7 +58409,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 51,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mathetake",
@@ -58431,7 +58431,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 48,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "soulxu",
@@ -58453,7 +58453,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 47,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "eziskind",
@@ -58475,7 +58475,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 46,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mrice32",
@@ -58497,7 +58497,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 44,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jrajahalme",
@@ -58519,7 +58519,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 43,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "venilnoronha",
@@ -58541,7 +58541,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 42,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wrowe",
@@ -58563,7 +58563,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 42,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "hennna",
@@ -58585,7 +58585,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 41,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "stevenzzzz",
@@ -58607,7 +58607,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 41,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "markdroth",
@@ -58629,7 +58629,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 39,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "cpakulski",
@@ -58651,7 +58651,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 39,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dschaller",
@@ -58673,7 +58673,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 37,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ambuc",
@@ -58695,7 +58695,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 36,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "auni53",
@@ -58717,7 +58717,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 35,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "florincoras",
@@ -58739,7 +58739,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 34,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "gbrail",
@@ -58761,7 +58761,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 32,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "zasweq",
@@ -58783,7 +58783,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 32,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ankatare",
@@ -58805,7 +58805,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 32,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rojkov",
@@ -58827,7 +58827,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 32,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wu-bin",
@@ -58849,7 +58849,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 30,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "adamkotwasinski",
@@ -58871,7 +58871,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 29,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ipuustin",
@@ -58893,7 +58893,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 29,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "goaway",
@@ -58915,7 +58915,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 29,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "chaoqin-li1123",
@@ -58937,7 +58937,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 29,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yangminzhu",
@@ -58959,7 +58959,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 29,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "HenryYYang",
@@ -58981,7 +58981,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 28,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jpeach",
@@ -59003,7 +59003,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 28,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "zyfjeff",
@@ -59025,7 +59025,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 28,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tonya11en",
@@ -59047,7 +59047,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 27,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tbarrella",
@@ -59069,7 +59069,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 27,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "numerodix",
@@ -59091,7 +59091,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 26,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nareddyt",
@@ -59113,7 +59113,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 26,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "brian-pane",
@@ -59135,7 +59135,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 24,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "objectiser",
@@ -59157,7 +59157,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 24,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tschroed",
@@ -59179,7 +59179,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 24,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "euroelessar",
@@ -59201,7 +59201,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 24,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kfaseela",
@@ -59223,7 +59223,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 24,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yxue",
@@ -59245,7 +59245,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 24,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "vehre-x41",
@@ -59267,7 +59267,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 23,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yuval-k",
@@ -59289,7 +59289,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 23,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "cmluciano",
@@ -59311,7 +59311,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 23,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tyxia",
@@ -59333,7 +59333,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 23,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mergeconflict",
@@ -59355,7 +59355,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 22,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jamessynge",
@@ -59377,7 +59377,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 22,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sesmith177",
@@ -59399,7 +59399,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 22,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jmillikin-stripe",
@@ -59421,7 +59421,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 22,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "RenjieTang",
@@ -59443,7 +59443,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 22,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mpuncel",
@@ -59465,7 +59465,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 22,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "samflattery",
@@ -59487,7 +59487,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 21,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rebello95",
@@ -59509,7 +59509,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 21,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yskopets",
@@ -59531,7 +59531,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 21,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "esmet",
@@ -59553,7 +59553,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 20,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nezdolik",
@@ -59575,7 +59575,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 20,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "foreseeable",
@@ -59597,7 +59597,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 20,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jianwen612",
@@ -59619,7 +59619,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 20,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ravenblackx",
@@ -59641,7 +59641,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 19,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "AndresGuedez",
@@ -59663,7 +59663,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 17,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "fcfort",
@@ -59685,7 +59685,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 17,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "stedsome",
@@ -59707,7 +59707,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 17,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "curiouserrandy",
@@ -59729,7 +59729,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 17,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "talnordan",
@@ -59751,7 +59751,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 17,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bencebeky",
@@ -59773,7 +59773,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 16,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "marcomagdy",
@@ -59795,7 +59795,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 16,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rnburn",
@@ -59817,7 +59817,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 16,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rulex123",
@@ -59839,7 +59839,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 16,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "LisaLudique",
@@ -59861,7 +59861,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 16,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "klarose",
@@ -59883,7 +59883,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 15,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "chadr123",
@@ -59905,7 +59905,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "itayd",
@@ -59927,7 +59927,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "taiki45",
@@ -59949,7 +59949,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "justin-mp",
@@ -59971,7 +59971,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yanjunxiang-google",
@@ -59993,7 +59993,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tomocy",
@@ -60015,7 +60015,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "qinggniq",
@@ -60037,7 +60037,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "cgilmour",
@@ -60059,7 +60059,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 14,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jplevyak",
@@ -60081,7 +60081,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 13,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "oschaaf",
@@ -60103,7 +60103,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 13,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "davinci26",
@@ -60125,7 +60125,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 13,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kmyerson",
@@ -60147,7 +60147,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 13,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "FAYiEKcbD0XFqF2QK2E4viAHg8rMm2VbjYKdjTg",
@@ -60169,7 +60169,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 13,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rlazarus",
@@ -60191,7 +60191,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 13,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "arthuryan-k",
@@ -60213,7 +60213,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 12,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rmiller14",
@@ -60235,7 +60235,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 12,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ahedberg",
@@ -60257,7 +60257,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 12,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yosrym93",
@@ -60279,7 +60279,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 12,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "abaptiste",
@@ -60301,7 +60301,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 12,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "JimmyCYJ",
@@ -60323,7 +60323,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 11,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "murray-stripe",
@@ -60345,7 +60345,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 11,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mpwarres",
@@ -60367,7 +60367,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 11,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "perlun",
@@ -60389,7 +60389,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 11,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "agrawroh",
@@ -60411,7 +60411,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 11,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "suniltheta",
@@ -60433,7 +60433,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 11,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "YaoZengzeng",
@@ -60455,7 +60455,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 11,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "soya3129",
@@ -60477,7 +60477,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 11,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "durd07",
@@ -60499,7 +60499,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "fengli79",
@@ -60521,7 +60521,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "giantcroc",
@@ -60543,7 +60543,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bianpengyuan",
@@ -60565,7 +60565,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "saumoh",
@@ -60587,7 +60587,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "zhxie",
@@ -60609,7 +60609,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "birenroy",
@@ -60631,7 +60631,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "g-easy",
@@ -60653,7 +60653,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "gengleilei",
@@ -60675,7 +60675,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "markatou",
@@ -60697,7 +60697,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "pradeepcrao",
@@ -60719,7 +60719,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mkbehr",
@@ -60741,7 +60741,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 10,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "DavidSchinazi",
@@ -60763,7 +60763,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 9,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nak3",
@@ -60785,7 +60785,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 9,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Augustyniak",
@@ -60807,7 +60807,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 9,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "vbatts",
@@ -60829,7 +60829,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 9,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "TAOXUY",
@@ -60851,7 +60851,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 9,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "cclauss",
@@ -60873,7 +60873,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 9,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "itamarkam",
@@ -60895,7 +60895,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 9,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wozz",
@@ -60917,7 +60917,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 9,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "leyao-daily",
@@ -60939,7 +60939,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 9,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "anirudhmurali",
@@ -60961,7 +60961,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "caniszczyk",
@@ -60983,7 +60983,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rodaine",
@@ -61005,7 +61005,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jpsim",
@@ -61027,7 +61027,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "longkb",
@@ -61049,7 +61049,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kragniz",
@@ -61071,7 +61071,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "taion809",
@@ -61093,7 +61093,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "peterj",
@@ -61115,7 +61115,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "spenceral",
@@ -61137,7 +61137,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wez470",
@@ -61159,7 +61159,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "JonathanO",
@@ -61181,7 +61181,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 8,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "brirams",
@@ -61203,7 +61203,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "chradcliffe",
@@ -61225,7 +61225,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "douglas-reid",
@@ -61247,7 +61247,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "fishcakez",
@@ -61269,7 +61269,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "howardjohn",
@@ -61291,7 +61291,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "capoferro",
@@ -61313,7 +61313,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "JuniorHsu",
@@ -61335,7 +61335,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Reflejo",
@@ -61357,7 +61357,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "efimki",
@@ -61379,7 +61379,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "truongnh1992",
@@ -61401,7 +61401,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "achasveachas",
@@ -61423,7 +61423,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jwfang",
@@ -61445,7 +61445,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ascheglov",
@@ -61467,7 +61467,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bndw",
@@ -61489,7 +61489,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bdecoste",
@@ -61511,7 +61511,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "maximebedard",
@@ -61533,7 +61533,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "codesuki",
@@ -61555,7 +61555,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tehnerd",
@@ -61577,7 +61577,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "gargnupur",
@@ -61599,7 +61599,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "penguingao",
@@ -61621,7 +61621,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lavignes",
@@ -61643,7 +61643,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yaelharel",
@@ -61665,7 +61665,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "l8huang",
@@ -61687,7 +61687,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "toddmgreer",
@@ -61709,7 +61709,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "conqerAtapple",
@@ -61731,7 +61731,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "krnowak",
@@ -61753,7 +61753,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ME-ON1",
@@ -61775,7 +61775,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 6,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "iii-i",
@@ -61797,7 +61797,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "JayH5",
@@ -61819,7 +61819,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "incfly",
@@ -61841,7 +61841,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jyotimahapatra",
@@ -61863,7 +61863,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "belyalov",
@@ -61885,7 +61885,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "msukalski",
@@ -61907,7 +61907,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "paul-r-gall",
@@ -61929,7 +61929,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Pchelolo",
@@ -61951,7 +61951,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "11Takanori",
@@ -61973,7 +61973,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "vadimeisenbergibm",
@@ -61995,7 +61995,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yittg",
@@ -62017,7 +62017,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tkovacs-2",
@@ -62039,7 +62039,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tpetkov-VMW",
@@ -62061,7 +62061,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "williamsfu99",
@@ -62083,7 +62083,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "spacewander",
@@ -62105,7 +62105,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "vadorovsky",
@@ -62127,7 +62127,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "trabetti",
@@ -62149,7 +62149,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 5,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ping-sun",
@@ -62171,7 +62171,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "baranov1ch",
@@ -62193,7 +62193,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bmetzdorf",
@@ -62215,7 +62215,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "clarakosi",
@@ -62237,7 +62237,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "diannahu",
@@ -62259,7 +62259,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dfawley",
@@ -62281,7 +62281,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "drewsortega",
@@ -62303,7 +62303,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "JaredTan95",
@@ -62325,7 +62325,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rainingmaster",
@@ -62347,7 +62347,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jwendell",
@@ -62369,7 +62369,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "julia-stripe",
@@ -62391,7 +62391,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jyotima",
@@ -62413,7 +62413,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "LukeShu",
@@ -62435,7 +62435,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nicktrav",
@@ -62457,7 +62457,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "veshij",
@@ -62479,7 +62479,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "myidpt",
@@ -62501,7 +62501,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "quanjielin",
@@ -62523,7 +62523,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "RyanMcG",
@@ -62545,7 +62545,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "samrabelachew",
@@ -62567,7 +62567,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sriduth",
@@ -62589,7 +62589,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tsaarni",
@@ -62611,7 +62611,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tommyp1ckles",
@@ -62633,7 +62633,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dapengzhang0",
@@ -62655,7 +62655,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "chadm-sq",
@@ -62677,7 +62677,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "clnperez",
@@ -62699,7 +62699,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "fpliu233",
@@ -62721,7 +62721,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ivitjuk",
@@ -62743,7 +62743,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "knightXun",
@@ -62765,7 +62765,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "pianiststickman",
@@ -62787,7 +62787,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sanjaypujare",
@@ -62809,7 +62809,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yihuazhang",
@@ -62831,7 +62831,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "zirain",
@@ -62853,7 +62853,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lukidzi",
@@ -62875,7 +62875,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 4,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "aa-stripe",
@@ -62897,7 +62897,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bartebor",
@@ -62919,7 +62919,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "cbdm",
@@ -62941,7 +62941,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "chrisxrepo",
@@ -62963,7 +62963,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "christian-posta",
@@ -62985,7 +62985,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "codefromthecrypt",
@@ -63007,7 +63007,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Mythra",
@@ -63029,7 +63029,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "davidben",
@@ -63051,7 +63051,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dmitri-d",
@@ -63073,7 +63073,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "fabriziomello",
@@ -63095,7 +63095,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "garrettheel",
@@ -63117,7 +63117,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "pyrl247",
@@ -63139,7 +63139,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tuhao1020",
@@ -63161,7 +63161,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ikonst",
@@ -63183,7 +63183,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "csssuf",
@@ -63205,7 +63205,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "JamesHeppenstall",
@@ -63227,7 +63227,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jingwei99",
@@ -63249,7 +63249,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jmuia",
@@ -63271,7 +63271,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "justincely",
@@ -63293,7 +63293,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kathan24",
@@ -63315,7 +63315,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "KuonjiMayoi",
@@ -63337,7 +63337,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "laurentlb",
@@ -63359,7 +63359,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "llu94",
@@ -63381,7 +63381,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "juchem",
@@ -63403,7 +63403,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "gumpt",
@@ -63425,7 +63425,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mikegrass",
@@ -63447,7 +63447,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "naveensrinivasan",
@@ -63469,7 +63469,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "huynq0911",
@@ -63491,7 +63491,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Sh4d1",
@@ -63513,7 +63513,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "plallin",
@@ -63535,7 +63535,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "pgenera",
@@ -63557,7 +63557,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rishabhkumar296",
@@ -63579,7 +63579,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ryanchapman",
@@ -63601,7 +63601,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "shakti-das",
@@ -63623,7 +63623,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "theshubhamp",
@@ -63645,7 +63645,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "suhailpatel",
@@ -63667,7 +63667,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sumukhs",
@@ -63689,7 +63689,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "surki",
@@ -63711,7 +63711,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tdmackey",
@@ -63733,7 +63733,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "LawlietLi",
@@ -63755,7 +63755,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "meteorcloudy",
@@ -63777,7 +63777,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Rainton",
@@ -63799,7 +63799,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mbanikazemi",
@@ -63821,7 +63821,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "enricoschiattarella",
@@ -63843,7 +63843,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jimini-lumox",
@@ -63865,7 +63865,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ericlin0101",
@@ -63887,7 +63887,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mattwoodyard",
@@ -63909,7 +63909,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nigriMSFT",
@@ -63931,7 +63931,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "karthikbox",
@@ -63953,7 +63953,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "srikailash",
@@ -63975,7 +63975,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sschepens",
@@ -63997,7 +63997,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "troshko111",
@@ -64019,7 +64019,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "vishalpowar",
@@ -64041,7 +64041,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wattli",
@@ -64063,7 +64063,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "yugantrana",
@@ -64085,7 +64085,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "derekguo001",
@@ -64107,7 +64107,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "WeavingGao",
@@ -64129,7 +64129,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 3,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ameily",
@@ -64151,7 +64151,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "aguinet",
@@ -64173,7 +64173,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "athampy",
@@ -64195,7 +64195,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "SaveTheRbtz",
@@ -64217,7 +64217,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "andrewjjenkins",
@@ -64239,7 +64239,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "andrascz",
@@ -64261,7 +64261,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "boringuy",
@@ -64283,7 +64283,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "anrossi",
@@ -64305,7 +64305,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "arkodg",
@@ -64327,7 +64327,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bmadhavan",
@@ -64349,7 +64349,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bplotnick",
@@ -64371,7 +64371,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "benjaminp",
@@ -64393,7 +64393,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bennettdong",
@@ -64415,7 +64415,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "brian-avery",
@@ -64437,7 +64437,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bryanwux",
@@ -64459,7 +64459,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bryce-anderson",
@@ -64481,7 +64481,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "clguiman",
@@ -64503,7 +64503,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "craffert0",
@@ -64525,7 +64525,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "hasheddan",
@@ -64547,7 +64547,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dprotaso",
@@ -64569,7 +64569,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "bartle-stripe",
@@ -64591,7 +64591,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "d-kowalski",
@@ -64613,7 +64613,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "DavidPeet8",
@@ -64635,7 +64635,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "davidraskin",
@@ -64657,7 +64657,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "DavidKorczynski",
@@ -64679,7 +64679,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "diemtvu",
@@ -64701,7 +64701,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "EItanya",
@@ -64723,7 +64723,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ekiziv",
@@ -64745,7 +64745,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "fabolive",
@@ -64767,7 +64767,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wlhee",
@@ -64789,7 +64789,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rosenhouse",
@@ -64811,7 +64811,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "gkleiman",
@@ -64833,7 +64833,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rialg",
@@ -64855,7 +64855,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "glicht",
@@ -64877,7 +64877,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "irozzo-1A",
@@ -64899,7 +64899,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mum4k",
@@ -64921,7 +64921,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jamesmulcahy",
@@ -64943,7 +64943,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jparklab",
@@ -64965,7 +64965,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "knight42",
@@ -64987,7 +64987,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Jingzhao123",
@@ -65009,7 +65009,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jstewmon",
@@ -65031,7 +65031,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "josedonizetti",
@@ -65053,7 +65053,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jmphilli",
@@ -65075,7 +65075,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kavyako",
@@ -65097,7 +65097,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "saiskee",
@@ -65119,7 +65119,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "musaprg",
@@ -65141,7 +65141,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "khgandhi",
@@ -65163,7 +65163,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lidizheng",
@@ -65185,7 +65185,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "liminw",
@@ -65207,7 +65207,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lucperkins",
@@ -65229,7 +65229,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "marcellodesales",
@@ -65251,7 +65251,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "MarcinFalkowski",
@@ -65273,7 +65273,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nandu-vinodan",
@@ -65295,7 +65295,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nickrmc83",
@@ -65317,7 +65317,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "nitgoy",
@@ -65339,7 +65339,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "landesherr",
@@ -65361,7 +65361,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Razdeep",
@@ -65383,7 +65383,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ranjithkumar007",
@@ -65405,7 +65405,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "raakella",
@@ -65427,7 +65427,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rexnp",
@@ -65449,7 +65449,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "roelfdutoit",
@@ -65471,7 +65471,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tangsaidi",
@@ -65493,7 +65493,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "spappier",
@@ -65515,7 +65515,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "ilackarms",
@@ -65537,7 +65537,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "stefanbucur",
@@ -65559,7 +65559,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sel-vcc",
@@ -65581,7 +65581,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tkoeppe",
@@ -65603,7 +65603,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "twghu",
@@ -65625,7 +65625,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "timonwong",
@@ -65647,7 +65647,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "timperrett",
@@ -65669,7 +65669,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "tony612",
@@ -65691,7 +65691,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "cetanu",
@@ -65713,7 +65713,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "vasilvv",
@@ -65735,7 +65735,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "vijayendrabvs",
@@ -65757,7 +65757,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "inf-rno",
@@ -65779,7 +65779,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wanlill",
@@ -65801,7 +65801,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "weixiao-huang",
@@ -65823,7 +65823,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wsh",
@@ -65845,7 +65845,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jhspaybar",
@@ -65867,7 +65867,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lookuptable",
@@ -65889,7 +65889,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Yannic",
@@ -65911,7 +65911,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Yikun",
@@ -65933,7 +65933,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "aloktiagi",
@@ -65955,7 +65955,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "botengyao",
@@ -65977,7 +65977,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Chuongv",
@@ -65999,7 +65999,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dorisd0102",
@@ -66021,7 +66021,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "fuqianggao",
@@ -66043,7 +66043,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "huntsman90",
@@ -66065,7 +66065,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jacob-delgado",
@@ -66087,7 +66087,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jeffpiazza-google",
@@ -66109,7 +66109,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kyu-c",
@@ -66131,7 +66131,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kkHAIKE",
@@ -66153,7 +66153,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "larrywest",
@@ -66175,7 +66175,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "mandarjog",
@@ -66197,7 +66197,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "lubinsz",
@@ -66219,7 +66219,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "pitiwari",
@@ -66241,7 +66241,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "qiannawang",
@@ -66263,7 +66263,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "qqustc",
@@ -66285,7 +66285,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "scheler",
@@ -66307,7 +66307,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "scw00",
@@ -66329,7 +66329,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "shibataka000",
@@ -66351,7 +66351,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wangfakang",
@@ -66373,7 +66373,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "sudeeptoroy",
@@ -66395,7 +66395,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/envoy-serverless/subscribers",
@@ -66530,7 +66530,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 116,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "dajohi",
@@ -66552,7 +66552,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 7,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "briandorsey",
@@ -66574,7 +66574,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "autarch",
@@ -66596,7 +66596,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "TShadwell",
@@ -66618,7 +66618,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 2,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "atombender",
@@ -66640,7 +66640,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "Anaminus",
@@ -66662,7 +66662,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "andrewzk",
@@ -66684,7 +66684,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "hiveminded",
@@ -66706,7 +66706,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "frapposelli",
@@ -66728,7 +66728,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jbuberel",
@@ -66750,7 +66750,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "flimzy",
@@ -66772,7 +66772,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "jrick",
@@ -66794,7 +66794,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "kevinburke",
@@ -66816,7 +66816,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "rogpeppe",
@@ -66838,7 +66838,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "thockin",
@@ -66860,7 +66860,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "waldyrious",
@@ -66882,7 +66882,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "techtonik",
@@ -66904,7 +66904,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "deads2k",
@@ -66926,7 +66926,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             },
             {
                 "login": "wangkechun",
@@ -66948,7 +66948,7 @@
                 "type": "User",
                 "site_admin": false,
                 "contributions": 1,
-                "contribution_details": ""
+                "contribution_details": []
             }
         ],
         "subscribers_url": "https://api.github.com/repos/10gen/go-spew/subscribers",

@@ -8,7 +8,7 @@ import os
 sys.path.append('../step2_obtainMemberActivity')
 sys.path.append('../extra/misc')
 
-import repo
+import repo.repo as repo
 
 
 def getuserlistfororg():

@@ -2,31 +2,13 @@ import requests
 import json 
 import sys
 import os
-sys.path.append('../step1_obtainRepoDetails')
-sys.path.append('../extra/misc')
+sys.path.append('../../step1_obtainRepoDetails')
+sys.path.append('../../extra/misc')
 
 import apiRobin
 from helper_methods import getRandomAPIToken
 
-def getSHAForAllCommits(repoList):
-    apiDeque = apiRobin.parseConfig('../project.config')
-    headers = getRandomAPIToken(apiDeque)
-    for repo in range(len(repoList)):
-        print("OBTAINING COMMIT SHA FOR REPO "+repoList[repo]['full_name'])
-        reqUrl = 'https://api.github.com/repos/'+repoList[repo]['full_name']+'/commits'
-        pageNo = 1
-        commitList = []
-        while(True):
-            response = requests.get(reqUrl+'?page='+str(pageNo), headers=headers).json()
-            print(reqUrl+'?page='+str(pageNo))
-
-            if(len(response) == 0):
-                break
-            commitList.extend(response)
-            pageNo = pageNo+1
-        repoList[repo]['contribution_details']=commitList
-        break
-    return repoList
+import repoUser
 
 def getContributorForRepo(repoList):
     print("OBTAINING CONTRIBUTOR LIST FOR REPOS")
@@ -44,7 +26,7 @@ def getContributorForRepo(repoList):
             contributorList.extend(response)
             pageNo = pageNo+1
         for contributor in range(len(contributorList)):
-            contributorList[contributor]['contribution_details']=''
+            contributorList[contributor]['contribution_details']=[]
         repoList[repo]['contributors_url']=contributorList
         # break
     return repoList
@@ -74,30 +56,28 @@ def getRepoListForAllOrg():
         # Get list of contributors
         repoList=getContributorForRepo(repoList)
 
-        # Get SHA for all commits of a particular repo
-        repoList=getSHAForAllCommits(repoList)
-
         with open('repoList/'+org+'.json','w') as f:
             json.dump(repoList,f)
         print(org, len(repoList))
-        break
+        # break
         # print(org)
 
 def getRelevantFields(org):
     with open('repoList/'+org+'.json','r') as f: 
         repoList=json.load(f)
         updatedList=[]
-        # repo['org']=org
-        reqKeys = ["full_name","language", "topics", "node_id","created_at","updated_at" ]
+        reqKeys = ["full_name","language", "topics", "node_id","created_at","updated_at"]
         for repo in repoList:
-            repo = {}
+            finRepo={}
             for key in reqKeys:
-                repo[key]=repo.get(key)
-            repo.update(repo)
-            updatedList.append(repo)
-            # updatedList.extend(repo)
-        print(updatedList)
-    return updatedList
+                finRepo[key]=repo.get(key)
+                # print(finRepo[key])
+            # break
+            finRepo['contributors'] = repoUser.baseAuthorDict(finRepo['full_name'])
+            updatedList.append(finRepo)
+        return updatedList
+
+def driverFunction(orgName):
 
 # import ghMongo
 # orgList = os.listdir('repoList')
@@ -107,7 +87,11 @@ def getRelevantFields(org):
 #     repoList=getRelevantFields(org)
 #     ghMongo.connectAndPush(repoList)
 
-getRepoListForAllOrg()
+# getRepoListForAllOrg()
+orgName='10gen'
+finalJSON=getRelevantFields(orgName)
+# print(finalJSON)
+with open(orgName+'.json','w') as f:
+    json.dump(finalJSON,f)
 
-# getRelevantFields('yeebase')
 # print(list)

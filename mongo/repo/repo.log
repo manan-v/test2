@@ -1,0 +1,347 @@
+mongoKart d8ad49073aabdaae172e73c5a78edee9857ea023 2022-09-20T18:41:37Z Auto-import from docs-node
+[{'sha': 'd8ad49073aabdaae172e73c5a78edee9857ea023', 'message': 'Auto-import from docs-node', 'date': '2022-09-20T18:41:37Z'}]
+mongoKart ff0756ee53a6d6268294a54060eac85f43939183 2022-09-07T19:39:58Z Auto-import from docs-csharp
+[{'sha': 'ff0756ee53a6d6268294a54060eac85f43939183', 'message': 'Auto-import from docs-csharp', 'date': '2022-09-07T19:39:58Z'}]
+ajhuh-mdb 4677498ceac9d200858f4fb39bfdb13d0531567e 2022-08-31T20:00:32Z DOCSP-23963 change out duplicated community (#33)
+[{'sha': '4677498ceac9d200858f4fb39bfdb13d0531567e', 'message': 'DOCSP-23963 change out duplicated community (#33)', 'date': '2022-08-31T20:00:32Z'}]
+mongoKart 820bb65e1b77b433a9b05c26de556051385d752a 2022-08-30T13:43:14Z Merge pull request #32 from mongoKart/update-about-compat
+
+Rewrite "About" page / include dot for partial compat
+[{'sha': '820bb65e1b77b433a9b05c26de556051385d752a', 'message': 'Merge pull request #32 from mongoKart/update-about-compat\n\nRewrite "About" page / include dot for partial compat', 'date': '2022-08-30T13:43:14Z'}]
+mongoKart c22faa919f9d006c733e9baf5092406cb4fbef73 2022-08-30T13:41:13Z feedback
+[{'sha': 'c22faa919f9d006c733e9baf5092406cb4fbef73', 'message': 'feedback', 'date': '2022-08-30T13:41:13Z'}]
+mongoKart 552adf9250ec1fc49fa16e3b2900369544321a84 2022-08-29T21:23:09Z page rewrite / add circled asterisk
+[{'sha': '552adf9250ec1fc49fa16e3b2900369544321a84', 'message': 'page rewrite / add circled asterisk', 'date': '2022-08-29T21:23:09Z'}]
+mongoKart c24cc8e18f0f767687d2638d0a20720996c459e7 2022-08-29T17:54:02Z Auto-import from docs-csharp
+[{'sha': 'c24cc8e18f0f767687d2638d0a20720996c459e7', 'message': 'Auto-import from docs-csharp', 'date': '2022-08-29T17:54:02Z'}]
+mongoKart 2fb8fe2cf85b6ab969d1466af3422ecc36d11a57 2022-08-29T17:54:00Z Auto-import from docs-csharp
+[{'sha': '2fb8fe2cf85b6ab969d1466af3422ecc36d11a57', 'message': 'Auto-import from docs-csharp', 'date': '2022-08-29T17:54:00Z'}]
+mongoKart 063f01e082caa341fa3985c8bfb2b604692e9fd5 2022-08-23T16:14:40Z Merge pull request #31 from mongoKart/fix-compat-spacing
+
+Remove pipe character to fix spacing
+[{'sha': '063f01e082caa341fa3985c8bfb2b604692e9fd5', 'message': 'Merge pull request #31 from mongoKart/fix-compat-spacing\n\nRemove pipe character to fix spacing', 'date': '2022-08-23T16:14:40Z'}]
+mongoKart 630c5c0f23127978ece20a3dd0460e6758804a7d 2022-08-23T16:06:43Z remove pipe character
+[{'sha': '630c5c0f23127978ece20a3dd0460e6758804a7d', 'message': 'remove pipe character', 'date': '2022-08-23T16:06:43Z'}]
+mongoKart 348dec0cc78bacca413b8de388cdf009008181a4 2022-08-22T21:56:33Z Auto-import from docs-node
+[{'sha': '348dec0cc78bacca413b8de388cdf009008181a4', 'message': 'Auto-import from docs-node', 'date': '2022-08-22T21:56:33Z'}]
+mongoKart 3c3f525032f258a649e4c6820549575639c51a7e 2022-08-18T17:33:03Z Auto-import from docs-java
+[{'sha': '3c3f525032f258a649e4c6820549575639c51a7e', 'message': 'Auto-import from docs-java', 'date': '2022-08-18T17:33:03Z'}]
+mongoKart f83fc0c2a168fc919b90c8d47bf65b5d6eeca0d4 2022-08-17T21:33:40Z Auto-import from docs-go
+[{'sha': 'f83fc0c2a168fc919b90c8d47bf65b5d6eeca0d4', 'message': 'Auto-import from docs-go', 'date': '2022-08-17T21:33:40Z'}]
+mongoKart 7b8717df624c2cbd6f7eeb4bd5fee3092c47178e 2022-08-16T21:37:27Z Auto-import from docs-node
+[{'sha': '7b8717df624c2cbd6f7eeb4bd5fee3092c47178e', 'message': 'Auto-import from docs-node', 'date': '2022-08-16T21:37:27Z'}]
+mongoKart eacc2e0c4359b8f66e9c4e2915ec7fa95712aa1b 2022-08-16T21:37:25Z Auto-import from docs-node
+[{'sha': 'eacc2e0c4359b8f66e9c4e2915ec7fa95712aa1b', 'message': 'Auto-import from docs-node', 'date': '2022-08-16T21:37:25Z'}]
+mongoKart 5e0ba0d231f751d1f592edf08d986c7ce6c6e80c 2022-08-16T21:34:11Z Auto-import from docs-node
+[{'sha': '5e0ba0d231f751d1f592edf08d986c7ce6c6e80c', 'message': 'Auto-import from docs-node', 'date': '2022-08-16T21:34:11Z'}]
+mongoKart fd4a24251837e2d88e72462e05b91e9f1813df39 2022-08-16T21:34:05Z Auto-import from docs-node
+[{'sha': 'fd4a24251837e2d88e72462e05b91e9f1813df39', 'message': 'Auto-import from docs-node', 'date': '2022-08-16T21:34:05Z'}]
+mongoKart 0836022f32c47f2b97532e680333442e001fe2b2 2022-08-15T17:00:55Z Merge pull request #30 from mongoKart/docsp-24481
+
+[DOCSP-22481] import updated mongodb-compat table from docs-node
+[{'sha': '0836022f32c47f2b97532e680333442e001fe2b2', 'message': 'Merge pull request #30 from mongoKart/docsp-24481\n\n[DOCSP-22481] import updated mongodb-compat table from docs-node', 'date': '2022-08-15T17:00:55Z'}]
+mongoKart 33261e8dd41ebbb58b3c3bed32bf21721a3b176c 2022-08-15T15:16:51Z add dots to mongodb-compat table
+[{'sha': '33261e8dd41ebbb58b3c3bed32bf21721a3b176c', 'message': 'add dots to mongodb-compat table', 'date': '2022-08-15T15:16:51Z'}]
+mongoKart dc7f02102d4cd45c259c6227e741f4c4db209708 2022-08-12T18:20:01Z Merge pull request #29 from mongoKart/docsp-24481
+
+add blank line at end of compat table legend
+[{'sha': 'dc7f02102d4cd45c259c6227e741f4c4db209708', 'message': 'Merge pull request #29 from mongoKart/docsp-24481\n\nadd blank line at end of compat table legend', 'date': '2022-08-12T18:20:01Z'}]
+mongoKart bbdc76de414d37d6cf052868fc3e4de865d3ec5e 2022-08-12T18:16:43Z add blank line at end
+[{'sha': 'bbdc76de414d37d6cf052868fc3e4de865d3ec5e', 'message': 'add blank line at end', 'date': '2022-08-12T18:16:43Z'}]
+mongoKart 35df753811ccb3c6a3a19e3a8e2b3981b39b9cb4 2022-08-12T17:12:50Z Merge pull request #28 from mongoKart/docsp-24481
+
+add compat table legend
+[{'sha': '35df753811ccb3c6a3a19e3a8e2b3981b39b9cb4', 'message': 'Merge pull request #28 from mongoKart/docsp-24481\n\nadd compat table legend', 'date': '2022-08-12T17:12:50Z'}]
+mongoKart f2efa75cbf5e90a19c57366eafdf66eb13c5beb9 2022-08-12T17:03:21Z add compat table legend
+[{'sha': 'f2efa75cbf5e90a19c57366eafdf66eb13c5beb9', 'message': 'add compat table legend', 'date': '2022-08-12T17:03:21Z'}]
+terakilobyte 99a448e82683e3899d4103af759e98350b77439f 2022-07-28T15:14:18Z Make compat tables more clear (#27)
+
+* add important note about compatibility
+
+* remove redundant note
+
+* suggestions
+[{'sha': '99a448e82683e3899d4103af759e98350b77439f', 'message': 'Make compat tables more clear (#27)\n\n* add important note about compatibility\r\n\r\n* remove redundant note\r\n\r\n* suggestions', 'date': '2022-07-28T15:14:18Z'}]
+terakilobyte fe1edd814b0c6eb845eaa2ee65b28a0df6954d7e 2022-07-19T20:44:52Z fix node compat (#26)
+
+voco lgtm from ccho
+[{'sha': 'fe1edd814b0c6eb845eaa2ee65b28a0df6954d7e', 'message': 'fix node compat (#26)\n\nvoco lgtm from ccho', 'date': '2022-07-19T20:44:52Z'}]
+mongoKart b45ce6f89abd63c55d6b541fb8bba520cdb454b3 2022-07-13T21:12:51Z v4.8 (#25)
+[{'sha': 'b45ce6f89abd63c55d6b541fb8bba520cdb454b3', 'message': 'v4.8 (#25)', 'date': '2022-07-13T21:12:51Z'}]
+ianf-mongodb ee9212942cfd8440b9a9902a739a99560478284d 2022-06-21T20:01:58Z Update platform-support.rst
+[{'sha': 'ee9212942cfd8440b9a9902a739a99560478284d', 'message': 'Update platform-support.rst', 'date': '2022-06-21T20:01:58Z'}]
+ianf-mongodb 7582fd9207534604b1e1556b1c5e9e495c9fd59f 2022-06-15T19:09:44Z DOCS-14878 (#22)
+[{'sha': '7582fd9207534604b1e1556b1c5e9e495c9fd59f', 'message': 'DOCS-14878 (#22)', 'date': '2022-06-15T19:09:44Z'}]
+biniona-mongodb e56042b042c8e69bc4c7ec4fadfd871f2a2ab3ac 2022-06-09T15:05:25Z Add Node 4.7 to Compat Table (#23)
+[{'sha': 'e56042b042c8e69bc4c7ec4fadfd871f2a2ab3ac', 'message': 'Add Node 4.7 to Compat Table (#23)', 'date': '2022-06-09T15:05:25Z'}]
+biniona-mongodb 5281a282340aa70d723c29433a0f6c75a6a96203 2022-06-07T15:13:36Z MDB World - Fast Follow (#21)
+[{'sha': '5281a282340aa70d723c29433a0f6c75a6a96203', 'message': 'MDB World - Fast Follow (#21)', 'date': '2022-06-07T15:13:36Z'}]
+ccho-mongodb 2754931c8617e3d231c7871964fbf428c1352c1c 2022-06-07T14:18:56Z DOCSP-22296 6.0 compatibility updates (#20)
+
+* DOCSP-22914: Golang compatibility updates
+
+* DOCSP-22915: Java compatibility updates
+
+* DOCSP-22916: Node.js compatibility updates
+[{'sha': '2754931c8617e3d231c7871964fbf428c1352c1c', 'message': 'DOCSP-22296 6.0 compatibility updates (#20)\n\n* DOCSP-22914: Golang compatibility updates\r\n\r\n* DOCSP-22915: Java compatibility updates\r\n\r\n* DOCSP-22916: Node.js compatibility updates', 'date': '2022-06-07T14:18:56Z'}]
+ianf-mongodb b897e099d5d813571387237e7d719771179a0712 2022-06-02T18:23:33Z Docs-15162 (#19)
+[{'sha': 'b897e099d5d813571387237e7d719771179a0712', 'message': 'Docs-15162 (#19)', 'date': '2022-06-02T18:23:33Z'}]
+ianf-mongodb e6c758d1320e2c623f148402e50c69b16e1f7d86 2022-05-19T15:17:28Z DOCS-15239 5.0.9 -> RHEL 8 s390x (#16)
+[{'sha': 'e6c758d1320e2c623f148402e50c69b16e1f7d86', 'message': 'DOCS-15239 5.0.9 -> RHEL 8 s390x (#16)', 'date': '2022-05-19T15:17:28Z'}]
+ccho-mongodb b590ac5b4b5520b5feb737e8da36f97378976ac1 2022-05-12T22:24:07Z Merge pull request #15 from ccho-mongodb/DOCSP-22648-node-v4.6
+
+DOCSP-22648: Node driver v4.6 compatibility updates
+[{'sha': 'b590ac5b4b5520b5feb737e8da36f97378976ac1', 'message': 'Merge pull request #15 from ccho-mongodb/DOCSP-22648-node-v4.6\n\nDOCSP-22648: Node driver v4.6 compatibility updates', 'date': '2022-05-12T22:24:07Z'}]
+ccho-mongodb c396a51919e74e69a63aa53046af11e658e710e6 2022-05-12T22:06:56Z DOCSP-22648: Node driver v4.6 compatibility updates
+[{'sha': 'c396a51919e74e69a63aa53046af11e658e710e6', 'message': 'DOCSP-22648: Node driver v4.6 compatibility updates', 'date': '2022-05-12T22:06:56Z'}]
+ccho-mongodb 6236625960b2310d16fd11b70c37e019505de967 2022-05-04T16:53:11Z Merge pull request #14 from ccho-mongodb/DOCSP-22462-go-1.9-compat
+
+DOCSP-22462: Go v1.9 compatibility table update
+[{'sha': '6236625960b2310d16fd11b70c37e019505de967', 'message': 'Merge pull request #14 from ccho-mongodb/DOCSP-22462-go-1.9-compat\n\nDOCSP-22462: Go v1.9 compatibility table update', 'date': '2022-05-04T16:53:11Z'}]
+ccho-mongodb ff85e4ac82264dee9c30b410e15982c887158c6f 2022-05-04T16:39:21Z DOCSP-22462: Go v1.9 compatibility table update
+[{'sha': 'ff85e4ac82264dee9c30b410e15982c887158c6f', 'message': 'DOCSP-22462: Go v1.9 compatibility table update', 'date': '2022-05-04T16:39:21Z'}]
+jmd-mongo ab20b64c3df4383f05ab519489f9cbf946ffd3c8 2022-05-03T18:31:35Z Merge pull request #13 from jmd-mongo/v4.0-EOL-banner
+
+adds admonition above platform support table
+[{'sha': 'ab20b64c3df4383f05ab519489f9cbf946ffd3c8', 'message': 'Merge pull request #13 from jmd-mongo/v4.0-EOL-banner\n\nadds admonition above platform support table', 'date': '2022-05-03T18:31:35Z'}]
+jmd-mongo 6fabbe6671e8a2863dd34359296310319dccdb8c 2022-05-03T18:31:09Z adds admonition above platform support table
+[{'sha': '6fabbe6671e8a2863dd34359296310319dccdb8c', 'message': 'adds admonition above platform support table', 'date': '2022-05-03T18:31:09Z'}]
+ianf-mongodb 26ad4108e29cbce29121840a559dea7d9c8846dc 2022-04-25T14:40:24Z Update platform-support.rst
+[{'sha': '26ad4108e29cbce29121840a559dea7d9c8846dc', 'message': 'Update platform-support.rst', 'date': '2022-04-25T14:40:24Z'}]
+terakilobyte caf5af08f24640d7642231c9ad6b4ec63f8fbd03 2022-04-22T21:22:26Z remove 3.x series drivers from node16 support
+[{'sha': 'caf5af08f24640d7642231c9ad6b4ec63f8fbd03', 'message': 'remove 3.x series drivers from node16 support', 'date': '2022-04-22T21:22:26Z'}]
+terakilobyte 5d35acc49e1a8e6d1bd2901e5acf8ea9f4a1d47f 2022-04-22T19:25:16Z update for node 16
+[{'sha': '5d35acc49e1a8e6d1bd2901e5acf8ea9f4a1d47f', 'message': 'update for node 16', 'date': '2022-04-22T19:25:16Z'}]
+ccho-mongodb 4efc0b0a2702cee32cf2c4d2dc1a0a6c35a0d211 2022-04-21T20:48:15Z Merge pull request #12 from ccho-mongodb/DOCSP-22100-java-4.6-compati
+
+DOCSP-22100: Java driver v4.6 compatibility updates
+[{'sha': '4efc0b0a2702cee32cf2c4d2dc1a0a6c35a0d211', 'message': 'Merge pull request #12 from ccho-mongodb/DOCSP-22100-java-4.6-compati\n\nDOCSP-22100: Java driver v4.6 compatibility updates', 'date': '2022-04-21T20:48:15Z'}]
+ccho-mongodb 4375194b7aca0f5a40cdd64b8a51aafdf4f4ec26 2022-04-21T16:17:47Z DOCSP-22100: Java driver v4.6 compatibility updates
+[{'sha': '4375194b7aca0f5a40cdd64b8a51aafdf4f4ec26', 'message': 'DOCSP-22100: Java driver v4.6 compatibility updates', 'date': '2022-04-21T16:17:47Z'}]
+ianf-mongodb 50e0cfb7d476793817dbc0cca73a8cb881ae9a15 2022-04-19T14:44:01Z Update platform-support.rst
+[{'sha': '50e0cfb7d476793817dbc0cca73a8cb881ae9a15', 'message': 'Update platform-support.rst', 'date': '2022-04-19T14:44:01Z'}]
+ianf-mongodb a748a0aec5a2087e2885abba0c15e2fc2be1a6b1 2022-04-19T14:43:29Z DOCS-15253 (#11)
+[{'sha': 'a748a0aec5a2087e2885abba0c15e2fc2be1a6b1', 'message': 'DOCS-15253 (#11)', 'date': '2022-04-19T14:43:29Z'}]
+ianf-mongodb 00b717d4a5beb39d45a49943f8c7456befd9ec24 2022-04-14T17:26:40Z combine windows and windows server versions (#10)
+[{'sha': '00b717d4a5beb39d45a49943f8c7456befd9ec24', 'message': 'combine windows and windows server versions (#10)', 'date': '2022-04-14T17:26:40Z'}]
+ianf-mongodb 5b9e1436b6c76aa88f45cdd4c70e36cb74d3be23 2022-04-14T17:09:56Z Update platform-support.rst
+[{'sha': '5b9e1436b6c76aa88f45cdd4c70e36cb74d3be23', 'message': 'Update platform-support.rst', 'date': '2022-04-14T17:09:56Z'}]
+ianf-mongodb 7c5811cf4caaae16b9ede50617c78bf710e5eaed 2022-04-14T17:09:32Z Remove containers
+[{'sha': '7c5811cf4caaae16b9ede50617c78bf710e5eaed', 'message': 'Remove containers', 'date': '2022-04-14T17:09:32Z'}]
+ianf-mongodb e5abbacd082063e6702b6c4a3ef79cae6f635e0a 2022-04-14T17:08:59Z Update platform-support.rst
+[{'sha': 'e5abbacd082063e6702b6c4a3ef79cae6f635e0a', 'message': 'Update platform-support.rst', 'date': '2022-04-14T17:08:59Z'}]
+ianf-mongodb 561a525c0b5aa8a284eecb9534b5fba945dbf8c4 2022-04-14T13:01:33Z Update platform-support.rst
+[{'sha': '561a525c0b5aa8a284eecb9534b5fba945dbf8c4', 'message': 'Update platform-support.rst', 'date': '2022-04-14T13:01:33Z'}]
+ianf-mongodb 6087066d34f0c730a304545cdb119cf782b46303 2022-04-14T12:32:38Z DOCSP-22043 Add macOS 6.0 (#9)
+[{'sha': '6087066d34f0c730a304545cdb119cf782b46303', 'message': 'DOCSP-22043 Add macOS 6.0 (#9)', 'date': '2022-04-14T12:32:38Z'}]
+ianf-mongodb 954eadcf56e41141e1bb64441e4c6a59282d5a50 2022-04-13T18:34:03Z Update platform-support.rst
+[{'sha': '954eadcf56e41141e1bb64441e4c6a59282d5a50', 'message': 'Update platform-support.rst', 'date': '2022-04-13T18:34:03Z'}]
+ianf-mongodb d34e4cc39a248936a7af45e18ba1ed872c674945 2022-04-13T16:13:10Z Merge pull request #8 from ianf-mongodb/DOCSP-21943
+
+Docsp-21943
+[{'sha': 'd34e4cc39a248936a7af45e18ba1ed872c674945', 'message': 'Merge pull request #8 from ianf-mongodb/DOCSP-21943\n\nDocsp-21943', 'date': '2022-04-13T16:13:10Z'}]
+ianf-mongodb 5fa01adaf873591a031f68e100a5eaaf86d9d92b 2022-04-13T16:11:25Z add 6.0 columns
+[{'sha': '5fa01adaf873591a031f68e100a5eaaf86d9d92b', 'message': 'add 6.0 columns', 'date': '2022-04-13T16:11:25Z'}]
+ianf-mongodb ba440ff1fc5879f15681a7f9d2bc0e4f904d234a 2022-04-12T20:10:45Z DOCSP-21943
+[{'sha': 'ba440ff1fc5879f15681a7f9d2bc0e4f904d234a', 'message': 'DOCSP-21943', 'date': '2022-04-12T20:10:45Z'}]
+biniona-mongodb e899484e2fe1004d70f0cef1cc6ec52c46733e7e 2022-04-11T17:25:24Z (DOCSP-21843) Java Compat Tables (#6)
+[{'sha': 'e899484e2fe1004d70f0cef1cc6ec52c46733e7e', 'message': '(DOCSP-21843) Java Compat Tables (#6)', 'date': '2022-04-11T17:25:24Z'}]
+kyuan-mongodb b42256393290ae4a7e92ea945d6d010c689d8736 2022-04-06T21:47:28Z Update mongodb-compatibility-table-go.rst
+
+added checkmark for MongoDB 5.3 support for v1.8
+[{'sha': 'b42256393290ae4a7e92ea945d6d010c689d8736', 'message': 'Update mongodb-compatibility-table-go.rst\n\nadded checkmark for MongoDB 5.3 support for v1.8', 'date': '2022-04-06T21:47:28Z'}]
+kyuan-mongodb 279dda92ad93a393985a3d1fd5c7bb59d157e341 2022-04-06T21:38:34Z DOCSP-21844 added go compat tables
+[{'sha': '279dda92ad93a393985a3d1fd5c7bb59d157e341', 'message': 'DOCSP-21844 added go compat tables', 'date': '2022-04-06T21:38:34Z'}]
+kyuan-mongodb 1b3d2f1ed953c70790caec70e3cb349d0e5ae985 2022-04-06T21:38:00Z removed sample datasets
+[{'sha': '1b3d2f1ed953c70790caec70e3cb349d0e5ae985', 'message': 'removed sample datasets', 'date': '2022-04-06T21:38:00Z'}]
+kyuan-mongodb 279edfc427d4b135252f1431feb9f20ef0a2aa6b 2022-04-06T21:37:12Z added go compat tables
+[{'sha': '279edfc427d4b135252f1431feb9f20ef0a2aa6b', 'message': 'added go compat tables', 'date': '2022-04-06T21:37:12Z'}]
+terakilobyte ddd6ed0c20cc89b8e62b5684fb8a628a15fb9f6a 2022-04-06T21:00:44Z add node compat tables
+[{'sha': 'ddd6ed0c20cc89b8e62b5684fb8a628a15fb9f6a', 'message': 'add node compat tables', 'date': '2022-04-06T21:00:44Z'}]
+kyuan-mongodb c043c20677f3ce59d6041b804fa4e6055b5ed35b 2022-02-16T21:03:52Z Merge pull request #4 from kyuan-mongodb/atlas-browsers
+
+atlas supported browsers
+[{'sha': 'c043c20677f3ce59d6041b804fa4e6055b5ed35b', 'message': 'Merge pull request #4 from kyuan-mongodb/atlas-browsers\n\natlas supported browsers', 'date': '2022-02-16T21:03:52Z'}]
+kyuan-mongodb fbeed925e67d6059373d17d01b694c6af7f7453f 2022-02-16T21:00:30Z added missing underscores in links
+[{'sha': 'fbeed925e67d6059373d17d01b694c6af7f7453f', 'message': 'added missing underscores in links', 'date': '2022-02-16T21:00:30Z'}]
+kyuan-mongodb 48ce23f237e3da5c40e1179516cceb9d77ae801f 2022-02-16T20:57:06Z added atlas supported browsers
+[{'sha': '48ce23f237e3da5c40e1179516cceb9d77ae801f', 'message': 'added atlas supported browsers', 'date': '2022-02-16T20:57:06Z'}]
+terakilobyte 79bf1c2dbecfdd152e7d9691e0a2410ea60df2f3 2021-11-09T01:06:47Z change headings
+[{'sha': '79bf1c2dbecfdd152e7d9691e0a2410ea60df2f3', 'message': 'change headings', 'date': '2021-11-09T01:06:47Z'}]
+terakilobyte 8980e451292ef374ac91587afda69d8e59759434 2021-11-08T23:57:42Z change heading levels
+[{'sha': '8980e451292ef374ac91587afda69d8e59759434', 'message': 'change heading levels', 'date': '2021-11-08T23:57:42Z'}]
+terakilobyte 46699d95c438f855efbb452617993377ca98cfb2 2021-11-08T23:25:46Z Merge pull request #3 from terakilobyte/DOCSP-19453
+
+add common about info for driver compat tables
+[{'sha': '46699d95c438f855efbb452617993377ca98cfb2', 'message': 'Merge pull request #3 from terakilobyte/DOCSP-19453\n\nadd common about info for driver compat tables', 'date': '2021-11-08T23:25:46Z'}]
+terakilobyte ffe1f5a8902ea1a7c7eff4cd4ec7548f7d456d2d 2021-11-08T23:25:24Z nits2
+[{'sha': 'ffe1f5a8902ea1a7c7eff4cd4ec7548f7d456d2d', 'message': 'nits2', 'date': '2021-11-08T23:25:24Z'}]
+terakilobyte 57f504140b9c23a7db17ec8461c0bbe9cfdb13d9 2021-11-08T23:24:14Z nits
+[{'sha': '57f504140b9c23a7db17ec8461c0bbe9cfdb13d9', 'message': 'nits', 'date': '2021-11-08T23:24:14Z'}]
+terakilobyte 9d66b8bb79b6f4d516b46805da29cbd8dc13016b 2021-11-08T22:48:34Z change heading to title for inclusion in pages
+[{'sha': '9d66b8bb79b6f4d516b46805da29cbd8dc13016b', 'message': 'change heading to title for inclusion in pages', 'date': '2021-11-08T22:48:34Z'}]
+terakilobyte e2db0b99421864036f98f1c6d0583d8facc15ee7 2021-11-08T22:08:59Z add common about info
+[{'sha': 'e2db0b99421864036f98f1c6d0583d8facc15ee7', 'message': 'add common about info', 'date': '2021-11-08T22:08:59Z'}]
+terakilobyte 34b1941030b6f4bf0b21d8a9ddf47f50a605fcc2 2021-10-29T21:38:47Z Update ref-test.rst
+[{'sha': '34b1941030b6f4bf0b21d8a9ddf47f50a605fcc2', 'message': 'Update ref-test.rst', 'date': '2021-10-29T21:38:47Z'}]
+terakilobyte 8750831af9e683fe80c38812a8255c81f7e0c3d1 2021-10-29T21:32:58Z Update ref-test.rst
+[{'sha': '8750831af9e683fe80c38812a8255c81f7e0c3d1', 'message': 'Update ref-test.rst', 'date': '2021-10-29T21:32:58Z'}]
+terakilobyte f444d9dfe8c0f71a25d2c3595d01214b88cb5cc0 2021-10-29T21:23:39Z formatting
+[{'sha': 'f444d9dfe8c0f71a25d2c3595d01214b88cb5cc0', 'message': 'formatting', 'date': '2021-10-29T21:23:39Z'}]
+terakilobyte 12f978d6fcd4b034506a9756f2e9e22c0216ea90 2021-10-29T21:09:42Z Merge pull request #2 from terakilobyte/ref-testing
+
+ref testing
+[{'sha': '12f978d6fcd4b034506a9756f2e9e22c0216ea90', 'message': 'Merge pull request #2 from terakilobyte/ref-testing\n\nref testing', 'date': '2021-10-29T21:09:42Z'}]
+terakilobyte 7ef772160c19970c81a2f07405b8f0d1db881a79 2021-10-29T19:41:44Z Update ref-test.rst
+[{'sha': '7ef772160c19970c81a2f07405b8f0d1db881a79', 'message': 'Update ref-test.rst', 'date': '2021-10-29T19:41:44Z'}]
+terakilobyte 11b099222277bdd4110cf071a5def0366821c0b0 2021-10-29T19:31:35Z ref testing
+[{'sha': '11b099222277bdd4110cf071a5def0366821c0b0', 'message': 'ref testing', 'date': '2021-10-29T19:31:35Z'}]
+i80and 0d6f6dac086f8bc1263dc52fbf1c081f7c7a6eee 2021-09-27T14:21:44Z Merge pull request #1 from i80and/DOP-2490
+
+DOP-2490: Sample content
+[{'sha': '0d6f6dac086f8bc1263dc52fbf1c081f7c7a6eee', 'message': 'Merge pull request #1 from i80and/DOP-2490\n\nDOP-2490: Sample content', 'date': '2021-09-27T14:21:44Z'}]
+i80and 7911b689e1ba9b36f59cf8b1e8474d66f5cbac1f 2021-09-26T21:44:47Z DOP-2490: Sample content
+[{'sha': '7911b689e1ba9b36f59cf8b1e8474d66f5cbac1f', 'message': 'DOP-2490: Sample content', 'date': '2021-09-26T21:44:47Z'}]
+schmalliso fba5136a72314db06f02a5cc0b0745ff3971ed9d 2021-04-22T13:38:23Z add vars
+[{'sha': 'fba5136a72314db06f02a5cc0b0745ff3971ed9d', 'message': 'add vars', 'date': '2021-04-22T13:38:23Z'}]
+schmalliso 8432f6afbba32727b60269ee6a9880dc2bedf90a 2021-04-14T14:58:46Z sneaky
+[{'sha': '8432f6afbba32727b60269ee6a9880dc2bedf90a', 'message': 'sneaky', 'date': '2021-04-14T14:58:46Z'}]
+schmalliso 1dc1c47393d29ad3cd7e334516b87acf673a3965 2021-04-14T13:58:08Z update sample-item to use weird new replacement
+[{'sha': '1dc1c47393d29ad3cd7e334516b87acf673a3965', 'message': 'update sample-item to use weird new replacement', 'date': '2021-04-14T13:58:08Z'}]
+schmalliso fea95000a641953148bc4375739f4f89f68eef0b 2021-04-09T18:05:59Z add sample item
+[{'sha': 'fea95000a641953148bc4375739f4f89f68eef0b', 'message': 'add sample item', 'date': '2021-04-09T18:05:59Z'}]
+schmalliso 2d707da2b2517bf379111078969c9e19c89239e6 2021-04-09T18:02:57Z fix readme formatting
+[{'sha': '2d707da2b2517bf379111078969c9e19c89239e6', 'message': 'fix readme formatting', 'date': '2021-04-09T18:02:57Z'}]
+schmalliso d434ca7c23da622b052f165174851b8179019b3d 2021-04-09T18:01:36Z initial commit
+[{'sha': 'd434ca7c23da622b052f165174851b8179019b3d', 'message': 'initial commit', 'date': '2021-04-09T18:01:36Z'}]
+mongoKart d8ad49073aabdaae172e73c5a78edee9857ea023 2022-09-20T18:41:37Z Auto-import from docs-node
+mongoKart d8ad49073aabdaae172e73c5a78edee9857ea023 2022-09-20T18:41:37Z Auto-import from docs-node
+mongoKart ff0756ee53a6d6268294a54060eac85f43939183 2022-09-07T19:39:58Z Auto-import from docs-csharp
+ajhuh-mdb 4677498ceac9d200858f4fb39bfdb13d0531567e 2022-08-31T20:00:32Z DOCSP-23963 change out duplicated community (#33)
+mongoKart 820bb65e1b77b433a9b05c26de556051385d752a 2022-08-30T13:43:14Z Merge pull request #32 from mongoKart/update-about-compat
+
+Rewrite "About" page / include dot for partial compat
+mongoKart c22faa919f9d006c733e9baf5092406cb4fbef73 2022-08-30T13:41:13Z feedback
+mongoKart 552adf9250ec1fc49fa16e3b2900369544321a84 2022-08-29T21:23:09Z page rewrite / add circled asterisk
+mongoKart c24cc8e18f0f767687d2638d0a20720996c459e7 2022-08-29T17:54:02Z Auto-import from docs-csharp
+mongoKart 2fb8fe2cf85b6ab969d1466af3422ecc36d11a57 2022-08-29T17:54:00Z Auto-import from docs-csharp
+mongoKart 063f01e082caa341fa3985c8bfb2b604692e9fd5 2022-08-23T16:14:40Z Merge pull request #31 from mongoKart/fix-compat-spacing
+
+Remove pipe character to fix spacing
+mongoKart 630c5c0f23127978ece20a3dd0460e6758804a7d 2022-08-23T16:06:43Z remove pipe character
+mongoKart 348dec0cc78bacca413b8de388cdf009008181a4 2022-08-22T21:56:33Z Auto-import from docs-node
+mongoKart 3c3f525032f258a649e4c6820549575639c51a7e 2022-08-18T17:33:03Z Auto-import from docs-java
+mongoKart f83fc0c2a168fc919b90c8d47bf65b5d6eeca0d4 2022-08-17T21:33:40Z Auto-import from docs-go
+mongoKart 7b8717df624c2cbd6f7eeb4bd5fee3092c47178e 2022-08-16T21:37:27Z Auto-import from docs-node
+mongoKart eacc2e0c4359b8f66e9c4e2915ec7fa95712aa1b 2022-08-16T21:37:25Z Auto-import from docs-node
+mongoKart 5e0ba0d231f751d1f592edf08d986c7ce6c6e80c 2022-08-16T21:34:11Z Auto-import from docs-node
+mongoKart fd4a24251837e2d88e72462e05b91e9f1813df39 2022-08-16T21:34:05Z Auto-import from docs-node
+mongoKart 0836022f32c47f2b97532e680333442e001fe2b2 2022-08-15T17:00:55Z Merge pull request #30 from mongoKart/docsp-24481
+
+[DOCSP-22481] import updated mongodb-compat table from docs-node
+mongoKart 33261e8dd41ebbb58b3c3bed32bf21721a3b176c 2022-08-15T15:16:51Z add dots to mongodb-compat table
+mongoKart dc7f02102d4cd45c259c6227e741f4c4db209708 2022-08-12T18:20:01Z Merge pull request #29 from mongoKart/docsp-24481
+
+add blank line at end of compat table legend
+mongoKart bbdc76de414d37d6cf052868fc3e4de865d3ec5e 2022-08-12T18:16:43Z add blank line at end
+mongoKart 35df753811ccb3c6a3a19e3a8e2b3981b39b9cb4 2022-08-12T17:12:50Z Merge pull request #28 from mongoKart/docsp-24481
+
+add compat table legend
+mongoKart f2efa75cbf5e90a19c57366eafdf66eb13c5beb9 2022-08-12T17:03:21Z add compat table legend
+terakilobyte 99a448e82683e3899d4103af759e98350b77439f 2022-07-28T15:14:18Z Make compat tables more clear (#27)
+
+* add important note about compatibility
+
+* remove redundant note
+
+* suggestions
+terakilobyte fe1edd814b0c6eb845eaa2ee65b28a0df6954d7e 2022-07-19T20:44:52Z fix node compat (#26)
+
+voco lgtm from ccho
+mongoKart b45ce6f89abd63c55d6b541fb8bba520cdb454b3 2022-07-13T21:12:51Z v4.8 (#25)
+ianf-mongodb ee9212942cfd8440b9a9902a739a99560478284d 2022-06-21T20:01:58Z Update platform-support.rst
+ianf-mongodb 7582fd9207534604b1e1556b1c5e9e495c9fd59f 2022-06-15T19:09:44Z DOCS-14878 (#22)
+biniona-mongodb e56042b042c8e69bc4c7ec4fadfd871f2a2ab3ac 2022-06-09T15:05:25Z Add Node 4.7 to Compat Table (#23)
+biniona-mongodb 5281a282340aa70d723c29433a0f6c75a6a96203 2022-06-07T15:13:36Z MDB World - Fast Follow (#21)
+ccho-mongodb 2754931c8617e3d231c7871964fbf428c1352c1c 2022-06-07T14:18:56Z DOCSP-22296 6.0 compatibility updates (#20)
+
+* DOCSP-22914: Golang compatibility updates
+
+* DOCSP-22915: Java compatibility updates
+
+* DOCSP-22916: Node.js compatibility updates
+ianf-mongodb b897e099d5d813571387237e7d719771179a0712 2022-06-02T18:23:33Z Docs-15162 (#19)
+ianf-mongodb e6c758d1320e2c623f148402e50c69b16e1f7d86 2022-05-19T15:17:28Z DOCS-15239 5.0.9 -> RHEL 8 s390x (#16)
+ccho-mongodb b590ac5b4b5520b5feb737e8da36f97378976ac1 2022-05-12T22:24:07Z Merge pull request #15 from ccho-mongodb/DOCSP-22648-node-v4.6
+
+DOCSP-22648: Node driver v4.6 compatibility updates
+ccho-mongodb c396a51919e74e69a63aa53046af11e658e710e6 2022-05-12T22:06:56Z DOCSP-22648: Node driver v4.6 compatibility updates
+ccho-mongodb 6236625960b2310d16fd11b70c37e019505de967 2022-05-04T16:53:11Z Merge pull request #14 from ccho-mongodb/DOCSP-22462-go-1.9-compat
+
+DOCSP-22462: Go v1.9 compatibility table update
+ccho-mongodb ff85e4ac82264dee9c30b410e15982c887158c6f 2022-05-04T16:39:21Z DOCSP-22462: Go v1.9 compatibility table update
+jmd-mongo ab20b64c3df4383f05ab519489f9cbf946ffd3c8 2022-05-03T18:31:35Z Merge pull request #13 from jmd-mongo/v4.0-EOL-banner
+
+adds admonition above platform support table
+jmd-mongo 6fabbe6671e8a2863dd34359296310319dccdb8c 2022-05-03T18:31:09Z adds admonition above platform support table
+ianf-mongodb 26ad4108e29cbce29121840a559dea7d9c8846dc 2022-04-25T14:40:24Z Update platform-support.rst
+terakilobyte caf5af08f24640d7642231c9ad6b4ec63f8fbd03 2022-04-22T21:22:26Z remove 3.x series drivers from node16 support
+terakilobyte 5d35acc49e1a8e6d1bd2901e5acf8ea9f4a1d47f 2022-04-22T19:25:16Z update for node 16
+ccho-mongodb 4efc0b0a2702cee32cf2c4d2dc1a0a6c35a0d211 2022-04-21T20:48:15Z Merge pull request #12 from ccho-mongodb/DOCSP-22100-java-4.6-compati
+
+DOCSP-22100: Java driver v4.6 compatibility updates
+ccho-mongodb 4375194b7aca0f5a40cdd64b8a51aafdf4f4ec26 2022-04-21T16:17:47Z DOCSP-22100: Java driver v4.6 compatibility updates
+ianf-mongodb 50e0cfb7d476793817dbc0cca73a8cb881ae9a15 2022-04-19T14:44:01Z Update platform-support.rst
+ianf-mongodb a748a0aec5a2087e2885abba0c15e2fc2be1a6b1 2022-04-19T14:43:29Z DOCS-15253 (#11)
+ianf-mongodb 00b717d4a5beb39d45a49943f8c7456befd9ec24 2022-04-14T17:26:40Z combine windows and windows server versions (#10)
+ianf-mongodb 5b9e1436b6c76aa88f45cdd4c70e36cb74d3be23 2022-04-14T17:09:56Z Update platform-support.rst
+ianf-mongodb 7c5811cf4caaae16b9ede50617c78bf710e5eaed 2022-04-14T17:09:32Z Remove containers
+ianf-mongodb e5abbacd082063e6702b6c4a3ef79cae6f635e0a 2022-04-14T17:08:59Z Update platform-support.rst
+ianf-mongodb 561a525c0b5aa8a284eecb9534b5fba945dbf8c4 2022-04-14T13:01:33Z Update platform-support.rst
+ianf-mongodb 6087066d34f0c730a304545cdb119cf782b46303 2022-04-14T12:32:38Z DOCSP-22043 Add macOS 6.0 (#9)
+ianf-mongodb 954eadcf56e41141e1bb64441e4c6a59282d5a50 2022-04-13T18:34:03Z Update platform-support.rst
+ianf-mongodb d34e4cc39a248936a7af45e18ba1ed872c674945 2022-04-13T16:13:10Z Merge pull request #8 from ianf-mongodb/DOCSP-21943
+
+Docsp-21943
+ianf-mongodb 5fa01adaf873591a031f68e100a5eaaf86d9d92b 2022-04-13T16:11:25Z add 6.0 columns
+ianf-mongodb ba440ff1fc5879f15681a7f9d2bc0e4f904d234a 2022-04-12T20:10:45Z DOCSP-21943
+biniona-mongodb e899484e2fe1004d70f0cef1cc6ec52c46733e7e 2022-04-11T17:25:24Z (DOCSP-21843) Java Compat Tables (#6)
+kyuan-mongodb b42256393290ae4a7e92ea945d6d010c689d8736 2022-04-06T21:47:28Z Update mongodb-compatibility-table-go.rst
+
+added checkmark for MongoDB 5.3 support for v1.8
+kyuan-mongodb 279dda92ad93a393985a3d1fd5c7bb59d157e341 2022-04-06T21:38:34Z DOCSP-21844 added go compat tables
+kyuan-mongodb 1b3d2f1ed953c70790caec70e3cb349d0e5ae985 2022-04-06T21:38:00Z removed sample datasets
+kyuan-mongodb 279edfc427d4b135252f1431feb9f20ef0a2aa6b 2022-04-06T21:37:12Z added go compat tables
+terakilobyte ddd6ed0c20cc89b8e62b5684fb8a628a15fb9f6a 2022-04-06T21:00:44Z add node compat tables
+kyuan-mongodb c043c20677f3ce59d6041b804fa4e6055b5ed35b 2022-02-16T21:03:52Z Merge pull request #4 from kyuan-mongodb/atlas-browsers
+
+atlas supported browsers
+kyuan-mongodb fbeed925e67d6059373d17d01b694c6af7f7453f 2022-02-16T21:00:30Z added missing underscores in links
+kyuan-mongodb 48ce23f237e3da5c40e1179516cceb9d77ae801f 2022-02-16T20:57:06Z added atlas supported browsers
+terakilobyte 79bf1c2dbecfdd152e7d9691e0a2410ea60df2f3 2021-11-09T01:06:47Z change headings
+terakilobyte 8980e451292ef374ac91587afda69d8e59759434 2021-11-08T23:57:42Z change heading levels
+terakilobyte 46699d95c438f855efbb452617993377ca98cfb2 2021-11-08T23:25:46Z Merge pull request #3 from terakilobyte/DOCSP-19453
+
+add common about info for driver compat tables
+terakilobyte ffe1f5a8902ea1a7c7eff4cd4ec7548f7d456d2d 2021-11-08T23:25:24Z nits2
+terakilobyte 57f504140b9c23a7db17ec8461c0bbe9cfdb13d9 2021-11-08T23:24:14Z nits
+terakilobyte 9d66b8bb79b6f4d516b46805da29cbd8dc13016b 2021-11-08T22:48:34Z change heading to title for inclusion in pages
+terakilobyte e2db0b99421864036f98f1c6d0583d8facc15ee7 2021-11-08T22:08:59Z add common about info
+terakilobyte 34b1941030b6f4bf0b21d8a9ddf47f50a605fcc2 2021-10-29T21:38:47Z Update ref-test.rst
+terakilobyte 8750831af9e683fe80c38812a8255c81f7e0c3d1 2021-10-29T21:32:58Z Update ref-test.rst
+terakilobyte f444d9dfe8c0f71a25d2c3595d01214b88cb5cc0 2021-10-29T21:23:39Z formatting
+terakilobyte 12f978d6fcd4b034506a9756f2e9e22c0216ea90 2021-10-29T21:09:42Z Merge pull request #2 from terakilobyte/ref-testing
+
+ref testing
+terakilobyte 7ef772160c19970c81a2f07405b8f0d1db881a79 2021-10-29T19:41:44Z Update ref-test.rst
+terakilobyte 11b099222277bdd4110cf071a5def0366821c0b0 2021-10-29T19:31:35Z ref testing
+i80and 0d6f6dac086f8bc1263dc52fbf1c081f7c7a6eee 2021-09-27T14:21:44Z Merge pull request #1 from i80and/DOP-2490
+
+DOP-2490: Sample content
+i80and 7911b689e1ba9b36f59cf8b1e8474d66f5cbac1f 2021-09-26T21:44:47Z DOP-2490: Sample content
+schmalliso fba5136a72314db06f02a5cc0b0745ff3971ed9d 2021-04-22T13:38:23Z add vars
+schmalliso 8432f6afbba32727b60269ee6a9880dc2bedf90a 2021-04-14T14:58:46Z sneaky
+schmalliso 1dc1c47393d29ad3cd7e334516b87acf673a3965 2021-04-14T13:58:08Z update sample-item to use weird new replacement
+schmalliso fea95000a641953148bc4375739f4f89f68eef0b 2021-04-09T18:05:59Z add sample item
+schmalliso 2d707da2b2517bf379111078969c9e19c89239e6 2021-04-09T18:02:57Z fix readme formatting
+schmalliso d434ca7c23da622b052f165174851b8179019b3d 2021-04-09T18:01:36Z initial commit
