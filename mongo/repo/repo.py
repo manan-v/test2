@@ -28,7 +28,7 @@ def getContributorForRepo(repoList):
         for contributor in range(len(contributorList)):
             contributorList[contributor]['contribution_details']=[]
         repoList[repo]['contributors_url']=contributorList
-        # break
+        break
     return repoList
         # break
 
@@ -56,14 +56,14 @@ def getRepoListForAllOrg():
         # Get list of contributors
         repoList=getContributorForRepo(repoList)
 
-        with open('repoList/'+org+'.json','w') as f:
+        with open('../repoList/'+org+'.json','w') as f:
             json.dump(repoList,f)
         print(org, len(repoList))
         # break
         # print(org)
 
 def getRelevantFields(org):
-    with open('repoList/'+org+'.json','r') as f: 
+    with open('../repoList/'+org+'.json','r') as f: 
         repoList=json.load(f)
         updatedList=[]
         reqKeys = ["full_name","language", "topics", "node_id","created_at","updated_at"]
@@ -78,7 +78,7 @@ def getRelevantFields(org):
         return updatedList
 
 def driverFunction(orgName):
-
+    pass
 # import ghMongo
 # orgList = os.listdir('repoList')
 # orgList = {x.replace('.json', '') for x in orgList}
@@ -91,7 +91,7 @@ def driverFunction(orgName):
 orgName='10gen'
 finalJSON=getRelevantFields(orgName)
 # print(finalJSON)
-with open(orgName+'.json','w') as f:
+with open('../'+orgName+'_finalJSON.json','w') as f:
     json.dump(finalJSON,f)
 
 # print(list)
