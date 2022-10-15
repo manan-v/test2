@@ -22,7 +22,7 @@ def baseAuthorDict(full_name):
             break
         try:
             for commit in response:
-                print(commit)
+                # print(commit)
                 commitDetails=[]
                 author=commit['author']['login']
                 date=commit['commit']['author']['date']
@@ -60,5 +60,6 @@ def getReposForOrg(orgName):
     with open('repoUserDict/'+orgName+'.json', 'w') as f:
         json.dump(newRepos,f)
 
-mydb=ghMongo.connect('repoStruct')
-getReposForOrg('10gen')
+# mydb=ghMongo.connect('repoStruct')
+# getReposForOrg('10gen')
+# json.dump(baseAuthorDict('10gen/envoy-serverless'),open('apiTester.json','w'))
