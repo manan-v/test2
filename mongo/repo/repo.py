@@ -38,9 +38,11 @@ def getRepoListForAllOrg():
     headers = getRandomAPIToken(apiDeque)
     reqUrl='https://api.github.com/orgs/'
 
-    orgList = os.listdir('../step1_obtainRepoDetails/data/repo_details')
-    orgList = {x.replace('.json', '') for x in orgList}
-    orgList=sorted(orgList)
+    # orgList = os.listdir('../step1_obtainRepoDetails/data/repo_details')
+    # orgList = {x.replace('.json', '') for x in orgList}
+    # orgList=sorted(orgList)
+
+    orgList=['Kadaza']
 
     for org in orgList:
         pageNo=1
@@ -62,23 +64,7 @@ def getRepoListForAllOrg():
         # break
         # print(org)
 
-def getRelevantFields(org):
-    with open('../repoList/'+org+'.json','r') as f: 
-        repoList=json.load(f)
-        updatedList=[]
-        reqKeys = ["full_name","language", "topics", "node_id","created_at","updated_at"]
-        for repo in repoList:
-            finRepo={}
-            for key in reqKeys:
-                finRepo[key]=repo.get(key)
-                # print(finRepo[key])
-            # break
-            finRepo['contributors'] = repoUser.baseAuthorDict(finRepo['full_name'])
-            updatedList.append(finRepo)
-        return updatedList
-
-def driverFunction(orgName):
-    pass
+getRepoListForAllOrg()
 # import ghMongo
 # orgList = os.listdir('repoList')
 # orgList = {x.replace('.json', '') for x in orgList}
@@ -88,10 +74,10 @@ def driverFunction(orgName):
 #     ghMongo.connectAndPush(repoList)
 
 # getRepoListForAllOrg()
-orgName='10gen'
-finalJSON=getRelevantFields(orgName)
+# orgName='yeebase'
+# finalJSON=getRelevantFields(orgName)
 # print(finalJSON)
-with open('../'+orgName+'_finalJSON.json','w') as f:
-    json.dump(finalJSON,f)
+# with open('baseDict/'+orgName+'.json','w') as f:
+#     json.dump(finalJSON,f)
 
 # print(list)

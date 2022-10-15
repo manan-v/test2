@@ -1,5 +1,6 @@
 import util
 import json
+import ghMongo
 
 def getLanguageDict(listOfDicts):
     languages=[]
@@ -15,11 +16,13 @@ def baseAuthorDict(full_name):
     contributorDict = {}
 
     while(True):
+        print(pageNo)
         response=util.apiRequest('https://api.github.com/repos/'+full_name+'/commits?page='+str(pageNo))
         if(len(response)==0):
             break
         try:
             for commit in response:
+                print(commit)
                 commitDetails=[]
                 author=commit['author']['login']
                 date=commit['commit']['author']['date']
@@ -41,16 +44,21 @@ def baseAuthorDict(full_name):
         pageNo=pageNo+1
     return contributorDict
 
-# contributorDict=baseAuthorDict('10gen/mongo-orchestration')
-# json.dump(contributorDict,open('repoUser.json','w'))
+def addUserForRepo(repos):
+    for repo in repos:
+        print(repo['full_name'])
+        if len(repo['contributors']) == 0:
+            contributorDict = baseAuthorDict(repo['full_name'])
+            repo['contributors'].update(contributorDict)
+        break
+    return repos
 
-with open('../10gen.json','r') as f:
-    repos=json.load(f)
-for repo in repos:
-    print(repo['full_name'])
-    if len(repo['contributors'])==0:
-        contributorDict=baseAuthorDict(repo['full_name'])
-        repo['contributors'].update(contributorDict)
-    # break
-with open('../10gen.json', 'w') as f:
-    json.dump(repos,f)
+def getReposForOrg(orgName):
+    with open('baseDict/'+orgName+'.json','r') as f:
+        oldRepos=json.load(f)
+    newRepos=addUserForRepo(oldRepos)
+    with open('repoUserDict/'+orgName+'.json', 'w') as f:
+        json.dump(newRepos,f)
+
+mydb=ghMongo.connect('repoStruct')
+getReposForOrg('10gen')
