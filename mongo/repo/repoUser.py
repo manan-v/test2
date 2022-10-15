@@ -16,13 +16,13 @@ def baseAuthorDict(full_name):
     contributorDict = {}
 
     while(True):
-        print(pageNo)
+        print(full_name,pageNo)
         response=util.apiRequest('https://api.github.com/repos/'+full_name+'/commits?page='+str(pageNo))
         if(len(response)==0):
             break
         try:
             for commit in response:
-                # print(commit)
+                print(full_name, pageNo,commit['sha'], len(response))
                 commitDetails=[]
                 author=commit['author']['login']
                 date=commit['commit']['author']['date']
