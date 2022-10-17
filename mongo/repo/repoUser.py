@@ -1,5 +1,6 @@
 import util
 import json
+import time
 import ghMongo
 
 def getLanguageDict(listOfDicts):
@@ -16,13 +17,16 @@ def baseAuthorDict(full_name):
     contributorDict = {}
 
     while(True):
-        print(full_name,pageNo)
-        response=util.apiRequest('https://api.github.com/repos/'+full_name+'/commits?page='+str(pageNo))
-        if(len(response)==0):
-            break
+        # print(full_name,pageNo)
+        
         try:
+            response = util.apiRequest(
+                'https://api.github.com/repos/'+full_name+'/commits?page='+str(pageNo))
+            if(len(response) == 0):
+                break
             for commit in response:
-                print(full_name, pageNo,commit['sha'], len(response))
+                time.sleep(0.5)
+                # print(full_name, pageNo,commit['sha'], len(response))
                 commitDetails=[]
                 author=commit['author']['login']
                 date=commit['commit']['author']['date']
