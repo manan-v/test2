@@ -14,7 +14,7 @@ def updateContributors(orgName,full_name):
     collection=db[orgName]
 
     results=collection.update_one({"full_name":full_name},{"$set":{"contributors":repoUser.baseAuthorDict(full_name)}})
-    print("written to ",collection)
+    print("written for ",full_name)
 
 def getListOfRepos(orgName):
     full_name_list=[]
@@ -27,7 +27,7 @@ def getListOfRepos(orgName):
 def runAllOrg():
     orgList = os.listdir('baseDict')
     orgList = {x.replace('.json', '') for x in orgList}
-    orgList=sorted(orgList,reverse=True)
+    orgList=sorted(orgList)
 
     for orgName in orgList:
         print(orgName)
@@ -36,7 +36,12 @@ def runAllOrg():
             if(orgName != '10gen' and checkMongo.checkIfContributorsEmpty(orgName, full_name)):
                 print(full_name)
                 updateContributors(orgName,full_name)
-            # time.sleep(5)
+
+# for i in range(3600):
+#     print('program sleeping for '+str(3600-i)+' seconds')
+#     time.sleep(1)
+#     i=i-1
+time.sleep(3600)
 runAllOrg()
 end=time.time()
 

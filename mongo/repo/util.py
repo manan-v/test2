@@ -9,11 +9,12 @@ import apiRobin
 
 def apiRequest(reqUrl):
     apiDeque = apiRobin.parseConfig('../../project.config')
-    headers = getRandomAPIToken(apiDeque)
+    headers = {}
+    headers['Authorization'] = 'Bearer '+getRandomAPIToken(apiDeque)
     print(headers)
     response = requests.get(reqUrl,
                             headers=headers).json()
-    json.dump(response,open('apiTester_reverse.json','w'))
+    json.dump(response,open('apiTester.json','w'))
     return response
 
 def reqURLReturnDict(reqUrl, keyOfListOfDict):

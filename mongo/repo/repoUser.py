@@ -25,7 +25,7 @@ def baseAuthorDict(full_name):
             if(len(response) == 0):
                 break
             for commit in response:
-                time.sleep(0.5)
+                # time.sleep(0.5)
                 # print(full_name, pageNo,commit['sha'], len(response))
                 commitDetails=[]
                 author=commit['author']['login']
