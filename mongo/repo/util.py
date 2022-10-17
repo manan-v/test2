@@ -14,6 +14,7 @@ def apiRequest(reqUrl):
     print(headers)
     response = requests.get(reqUrl,
                             headers=headers).json()
+    print(apiRequest)
     json.dump(response,open('apiTester.json','w'))
     return response
 

@@ -22,11 +22,12 @@ def baseAuthorDict(full_name):
         try:
             response = util.apiRequest(
                 'https://api.github.com/repos/'+full_name+'/commits?page='+str(pageNo))
+            print(response)
             if(len(response) == 0):
                 break
             for commit in response:
                 # time.sleep(0.5)
-                # print(full_name, pageNo,commit['sha'], len(response))
+                print(full_name, pageNo,commit['sha'], len(response))
                 commitDetails=[]
                 author=commit['author']['login']
                 date=commit['commit']['author']['date']

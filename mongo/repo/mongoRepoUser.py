@@ -5,6 +5,9 @@ import os
 import time
 import checkMongo
 
+from joblib import Parallel, delayed
+import multiprocessing
+num_cores = multiprocessing.cpu_count()-1
 start=time.time()
 
 def updateContributors(orgName,full_name):
@@ -23,26 +26,26 @@ def getListOfRepos(orgName):
         for repo in repoList:
             full_name_list.append(repo['full_name'])
     return full_name_list
+def runForOrg(orgName):
+    print(orgName)
+    full_name_list = getListOfRepos(orgName)
+    for full_name in full_name_list:
+        if(checkMongo.checkIfContributorsEmpty(orgName, full_name)):
+            print(full_name)
+            updateContributors(orgName, full_name)
 
 def runAllOrg():
     orgList = os.listdir('baseDict')
     orgList = {x.replace('.json', '') for x in orgList}
     orgList=sorted(orgList)
-
-    for orgName in orgList:
-        print(orgName)
-        full_name_list=getListOfRepos(orgName)
-        for full_name in full_name_list:
-            if(orgName != '10gen' and checkMongo.checkIfContributorsEmpty(orgName, full_name)):
-                print(full_name)
-                updateContributors(orgName,full_name)
-
-# for i in range(3600):
-#     print('program sleeping for '+str(3600-i)+' seconds')
-#     time.sleep(1)
-#     i=i-1
-time.sleep(3600)
+    print("firing up "+str(num_cores)+" cores.")
+    # print(orgList)
+    Parallel(n_jobs=num_cores)(
+        delayed(runForOrg(orgName))
+        for orgName in orgList)
+    
 runAllOrg()
+
 end=time.time()
 
 print(int(end-start))
