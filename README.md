@@ -11,5 +11,5 @@ find ${pwd} -size +100M
 ## Steps
 ![](extra/media/20220906015156.png)  
 
-## Data Collection
-![](extra/media/data-collection.gif)  
+<!-- ## Data Collection
+![](extra/media/data-collection.gif)   -->
