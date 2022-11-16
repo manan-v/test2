@@ -49,7 +49,7 @@ def internalExternal(fullList,membersList):
     return internal, external
 
 
-def watchers(org,repo,headers):
+def watchers(org,repo,headers,members):
     watchers = []
     pageNo = 1
     while(True):
@@ -63,7 +63,7 @@ def watchers(org,repo,headers):
     w_internal, w_external = internalExternal(watchers, members)
     return w_internal, w_external
 
-def starrers(org,repo,headers):
+def starrers(org,repo,headers,members):
     starrers = []
     pageNo = 1
     while(True):
@@ -76,36 +76,36 @@ def starrers(org,repo,headers):
             starrers.append(user['login'])
     s_internal, s_external = internalExternal(starrers, members)
     return s_internal, s_external
-
-
+    
 apiDeque=apiRobin.parseConfig('../project.config')
 headers=helper_methods.getRandomAPIToken(apiDeque)
 
-org='reddit'
+org='yeebase'
 baseRepoUrl = 'https://api.github.com/orgs/'+org+'/repos'
 getRateLimit = 'https://api.github.com/rate_limit'
 response=requests.get(baseRepoUrl,headers=headers).json()
 
 for repo in response:
-    topics=topics(repo)
-    languages=languages(repo,headers)
-    contributors=contributors(repo,headers)
-    members=members(org,headers)
-    w_internal,w_external=watchers(org,repo['name'],headers)
-    s_internal, s_external = starrers(org, repo['name'], headers)
+    t=topics(repo)
+    l=languages(repo,headers)
+    c=contributors(repo,headers)
+    m=members(org,headers)
+    w_internal,w_external=watchers(org,repo['name'],headers,m)
+    s_internal, s_external = starrers(org, repo['name'], headers,m)
 
-    orgDict={}
     repoDict={}
-    repoDict['topics']=topics
-    repoDict['languages']=languages
-    repoDict['contributors']=contributors
+    repoDict['topics']=t
+    repoDict['languages']=l
+    repoDict['contributors']=c
     repoDict['watchers_internal']=w_internal
     repoDict['watchers_external'] = w_external
     repoDict['starrers_internal'] = s_internal
     repoDict['starrers_external'] = s_external
 
+    orgDict = json.load(open(org+'.json', 'r'))
     orgDict[repo['name']]=repoDict
-    json.dump(orgDict,open(org+'.json','a'))
-    break
+    json.dump(orgDict, open(org+'.json','w'))
 
-# print(headers['Authorization'],limit['rate']['remaining'])
+    print(repo['name'])
+    # break
+json.dump(orgDict, open(org+'.json', 'a'))
