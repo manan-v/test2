@@ -76,36 +76,46 @@ def starrers(org,repo,headers,members):
             starrers.append(user['login'])
     s_internal, s_external = internalExternal(starrers, members)
     return s_internal, s_external
-    
-apiDeque=apiRobin.parseConfig('../project.config')
-headers=helper_methods.getRandomAPIToken(apiDeque)
 
-org='yeebase'
-baseRepoUrl = 'https://api.github.com/orgs/'+org+'/repos'
-getRateLimit = 'https://api.github.com/rate_limit'
-response=requests.get(baseRepoUrl,headers=headers).json()
+def build_for_org(org):
+    # create empty json file 
+    json.dump({},open(org+'.json','w')) 
+    apiDeque=apiRobin.parseConfig('../project.config')
+    headers=helper_methods.getRandomAPIToken(apiDeque)
 
-for repo in response:
-    t=topics(repo)
-    l=languages(repo,headers)
-    c=contributors(repo,headers)
-    m=members(org,headers)
-    w_internal,w_external=watchers(org,repo['name'],headers,m)
-    s_internal, s_external = starrers(org, repo['name'], headers,m)
+    baseRepoUrl = 'https://api.github.com/orgs/'+org+'/repos'
+    getRateLimit = 'https://api.github.com/rate_limit'
 
-    repoDict={}
-    repoDict['topics']=t
-    repoDict['languages']=l
-    repoDict['contributors']=c
-    repoDict['watchers_internal']=w_internal
-    repoDict['watchers_external'] = w_external
-    repoDict['starrers_internal'] = s_internal
-    repoDict['starrers_external'] = s_external
+    pageNo=1
+    while(True):    
+        response=requests.get(baseRepoUrl+'?page='+str(pageNo),headers=headers).json()
+        if(len(response)==0):
+            break
+        else:
+            pageNo=pageNo+1
+            for repo in response:
+                t=topics(repo)
+                l=languages(repo,headers)
+                c=contributors(repo,headers)
+                m=members(org,headers)
+                w_internal,w_external=watchers(org,repo['name'],headers,m)
+                s_internal, s_external = starrers(org, repo['name'], headers,m)
 
-    orgDict = json.load(open(org+'.json', 'r'))
-    orgDict[repo['name']]=repoDict
-    json.dump(orgDict, open(org+'.json','w'))
+                repoDict={}
+                repoDict['topics']=t
+                repoDict['languages']=l
+                repoDict['contributors']=c
+                repoDict['watchers_internal']=w_internal
+                repoDict['watchers_external'] = w_external
+                repoDict['starrers_internal'] = s_internal
+                repoDict['starrers_external'] = s_external
 
-    print(repo['name'])
-    # break
-json.dump(orgDict, open(org+'.json', 'a'))
+                orgDict = json.load(open(org+'.json', 'r'))
+                orgDict[repo['name']]=repoDict
+                json.dump(orgDict, open(org+'.json','w'))
+
+                print(repo['name'])
+                # break
+            json.dump(orgDict, open(org+'.json', 'a'))
+
+build_for_org('reddit')
