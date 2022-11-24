@@ -118,4 +118,4 @@ def build_for_org(org):
                 # break
             json.dump(orgDict, open(org+'.json', 'a'))
 
-build_for_org('reddit')
+# build_for_org('reddit')

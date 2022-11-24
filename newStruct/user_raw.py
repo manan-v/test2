@@ -1,20 +1,24 @@
 import requests
 import json
+import os
 import apiRobin
 import helper_methods
+from repo_raw import members
 
 # Get list of repos where user contributes
 # https://api.github.com/users/USERNAME/repos
 def contributing(user,headers):
     contributingUrl='https://api.github.com/users/'+user+'/repos'
     pageNo=1
+    contributingRepos={}
     while(True):
         contributionResponse=requests.get(contributingUrl+'?page='+str(pageNo),headers=headers).json()
         if(len(contributionResponse)==0):
             break
         for contribution in contributionResponse:
-            print(contribution['name'])
+            contributingRepos[contribution['name']]=contributionDetails(user,contribution['name'],headers)
         pageNo+=1
+    return contributingRepos
 
 # Get further details for contributions
     # https://api.github.com/repos/USERNAME/REPO/commits , get `sha`
@@ -23,6 +27,11 @@ def contributing(user,headers):
     # get `committer.author.date`
     # get `stats`
     # get `file['filename'] for file in files` 
+def contributionDetails(user,repo,headers):
+    contributionDetailUrl = 'https: // api.github.com/repos/USERNAME/REPO/commits'
+    pageNo=1
+    contributionDetails=[]
+    return contributionDetails
 
 # Get list of repos where user is watching
 # https://api.github.com/users/USERNAME/subscriptions
@@ -37,11 +46,18 @@ def contributing(user,headers):
 # Filter internal and external repos
 
 # Driver function
-def build_for_user(user):
+def build_for_user(org):
     apiDeque = apiRobin.parseConfig('../project.config')
     headers = helper_methods.getRandomAPIToken(apiDeque)
 
     # Testing
-    contributing(user,headers=headers)
+    users=members(org,headers=headers)
+    for user in users:
+        print(user)
+        userDict={'repos','watches','stars'}
+        print(contributing(user,headers=headers))
+        userDict.update({'repos': contributing(user, headers=headers)})
 
-build_for_user('c9s')
+        # Read, Extend, Dump to JSON
+
+build_for_user('reddit')
