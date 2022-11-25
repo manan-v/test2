@@ -33,8 +33,36 @@ def contributionDetails(user,repo,headers):
     contributionDetails=[]
     return contributionDetails
 
+# get a repo list of the spesific orgs
+def repos(org,headers):
+    orgUrl = 'https://api.github.com/orgs/'+org+'/repos'
+    repos=[]
+    pageNo=1
+    while(True):
+        repoResponse=requests.get(orgUrl+'?page='+str(pageNo), headers=headers).json()
+        if(len(repoResponse)==0):
+            break
+        pageNo=pageNo+1
+        for repo in repoResponse:
+            repos.append(repo['name'])
+    return repos
+
 # Get list of repos where user is watching
 # https://api.github.com/users/USERNAME/subscriptions
+
+def watches(USERNAME,headers,repos):
+    watches = []
+    pageNo = 1
+    while(True):
+        watchesUrl = 'https://api.github.com/users/'+USERNAME+'/subscribers?page='+str(pageNo)
+        watches_response = requests.get(watchesUrl, headers=headers).json()
+        if(len(watches_response)==0):
+            break   
+        pageNo=pageNo+1
+        for repo in watches_response:
+            watches.append(repo['name'])
+    watches_internal, watches_external = internalExternal(watches, repos)
+    return watches_internal, watches_external
 
 # Get list of repos where user is starring
 # https://api.github.com/users/USERNAME/starred
@@ -61,3 +89,15 @@ def build_for_user(org):
         # Read, Extend, Dump to JSON
 
 build_for_user('reddit')
+
+
+
+apiDeque=apiRobin.parseConfig('../project.config')
+headers=helper_methods.getRandomAPIToken(apiDeque)
+
+org='reddit'
+basememberurl='https://api.github.com/orgs/'+org+'/members'
+response=requests.get(basememberurl,headers=headers).json()
+for user in response:
+    w_internal,w_external=watches(user['login'],headers,repos)
+    
