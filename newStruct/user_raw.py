@@ -43,27 +43,52 @@ def repos(org,headers):
 
 # Get list of repos where user is watching
 # https://api.github.com/users/USERNAME/subscriptions
-
-def coommitDetails(USERNAME,headers):
-    commitsDet = []
+def coommitDetails(USERNAME,headers):   
+    # USERNAME = 'manan-v'
+    # commitsDet = []
     pageNo = 1
-    repo =''
-
+    repo ='OS'
+    CommDetails=[]
+    
     while(True):
-        commitUrl = 'https://api.github.com/repos/'+ USERNAME +'/'+ repo +'/commits?page='+str(pageNo)
+        # commitUrl = 'https://api.github.com/repos/'+ USERNAME +'/'+ repo +'/commits?page='+str(pageNo)
+        commitUrl = "https://api.github.com/repos/{}/{}/commits?page={}".format(USERNAME, repo, str(pageNo))
         commit_response = requests.get(commitUrl, headers=headers).json()
         sha=[]
 
-        for sha in commit_reposonse:
-            sha.append(commit_response['sha'])
+        for i in commit_response:
+            sha.append((i['sha']))
+    # sha="47d192545b617fe187ba0c5aa79f3053928260cb"
+        # print(sha)
+        for i in sha:
+            commitShaUrl="https://api.github.com/repos/{}/{}/commits/{}".format(USERNAME, repo,i)
+            currentCommit = {}
+            sha_response = requests.get(commitShaUrl, headers=headers).json()
+        
+            currentCommit['sha']=sha_response['sha']
+            currentCommit['date']=sha_response['commit']['committer']['date']
+            currentCommit['stats']=sha_response['stats']
+    # f=open('test.json')
+    # sha_responses=json.load(f)
+    # sha_responses{'files'}=[{'filename': 'cpp'},{'filename':'python'}]
+    # sha_responses['files'] = 
+  
+            sha_res_files=[]
+            for it in sha_response['files']:
+        # currentCommit['files']=it['filename']
+                sha_res_files.append(it['filename'])
 
-        commitShaUrl='https://api.github.com/repos/'+ USERNAME +'/'+ repo +'/commits'+sha
-        sha_response = requests.get(commitShaUrl, headers=headers).json()
-        CommDetails=[[]]
-        CommDetails[0].append(sha_response['commit']['committer'])
-        CommDetails[0].append(sha_response['commit']['author'])
-        CommDetails[0].append(sha_response['commit']['stats'])
-        CommDetails[0].append(sha_response['commit']['files']['filename'])
+            currentCommit['files'] = sha_res_files    
+            CommDetails.append(currentCommit)
+        # CommDetails=[{}]
+        # CommDetails[sha].append(sha_response['commit']['committer']['date'])
+        # CommDetails[sha].append(sha_response['commit']['author'])
+        # CommDetails[sha].append(sha_response['commit']['stats'])
+        # CommDetails[sha].append(sha_response['commit']['files']['filename'])
+
+        print(CommDetails)
+        break
+
 
     #     if(len(watches_response)==0):
     #         break   
@@ -140,7 +165,7 @@ build_for_user('reddit')
 
 apiDeque=apiRobin.parseConfig('../project.config')
 headers=helper_methods.getRandomAPIToken(apiDeque)
-
+coommitDetails('manan-v',headers)
 org='reddit'
 basememberurl='https://api.github.com/orgs/'+org+'/members'
 response=requests.get(basememberurl,headers=headers).json()
